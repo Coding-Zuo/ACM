@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zuoyuhui/CLionProjects/ACM/main.cpp" "/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/ACM.dir/main.cpp.o"
-  "/Users/zuoyuhui/CLionProjects/ACM/模板.cpp" "/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/ACM.dir/模板.cpp.o"
+  "/Users/zuoyuhui/CLionProjects/ACM/Leetcode/数组/27移除元素.cpp" "/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/27.dir/Leetcode/数组/27移除元素.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 35
-
-# Build rule for target.
-35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 35
-.PHONY : 35
-
-# fast build rule for target.
-35/fast:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
-.PHONY : 35/fast
-
-#=============================================================================
 # Target rules for targets named ACM
 
 # Build rule for target.
@@ -136,32 +123,165 @@ ACM/fast:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
 .PHONY : ACM/fast
 
-Leetcode/数组/35[数组]搜索插入位置.o: Leetcode/数组/35[数组]搜索插入位置.cpp.o
+#=============================================================================
+# Target rules for targets named 1
 
-.PHONY : Leetcode/数组/35[数组]搜索插入位置.o
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named 15
+
+# Build rule for target.
+15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 15
+.PHONY : 15
+
+# fast build rule for target.
+15/fast:
+	$(MAKE) -f CMakeFiles/15.dir/build.make CMakeFiles/15.dir/build
+.PHONY : 15/fast
+
+#=============================================================================
+# Target rules for targets named 27
+
+# Build rule for target.
+27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 27
+.PHONY : 27
+
+# fast build rule for target.
+27/fast:
+	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/build
+.PHONY : 27/fast
+
+#=============================================================================
+# Target rules for targets named 35
+
+# Build rule for target.
+35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 35
+.PHONY : 35
+
+# fast build rule for target.
+35/fast:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
+.PHONY : 35/fast
+
+Leetcode/数组/15三数之和.o: Leetcode/数组/15三数之和.cpp.o
+
+.PHONY : Leetcode/数组/15三数之和.o
 
 # target to build an object file
-Leetcode/数组/35[数组]搜索插入位置.cpp.o:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.o
-.PHONY : Leetcode/数组/35[数组]搜索插入位置.cpp.o
+Leetcode/数组/15三数之和.cpp.o:
+	$(MAKE) -f CMakeFiles/15.dir/build.make CMakeFiles/15.dir/Leetcode/数组/15三数之和.cpp.o
+.PHONY : Leetcode/数组/15三数之和.cpp.o
 
-Leetcode/数组/35[数组]搜索插入位置.i: Leetcode/数组/35[数组]搜索插入位置.cpp.i
+Leetcode/数组/15三数之和.i: Leetcode/数组/15三数之和.cpp.i
 
-.PHONY : Leetcode/数组/35[数组]搜索插入位置.i
+.PHONY : Leetcode/数组/15三数之和.i
 
 # target to preprocess a source file
-Leetcode/数组/35[数组]搜索插入位置.cpp.i:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.i
-.PHONY : Leetcode/数组/35[数组]搜索插入位置.cpp.i
+Leetcode/数组/15三数之和.cpp.i:
+	$(MAKE) -f CMakeFiles/15.dir/build.make CMakeFiles/15.dir/Leetcode/数组/15三数之和.cpp.i
+.PHONY : Leetcode/数组/15三数之和.cpp.i
 
-Leetcode/数组/35[数组]搜索插入位置.s: Leetcode/数组/35[数组]搜索插入位置.cpp.s
+Leetcode/数组/15三数之和.s: Leetcode/数组/15三数之和.cpp.s
 
-.PHONY : Leetcode/数组/35[数组]搜索插入位置.s
+.PHONY : Leetcode/数组/15三数之和.s
 
 # target to generate assembly for a file
-Leetcode/数组/35[数组]搜索插入位置.cpp.s:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.s
-.PHONY : Leetcode/数组/35[数组]搜索插入位置.cpp.s
+Leetcode/数组/15三数之和.cpp.s:
+	$(MAKE) -f CMakeFiles/15.dir/build.make CMakeFiles/15.dir/Leetcode/数组/15三数之和.cpp.s
+.PHONY : Leetcode/数组/15三数之和.cpp.s
+
+Leetcode/数组/1两数之和.o: Leetcode/数组/1两数之和.cpp.o
+
+.PHONY : Leetcode/数组/1两数之和.o
+
+# target to build an object file
+Leetcode/数组/1两数之和.cpp.o:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/Leetcode/数组/1两数之和.cpp.o
+.PHONY : Leetcode/数组/1两数之和.cpp.o
+
+Leetcode/数组/1两数之和.i: Leetcode/数组/1两数之和.cpp.i
+
+.PHONY : Leetcode/数组/1两数之和.i
+
+# target to preprocess a source file
+Leetcode/数组/1两数之和.cpp.i:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/Leetcode/数组/1两数之和.cpp.i
+.PHONY : Leetcode/数组/1两数之和.cpp.i
+
+Leetcode/数组/1两数之和.s: Leetcode/数组/1两数之和.cpp.s
+
+.PHONY : Leetcode/数组/1两数之和.s
+
+# target to generate assembly for a file
+Leetcode/数组/1两数之和.cpp.s:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/Leetcode/数组/1两数之和.cpp.s
+.PHONY : Leetcode/数组/1两数之和.cpp.s
+
+Leetcode/数组/27移除元素.o: Leetcode/数组/27移除元素.cpp.o
+
+.PHONY : Leetcode/数组/27移除元素.o
+
+# target to build an object file
+Leetcode/数组/27移除元素.cpp.o:
+	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/Leetcode/数组/27移除元素.cpp.o
+.PHONY : Leetcode/数组/27移除元素.cpp.o
+
+Leetcode/数组/27移除元素.i: Leetcode/数组/27移除元素.cpp.i
+
+.PHONY : Leetcode/数组/27移除元素.i
+
+# target to preprocess a source file
+Leetcode/数组/27移除元素.cpp.i:
+	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/Leetcode/数组/27移除元素.cpp.i
+.PHONY : Leetcode/数组/27移除元素.cpp.i
+
+Leetcode/数组/27移除元素.s: Leetcode/数组/27移除元素.cpp.s
+
+.PHONY : Leetcode/数组/27移除元素.s
+
+# target to generate assembly for a file
+Leetcode/数组/27移除元素.cpp.s:
+	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/Leetcode/数组/27移除元素.cpp.s
+.PHONY : Leetcode/数组/27移除元素.cpp.s
+
+Leetcode/数组/35搜索插入位置.o: Leetcode/数组/35搜索插入位置.cpp.o
+
+.PHONY : Leetcode/数组/35搜索插入位置.o
+
+# target to build an object file
+Leetcode/数组/35搜索插入位置.cpp.o:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.o
+.PHONY : Leetcode/数组/35搜索插入位置.cpp.o
+
+Leetcode/数组/35搜索插入位置.i: Leetcode/数组/35搜索插入位置.cpp.i
+
+.PHONY : Leetcode/数组/35搜索插入位置.i
+
+# target to preprocess a source file
+Leetcode/数组/35搜索插入位置.cpp.i:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.i
+.PHONY : Leetcode/数组/35搜索插入位置.cpp.i
+
+Leetcode/数组/35搜索插入位置.s: Leetcode/数组/35搜索插入位置.cpp.s
+
+.PHONY : Leetcode/数组/35搜索插入位置.s
+
+# target to generate assembly for a file
+Leetcode/数组/35搜索插入位置.cpp.s:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.s
+.PHONY : Leetcode/数组/35搜索插入位置.cpp.s
 
 main.o: main.cpp.o
 
@@ -190,22 +310,64 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+模板.o: 模板.cpp.o
+
+.PHONY : 模板.o
+
+# target to build an object file
+模板.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/模板.cpp.o
+.PHONY : 模板.cpp.o
+
+模板.i: 模板.cpp.i
+
+.PHONY : 模板.i
+
+# target to preprocess a source file
+模板.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/模板.cpp.i
+.PHONY : 模板.cpp.i
+
+模板.s: 模板.cpp.s
+
+.PHONY : 模板.s
+
+# target to generate assembly for a file
+模板.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/模板.cpp.s
+.PHONY : 模板.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 35"
+	@echo "... rebuild_cache"
 	@echo "... ACM"
-	@echo "... Leetcode/数组/35[数组]搜索插入位置.o"
-	@echo "... Leetcode/数组/35[数组]搜索插入位置.i"
-	@echo "... Leetcode/数组/35[数组]搜索插入位置.s"
+	@echo "... 1"
+	@echo "... 15"
+	@echo "... 27"
+	@echo "... 35"
+	@echo "... Leetcode/数组/15三数之和.o"
+	@echo "... Leetcode/数组/15三数之和.i"
+	@echo "... Leetcode/数组/15三数之和.s"
+	@echo "... Leetcode/数组/1两数之和.o"
+	@echo "... Leetcode/数组/1两数之和.i"
+	@echo "... Leetcode/数组/1两数之和.s"
+	@echo "... Leetcode/数组/27移除元素.o"
+	@echo "... Leetcode/数组/27移除元素.i"
+	@echo "... Leetcode/数组/27移除元素.s"
+	@echo "... Leetcode/数组/35搜索插入位置.o"
+	@echo "... Leetcode/数组/35搜索插入位置.i"
+	@echo "... Leetcode/数组/35搜索插入位置.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... 模板.o"
+	@echo "... 模板.i"
+	@echo "... 模板.s"
 .PHONY : help
 
 

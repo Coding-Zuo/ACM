@@ -57,27 +57,27 @@ include CMakeFiles/35.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/35.dir/flags.make
 
-CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.o: CMakeFiles/35.dir/flags.make
-CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.o: ../Leetcode/数组/35[数组]搜索插入位置.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.o -c /Users/zuoyuhui/CLionProjects/ACM/Leetcode/数组/35[数组]搜索插入位置.cpp
+CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.o: CMakeFiles/35.dir/flags.make
+CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.o: ../Leetcode/数组/35搜索插入位置.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.o -c /Users/zuoyuhui/CLionProjects/ACM/Leetcode/数组/35搜索插入位置.cpp
 
-CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zuoyuhui/CLionProjects/ACM/Leetcode/数组/35[数组]搜索插入位置.cpp > CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.i
+CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zuoyuhui/CLionProjects/ACM/Leetcode/数组/35搜索插入位置.cpp > CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.i
 
-CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zuoyuhui/CLionProjects/ACM/Leetcode/数组/35[数组]搜索插入位置.cpp -o CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.s
+CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zuoyuhui/CLionProjects/ACM/Leetcode/数组/35搜索插入位置.cpp -o CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.s
 
 # Object files for target 35
 35_OBJECTS = \
-"CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.o"
+"CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.o"
 
 # External object files for target 35
 35_EXTERNAL_OBJECTS =
 
-35: CMakeFiles/35.dir/Leetcode/数组/35[数组]搜索插入位置.cpp.o
+35: CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.o
 35: CMakeFiles/35.dir/build.make
 35: CMakeFiles/35.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 35"
