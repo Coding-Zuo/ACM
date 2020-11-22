@@ -137,6 +137,19 @@ ACM/fast:
 .PHONY : 1/fast
 
 #=============================================================================
+# Target rules for targets named 322
+
+# Build rule for target.
+322: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 322
+.PHONY : 322
+
+# fast build rule for target.
+322/fast:
+	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/build
+.PHONY : 322/fast
+
+#=============================================================================
 # Target rules for targets named 15
 
 # Build rule for target.
@@ -163,6 +176,32 @@ ACM/fast:
 .PHONY : 27/fast
 
 #=============================================================================
+# Target rules for targets named 18-2
+
+# Build rule for target.
+18-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 18-2
+.PHONY : 18-2
+
+# fast build rule for target.
+18-2/fast:
+	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/build
+.PHONY : 18-2/fast
+
+#=============================================================================
+# Target rules for targets named 18
+
+# Build rule for target.
+18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 18
+.PHONY : 18
+
+# fast build rule for target.
+18/fast:
+	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
+.PHONY : 18/fast
+
+#=============================================================================
 # Target rules for targets named 35
 
 # Build rule for target.
@@ -174,6 +213,33 @@ ACM/fast:
 35/fast:
 	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
 .PHONY : 35/fast
+
+Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
+
+.PHONY : Leetcode/回溯/322重新安排行程.o
+
+# target to build an object file
+Leetcode/回溯/322重新安排行程.cpp.o:
+	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/Leetcode/回溯/322重新安排行程.cpp.o
+.PHONY : Leetcode/回溯/322重新安排行程.cpp.o
+
+Leetcode/回溯/322重新安排行程.i: Leetcode/回溯/322重新安排行程.cpp.i
+
+.PHONY : Leetcode/回溯/322重新安排行程.i
+
+# target to preprocess a source file
+Leetcode/回溯/322重新安排行程.cpp.i:
+	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/Leetcode/回溯/322重新安排行程.cpp.i
+.PHONY : Leetcode/回溯/322重新安排行程.cpp.i
+
+Leetcode/回溯/322重新安排行程.s: Leetcode/回溯/322重新安排行程.cpp.s
+
+.PHONY : Leetcode/回溯/322重新安排行程.s
+
+# target to generate assembly for a file
+Leetcode/回溯/322重新安排行程.cpp.s:
+	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/Leetcode/回溯/322重新安排行程.cpp.s
+.PHONY : Leetcode/回溯/322重新安排行程.cpp.s
 
 Leetcode/数组/15三数之和.o: Leetcode/数组/15三数之和.cpp.o
 
@@ -201,6 +267,60 @@ Leetcode/数组/15三数之和.s: Leetcode/数组/15三数之和.cpp.s
 Leetcode/数组/15三数之和.cpp.s:
 	$(MAKE) -f CMakeFiles/15.dir/build.make CMakeFiles/15.dir/Leetcode/数组/15三数之和.cpp.s
 .PHONY : Leetcode/数组/15三数之和.cpp.s
+
+Leetcode/数组/18四数之和.o: Leetcode/数组/18四数之和.cpp.o
+
+.PHONY : Leetcode/数组/18四数之和.o
+
+# target to build an object file
+Leetcode/数组/18四数之和.cpp.o:
+	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/Leetcode/数组/18四数之和.cpp.o
+.PHONY : Leetcode/数组/18四数之和.cpp.o
+
+Leetcode/数组/18四数之和.i: Leetcode/数组/18四数之和.cpp.i
+
+.PHONY : Leetcode/数组/18四数之和.i
+
+# target to preprocess a source file
+Leetcode/数组/18四数之和.cpp.i:
+	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/Leetcode/数组/18四数之和.cpp.i
+.PHONY : Leetcode/数组/18四数之和.cpp.i
+
+Leetcode/数组/18四数之和.s: Leetcode/数组/18四数之和.cpp.s
+
+.PHONY : Leetcode/数组/18四数之和.s
+
+# target to generate assembly for a file
+Leetcode/数组/18四数之和.cpp.s:
+	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/Leetcode/数组/18四数之和.cpp.s
+.PHONY : Leetcode/数组/18四数之和.cpp.s
+
+Leetcode/数组/18四数之和2.o: Leetcode/数组/18四数之和2.cpp.o
+
+.PHONY : Leetcode/数组/18四数之和2.o
+
+# target to build an object file
+Leetcode/数组/18四数之和2.cpp.o:
+	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/Leetcode/数组/18四数之和2.cpp.o
+.PHONY : Leetcode/数组/18四数之和2.cpp.o
+
+Leetcode/数组/18四数之和2.i: Leetcode/数组/18四数之和2.cpp.i
+
+.PHONY : Leetcode/数组/18四数之和2.i
+
+# target to preprocess a source file
+Leetcode/数组/18四数之和2.cpp.i:
+	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/Leetcode/数组/18四数之和2.cpp.i
+.PHONY : Leetcode/数组/18四数之和2.cpp.i
+
+Leetcode/数组/18四数之和2.s: Leetcode/数组/18四数之和2.cpp.s
+
+.PHONY : Leetcode/数组/18四数之和2.s
+
+# target to generate assembly for a file
+Leetcode/数组/18四数之和2.cpp.s:
+	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/Leetcode/数组/18四数之和2.cpp.s
+.PHONY : Leetcode/数组/18四数之和2.cpp.s
 
 Leetcode/数组/1两数之和.o: Leetcode/数组/1两数之和.cpp.o
 
@@ -347,12 +467,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ACM"
 	@echo "... 1"
+	@echo "... 322"
 	@echo "... 15"
 	@echo "... 27"
+	@echo "... 18-2"
+	@echo "... 18"
 	@echo "... 35"
+	@echo "... Leetcode/回溯/322重新安排行程.o"
+	@echo "... Leetcode/回溯/322重新安排行程.i"
+	@echo "... Leetcode/回溯/322重新安排行程.s"
 	@echo "... Leetcode/数组/15三数之和.o"
 	@echo "... Leetcode/数组/15三数之和.i"
 	@echo "... Leetcode/数组/15三数之和.s"
+	@echo "... Leetcode/数组/18四数之和.o"
+	@echo "... Leetcode/数组/18四数之和.i"
+	@echo "... Leetcode/数组/18四数之和.s"
+	@echo "... Leetcode/数组/18四数之和2.o"
+	@echo "... Leetcode/数组/18四数之和2.i"
+	@echo "... Leetcode/数组/18四数之和2.s"
 	@echo "... Leetcode/数组/1两数之和.o"
 	@echo "... Leetcode/数组/1两数之和.i"
 	@echo "... Leetcode/数组/1两数之和.s"
