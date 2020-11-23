@@ -13,5 +13,9 @@ add_executable(18-2 Leetcode/数组/18四数之和2.cpp)
 add_executable(322 Leetcode/回溯/322重新安排行程.cpp)
 
 
+add_executable(206 Leetcode/链表/206翻转链表.cpp)
+add_executable(142 Leetcode/链表/142环形链表2.cpp)
+
+
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)
 

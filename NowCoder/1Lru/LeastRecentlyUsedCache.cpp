@@ -39,10 +39,10 @@ public:
 
     //添加新节点。放到尾巴上
     void addNode(Node<K, V> *newNode) {
-        if (newNode == nullptr) {
+        if (newNode == NULL) {
             return;
         }
-        if (this->head == nullptr) {
+        if (this->head == NULL) {
             this->head = newNode;
             this->tail = newNode;
         } else {
@@ -69,23 +69,23 @@ public:
             node->last->last = node->last;
         }
         node.last = this->tail;
-        node.next = nullptr;
+        node.next = NULL;
         this->tail->next = node;
         this->tail = node;
     }
 
     Node<K, V> *removeHead() {
-        if (this->head == nullptr) {
+        if (this->head == NULL) {
             return nullptr;
         }
         Node<K, V> *res = this->head;
         if (this->head == this->tail) {
-            this->head = nullptr;
-            this->tail = nullptr;
+            this->head = NULL;
+            this->tail = NULL;
         } else {
             this->head = res->next;
-            res->next = nullptr;
-            this->head->last = nullptr;
+            res->next = NULL;
+            this->head->last = NULL;
         }
         return res;
     }

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,6 +124,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
+# Target rules for targets named 206
+
+# Build rule for target.
+206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206
+.PHONY : 206
+
+# fast build rule for target.
+206/fast:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
+.PHONY : 206/fast
+
+#=============================================================================
 # Target rules for targets named ACM
 
 # Build rule for target.
@@ -148,6 +161,45 @@ ACM/fast:
 1/fast:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named 35
+
+# Build rule for target.
+35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 35
+.PHONY : 35
+
+# fast build rule for target.
+35/fast:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
+.PHONY : 35/fast
+
+#=============================================================================
+# Target rules for targets named 142
+
+# Build rule for target.
+142: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 142
+.PHONY : 142
+
+# fast build rule for target.
+142/fast:
+	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
+.PHONY : 142/fast
+
+#=============================================================================
+# Target rules for targets named 18
+
+# Build rule for target.
+18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 18
+.PHONY : 18
+
+# fast build rule for target.
+18/fast:
+	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
+.PHONY : 18/fast
 
 #=============================================================================
 # Target rules for targets named 322
@@ -200,32 +252,6 @@ ACM/fast:
 18-2/fast:
 	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/build
 .PHONY : 18-2/fast
-
-#=============================================================================
-# Target rules for targets named 18
-
-# Build rule for target.
-18: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 18
-.PHONY : 18
-
-# fast build rule for target.
-18/fast:
-	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
-.PHONY : 18/fast
-
-#=============================================================================
-# Target rules for targets named 35
-
-# Build rule for target.
-35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 35
-.PHONY : 35
-
-# fast build rule for target.
-35/fast:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
-.PHONY : 35/fast
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -416,6 +442,60 @@ Leetcode/数组/35搜索插入位置.cpp.s:
 	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.s
 .PHONY : Leetcode/数组/35搜索插入位置.cpp.s
 
+Leetcode/链表/142环形链表2.o: Leetcode/链表/142环形链表2.cpp.o
+
+.PHONY : Leetcode/链表/142环形链表2.o
+
+# target to build an object file
+Leetcode/链表/142环形链表2.cpp.o:
+	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/Leetcode/链表/142环形链表2.cpp.o
+.PHONY : Leetcode/链表/142环形链表2.cpp.o
+
+Leetcode/链表/142环形链表2.i: Leetcode/链表/142环形链表2.cpp.i
+
+.PHONY : Leetcode/链表/142环形链表2.i
+
+# target to preprocess a source file
+Leetcode/链表/142环形链表2.cpp.i:
+	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/Leetcode/链表/142环形链表2.cpp.i
+.PHONY : Leetcode/链表/142环形链表2.cpp.i
+
+Leetcode/链表/142环形链表2.s: Leetcode/链表/142环形链表2.cpp.s
+
+.PHONY : Leetcode/链表/142环形链表2.s
+
+# target to generate assembly for a file
+Leetcode/链表/142环形链表2.cpp.s:
+	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/Leetcode/链表/142环形链表2.cpp.s
+.PHONY : Leetcode/链表/142环形链表2.cpp.s
+
+Leetcode/链表/206翻转链表.o: Leetcode/链表/206翻转链表.cpp.o
+
+.PHONY : Leetcode/链表/206翻转链表.o
+
+# target to build an object file
+Leetcode/链表/206翻转链表.cpp.o:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/Leetcode/链表/206翻转链表.cpp.o
+.PHONY : Leetcode/链表/206翻转链表.cpp.o
+
+Leetcode/链表/206翻转链表.i: Leetcode/链表/206翻转链表.cpp.i
+
+.PHONY : Leetcode/链表/206翻转链表.i
+
+# target to preprocess a source file
+Leetcode/链表/206翻转链表.cpp.i:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/Leetcode/链表/206翻转链表.cpp.i
+.PHONY : Leetcode/链表/206翻转链表.cpp.i
+
+Leetcode/链表/206翻转链表.s: Leetcode/链表/206翻转链表.cpp.s
+
+.PHONY : Leetcode/链表/206翻转链表.s
+
+# target to generate assembly for a file
+Leetcode/链表/206翻转链表.cpp.s:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/Leetcode/链表/206翻转链表.cpp.s
+.PHONY : Leetcode/链表/206翻转链表.cpp.s
+
 NowCoder/1Lru/LeastRecentlyUsedCache.o: NowCoder/1Lru/LeastRecentlyUsedCache.cpp.o
 
 .PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.o
@@ -503,17 +583,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... LeastRecentlyUsedCache"
-	@echo "... rebuild_cache"
+	@echo "... 206"
 	@echo "... ACM"
 	@echo "... 1"
+	@echo "... 35"
+	@echo "... 142"
+	@echo "... rebuild_cache"
+	@echo "... 18"
 	@echo "... 322"
 	@echo "... 15"
+	@echo "... edit_cache"
 	@echo "... 27"
 	@echo "... 18-2"
-	@echo "... 18"
-	@echo "... 35"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
@@ -535,6 +617,12 @@ help:
 	@echo "... Leetcode/数组/35搜索插入位置.o"
 	@echo "... Leetcode/数组/35搜索插入位置.i"
 	@echo "... Leetcode/数组/35搜索插入位置.s"
+	@echo "... Leetcode/链表/142环形链表2.o"
+	@echo "... Leetcode/链表/142环形链表2.i"
+	@echo "... Leetcode/链表/142环形链表2.s"
+	@echo "... Leetcode/链表/206翻转链表.o"
+	@echo "... Leetcode/链表/206翻转链表.i"
+	@echo "... Leetcode/链表/206翻转链表.s"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.o"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.i"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.s"
