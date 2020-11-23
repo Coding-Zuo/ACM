@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LeastRecentlyUsedCache
+
+# Build rule for target.
+LeastRecentlyUsedCache: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LeastRecentlyUsedCache
+.PHONY : LeastRecentlyUsedCache
+
+# fast build rule for target.
+LeastRecentlyUsedCache/fast:
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
+.PHONY : LeastRecentlyUsedCache/fast
+
+#=============================================================================
 # Target rules for targets named ACM
 
 # Build rule for target.
@@ -403,6 +416,33 @@ Leetcode/数组/35搜索插入位置.cpp.s:
 	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.s
 .PHONY : Leetcode/数组/35搜索插入位置.cpp.s
 
+NowCoder/1Lru/LeastRecentlyUsedCache.o: NowCoder/1Lru/LeastRecentlyUsedCache.cpp.o
+
+.PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.o
+
+# target to build an object file
+NowCoder/1Lru/LeastRecentlyUsedCache.cpp.o:
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/NowCoder/1Lru/LeastRecentlyUsedCache.cpp.o
+.PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.cpp.o
+
+NowCoder/1Lru/LeastRecentlyUsedCache.i: NowCoder/1Lru/LeastRecentlyUsedCache.cpp.i
+
+.PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.i
+
+# target to preprocess a source file
+NowCoder/1Lru/LeastRecentlyUsedCache.cpp.i:
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/NowCoder/1Lru/LeastRecentlyUsedCache.cpp.i
+.PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.cpp.i
+
+NowCoder/1Lru/LeastRecentlyUsedCache.s: NowCoder/1Lru/LeastRecentlyUsedCache.cpp.s
+
+.PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.s
+
+# target to generate assembly for a file
+NowCoder/1Lru/LeastRecentlyUsedCache.cpp.s:
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/NowCoder/1Lru/LeastRecentlyUsedCache.cpp.s
+.PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -464,6 +504,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... LeastRecentlyUsedCache"
 	@echo "... rebuild_cache"
 	@echo "... ACM"
 	@echo "... 1"
@@ -494,6 +535,9 @@ help:
 	@echo "... Leetcode/数组/35搜索插入位置.o"
 	@echo "... Leetcode/数组/35搜索插入位置.i"
 	@echo "... Leetcode/数组/35搜索插入位置.s"
+	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.o"
+	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.i"
+	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

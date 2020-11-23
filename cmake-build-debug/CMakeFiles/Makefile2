@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/LeastRecentlyUsedCache.dir/all
 all: CMakeFiles/ACM.dir/all
 all: CMakeFiles/1.dir/all
 all: CMakeFiles/322.dir/all
@@ -65,6 +66,7 @@ all: CMakeFiles/35.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/LeastRecentlyUsedCache.dir/clean
 clean: CMakeFiles/ACM.dir/clean
 clean: CMakeFiles/1.dir/clean
 clean: CMakeFiles/322.dir/clean
@@ -80,6 +82,33 @@ clean: CMakeFiles/35.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/LeastRecentlyUsedCache.dir
+
+# All Build rule for target.
+CMakeFiles/LeastRecentlyUsedCache.dir/all:
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/depend
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target LeastRecentlyUsedCache"
+.PHONY : CMakeFiles/LeastRecentlyUsedCache.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LeastRecentlyUsedCache.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LeastRecentlyUsedCache.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/LeastRecentlyUsedCache.dir/rule
+
+# Convenience name for target.
+LeastRecentlyUsedCache: CMakeFiles/LeastRecentlyUsedCache.dir/rule
+
+.PHONY : LeastRecentlyUsedCache
+
+# clean rule for target.
+CMakeFiles/LeastRecentlyUsedCache.dir/clean:
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/clean
+.PHONY : CMakeFiles/LeastRecentlyUsedCache.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ACM.dir
