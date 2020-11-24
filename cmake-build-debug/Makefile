@@ -137,6 +137,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 206/fast
 
 #=============================================================================
+# Target rules for targets named 209
+
+# Build rule for target.
+209: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 209
+.PHONY : 209
+
+# fast build rule for target.
+209/fast:
+	$(MAKE) -f CMakeFiles/209.dir/build.make CMakeFiles/209.dir/build
+.PHONY : 209/fast
+
+#=============================================================================
 # Target rules for targets named ACM
 
 # Build rule for target.
@@ -388,6 +401,33 @@ Leetcode/数组/1两数之和.cpp.s:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/Leetcode/数组/1两数之和.cpp.s
 .PHONY : Leetcode/数组/1两数之和.cpp.s
 
+Leetcode/数组/209长度最小的子数组.o: Leetcode/数组/209长度最小的子数组.cpp.o
+
+.PHONY : Leetcode/数组/209长度最小的子数组.o
+
+# target to build an object file
+Leetcode/数组/209长度最小的子数组.cpp.o:
+	$(MAKE) -f CMakeFiles/209.dir/build.make CMakeFiles/209.dir/Leetcode/数组/209长度最小的子数组.cpp.o
+.PHONY : Leetcode/数组/209长度最小的子数组.cpp.o
+
+Leetcode/数组/209长度最小的子数组.i: Leetcode/数组/209长度最小的子数组.cpp.i
+
+.PHONY : Leetcode/数组/209长度最小的子数组.i
+
+# target to preprocess a source file
+Leetcode/数组/209长度最小的子数组.cpp.i:
+	$(MAKE) -f CMakeFiles/209.dir/build.make CMakeFiles/209.dir/Leetcode/数组/209长度最小的子数组.cpp.i
+.PHONY : Leetcode/数组/209长度最小的子数组.cpp.i
+
+Leetcode/数组/209长度最小的子数组.s: Leetcode/数组/209长度最小的子数组.cpp.s
+
+.PHONY : Leetcode/数组/209长度最小的子数组.s
+
+# target to generate assembly for a file
+Leetcode/数组/209长度最小的子数组.cpp.s:
+	$(MAKE) -f CMakeFiles/209.dir/build.make CMakeFiles/209.dir/Leetcode/数组/209长度最小的子数组.cpp.s
+.PHONY : Leetcode/数组/209长度最小的子数组.cpp.s
+
 Leetcode/数组/27移除元素.o: Leetcode/数组/27移除元素.cpp.o
 
 .PHONY : Leetcode/数组/27移除元素.o
@@ -585,6 +625,7 @@ help:
 	@echo "... depend"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... 206"
+	@echo "... 209"
 	@echo "... ACM"
 	@echo "... 1"
 	@echo "... 35"
@@ -611,6 +652,9 @@ help:
 	@echo "... Leetcode/数组/1两数之和.o"
 	@echo "... Leetcode/数组/1两数之和.i"
 	@echo "... Leetcode/数组/1两数之和.s"
+	@echo "... Leetcode/数组/209长度最小的子数组.o"
+	@echo "... Leetcode/数组/209长度最小的子数组.i"
+	@echo "... Leetcode/数组/209长度最小的子数组.s"
 	@echo "... Leetcode/数组/27移除元素.o"
 	@echo "... Leetcode/数组/27移除元素.i"
 	@echo "... Leetcode/数组/27移除元素.s"
