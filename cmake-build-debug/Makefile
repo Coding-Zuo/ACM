@@ -137,6 +137,45 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 206/fast
 
 #=============================================================================
+# Target rules for targets named 18
+
+# Build rule for target.
+18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 18
+.PHONY : 18
+
+# fast build rule for target.
+18/fast:
+	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
+.PHONY : 18/fast
+
+#=============================================================================
+# Target rules for targets named 322
+
+# Build rule for target.
+322: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 322
+.PHONY : 322
+
+# fast build rule for target.
+322/fast:
+	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/build
+.PHONY : 322/fast
+
+#=============================================================================
+# Target rules for targets named 59-2
+
+# Build rule for target.
+59-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 59-2
+.PHONY : 59-2
+
+# fast build rule for target.
+59-2/fast:
+	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/build
+.PHONY : 59-2/fast
+
+#=============================================================================
 # Target rules for targets named 209
 
 # Build rule for target.
@@ -176,58 +215,6 @@ ACM/fast:
 .PHONY : 1/fast
 
 #=============================================================================
-# Target rules for targets named 35
-
-# Build rule for target.
-35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 35
-.PHONY : 35
-
-# fast build rule for target.
-35/fast:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
-.PHONY : 35/fast
-
-#=============================================================================
-# Target rules for targets named 142
-
-# Build rule for target.
-142: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 142
-.PHONY : 142
-
-# fast build rule for target.
-142/fast:
-	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
-.PHONY : 142/fast
-
-#=============================================================================
-# Target rules for targets named 18
-
-# Build rule for target.
-18: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 18
-.PHONY : 18
-
-# fast build rule for target.
-18/fast:
-	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
-.PHONY : 18/fast
-
-#=============================================================================
-# Target rules for targets named 322
-
-# Build rule for target.
-322: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 322
-.PHONY : 322
-
-# fast build rule for target.
-322/fast:
-	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/build
-.PHONY : 322/fast
-
-#=============================================================================
 # Target rules for targets named 15
 
 # Build rule for target.
@@ -265,6 +252,32 @@ ACM/fast:
 18-2/fast:
 	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/build
 .PHONY : 18-2/fast
+
+#=============================================================================
+# Target rules for targets named 142
+
+# Build rule for target.
+142: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 142
+.PHONY : 142
+
+# fast build rule for target.
+142/fast:
+	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
+.PHONY : 142/fast
+
+#=============================================================================
+# Target rules for targets named 35
+
+# Build rule for target.
+35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 35
+.PHONY : 35
+
+# fast build rule for target.
+35/fast:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
+.PHONY : 35/fast
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -482,6 +495,33 @@ Leetcode/数组/35搜索插入位置.cpp.s:
 	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.s
 .PHONY : Leetcode/数组/35搜索插入位置.cpp.s
 
+Leetcode/数组/59螺旋矩阵.o: Leetcode/数组/59螺旋矩阵.cpp.o
+
+.PHONY : Leetcode/数组/59螺旋矩阵.o
+
+# target to build an object file
+Leetcode/数组/59螺旋矩阵.cpp.o:
+	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/Leetcode/数组/59螺旋矩阵.cpp.o
+.PHONY : Leetcode/数组/59螺旋矩阵.cpp.o
+
+Leetcode/数组/59螺旋矩阵.i: Leetcode/数组/59螺旋矩阵.cpp.i
+
+.PHONY : Leetcode/数组/59螺旋矩阵.i
+
+# target to preprocess a source file
+Leetcode/数组/59螺旋矩阵.cpp.i:
+	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/Leetcode/数组/59螺旋矩阵.cpp.i
+.PHONY : Leetcode/数组/59螺旋矩阵.cpp.i
+
+Leetcode/数组/59螺旋矩阵.s: Leetcode/数组/59螺旋矩阵.cpp.s
+
+.PHONY : Leetcode/数组/59螺旋矩阵.s
+
+# target to generate assembly for a file
+Leetcode/数组/59螺旋矩阵.cpp.s:
+	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/Leetcode/数组/59螺旋矩阵.cpp.s
+.PHONY : Leetcode/数组/59螺旋矩阵.cpp.s
+
 Leetcode/链表/142环形链表2.o: Leetcode/链表/142环形链表2.cpp.o
 
 .PHONY : Leetcode/链表/142环形链表2.o
@@ -625,18 +665,19 @@ help:
 	@echo "... depend"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... 206"
-	@echo "... 209"
-	@echo "... ACM"
-	@echo "... 1"
-	@echo "... 35"
-	@echo "... 142"
 	@echo "... rebuild_cache"
 	@echo "... 18"
 	@echo "... 322"
+	@echo "... 59-2"
+	@echo "... 209"
+	@echo "... ACM"
+	@echo "... 1"
 	@echo "... 15"
 	@echo "... edit_cache"
 	@echo "... 27"
 	@echo "... 18-2"
+	@echo "... 142"
+	@echo "... 35"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
@@ -661,6 +702,9 @@ help:
 	@echo "... Leetcode/数组/35搜索插入位置.o"
 	@echo "... Leetcode/数组/35搜索插入位置.i"
 	@echo "... Leetcode/数组/35搜索插入位置.s"
+	@echo "... Leetcode/数组/59螺旋矩阵.o"
+	@echo "... Leetcode/数组/59螺旋矩阵.i"
+	@echo "... Leetcode/数组/59螺旋矩阵.s"
 	@echo "... Leetcode/链表/142环形链表2.o"
 	@echo "... Leetcode/链表/142环形链表2.i"
 	@echo "... Leetcode/链表/142环形链表2.s"

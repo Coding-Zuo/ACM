@@ -11,7 +11,9 @@ add_executable(1 Leetcode/数组/1两数之和.cpp)
 add_executable(18 Leetcode/数组/18四数之和.cpp)
 add_executable(209 Leetcode/数组/209长度最小的子数组.cpp)
 add_executable(18-2 Leetcode/数组/18四数之和2.cpp)
+add_executable(59-2 Leetcode/数组/59螺旋矩阵.cpp)
 add_executable(322 Leetcode/回溯/322重新安排行程.cpp)
+add_executable(322 Leetcode/回溯/37解数独.cpp)
 
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)
