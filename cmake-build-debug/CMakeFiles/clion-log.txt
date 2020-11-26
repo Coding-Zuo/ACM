@@ -1,10 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/zuoyuhui/CLionProjects/ACM
-CMake Error at CMakeLists.txt:16 (add_executable):
-  add_executable cannot create target "322" because another target with the
-  same name already exists.  The existing target is an executable created in
-  source directory "/Users/zuoyuhui/CLionProjects/ACM".  See documentation
-  for policy CMP0002 for more details.
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug

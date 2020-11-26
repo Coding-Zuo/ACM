@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LeastRecentlyUsedCache
-
-# Build rule for target.
-LeastRecentlyUsedCache: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LeastRecentlyUsedCache
-.PHONY : LeastRecentlyUsedCache
-
-# fast build rule for target.
-LeastRecentlyUsedCache/fast:
-	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
-.PHONY : LeastRecentlyUsedCache/fast
-
-#=============================================================================
 # Target rules for targets named 206
 
 # Build rule for target.
@@ -137,17 +124,56 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 206/fast
 
 #=============================================================================
-# Target rules for targets named 18
+# Target rules for targets named LeastRecentlyUsedCache
 
 # Build rule for target.
-18: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 18
-.PHONY : 18
+LeastRecentlyUsedCache: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LeastRecentlyUsedCache
+.PHONY : LeastRecentlyUsedCache
 
 # fast build rule for target.
-18/fast:
-	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
-.PHONY : 18/fast
+LeastRecentlyUsedCache/fast:
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
+.PHONY : LeastRecentlyUsedCache/fast
+
+#=============================================================================
+# Target rules for targets named 37
+
+# Build rule for target.
+37: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 37
+.PHONY : 37
+
+# fast build rule for target.
+37/fast:
+	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/build
+.PHONY : 37/fast
+
+#=============================================================================
+# Target rules for targets named 867
+
+# Build rule for target.
+867: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 867
+.PHONY : 867
+
+# fast build rule for target.
+867/fast:
+	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/build
+.PHONY : 867/fast
+
+#=============================================================================
+# Target rules for targets named 17.10
+
+# Build rule for target.
+17.10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 17.10
+.PHONY : 17.10
+
+# fast build rule for target.
+17.10/fast:
+	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
+.PHONY : 17.10/fast
 
 #=============================================================================
 # Target rules for targets named 322
@@ -161,6 +187,19 @@ LeastRecentlyUsedCache/fast:
 322/fast:
 	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/build
 .PHONY : 322/fast
+
+#=============================================================================
+# Target rules for targets named 18
+
+# Build rule for target.
+18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 18
+.PHONY : 18
+
+# fast build rule for target.
+18/fast:
+	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
+.PHONY : 18/fast
 
 #=============================================================================
 # Target rules for targets named 59-2
@@ -306,6 +345,33 @@ Leetcode/回溯/322重新安排行程.cpp.s:
 	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/Leetcode/回溯/322重新安排行程.cpp.s
 .PHONY : Leetcode/回溯/322重新安排行程.cpp.s
 
+Leetcode/回溯/37解数独.o: Leetcode/回溯/37解数独.cpp.o
+
+.PHONY : Leetcode/回溯/37解数独.o
+
+# target to build an object file
+Leetcode/回溯/37解数独.cpp.o:
+	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/Leetcode/回溯/37解数独.cpp.o
+.PHONY : Leetcode/回溯/37解数独.cpp.o
+
+Leetcode/回溯/37解数独.i: Leetcode/回溯/37解数独.cpp.i
+
+.PHONY : Leetcode/回溯/37解数独.i
+
+# target to preprocess a source file
+Leetcode/回溯/37解数独.cpp.i:
+	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/Leetcode/回溯/37解数独.cpp.i
+.PHONY : Leetcode/回溯/37解数独.cpp.i
+
+Leetcode/回溯/37解数独.s: Leetcode/回溯/37解数独.cpp.s
+
+.PHONY : Leetcode/回溯/37解数独.s
+
+# target to generate assembly for a file
+Leetcode/回溯/37解数独.cpp.s:
+	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/Leetcode/回溯/37解数独.cpp.s
+.PHONY : Leetcode/回溯/37解数独.cpp.s
+
 Leetcode/数组/15三数之和.o: Leetcode/数组/15三数之和.cpp.o
 
 .PHONY : Leetcode/数组/15三数之和.o
@@ -332,6 +398,33 @@ Leetcode/数组/15三数之和.s: Leetcode/数组/15三数之和.cpp.s
 Leetcode/数组/15三数之和.cpp.s:
 	$(MAKE) -f CMakeFiles/15.dir/build.make CMakeFiles/15.dir/Leetcode/数组/15三数之和.cpp.s
 .PHONY : Leetcode/数组/15三数之和.cpp.s
+
+Leetcode/数组/17.10主要元素.o: Leetcode/数组/17.10主要元素.cpp.o
+
+.PHONY : Leetcode/数组/17.10主要元素.o
+
+# target to build an object file
+Leetcode/数组/17.10主要元素.cpp.o:
+	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/Leetcode/数组/17.10主要元素.cpp.o
+.PHONY : Leetcode/数组/17.10主要元素.cpp.o
+
+Leetcode/数组/17.10主要元素.i: Leetcode/数组/17.10主要元素.cpp.i
+
+.PHONY : Leetcode/数组/17.10主要元素.i
+
+# target to preprocess a source file
+Leetcode/数组/17.10主要元素.cpp.i:
+	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/Leetcode/数组/17.10主要元素.cpp.i
+.PHONY : Leetcode/数组/17.10主要元素.cpp.i
+
+Leetcode/数组/17.10主要元素.s: Leetcode/数组/17.10主要元素.cpp.s
+
+.PHONY : Leetcode/数组/17.10主要元素.s
+
+# target to generate assembly for a file
+Leetcode/数组/17.10主要元素.cpp.s:
+	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/Leetcode/数组/17.10主要元素.cpp.s
+.PHONY : Leetcode/数组/17.10主要元素.cpp.s
 
 Leetcode/数组/18四数之和.o: Leetcode/数组/18四数之和.cpp.o
 
@@ -522,6 +615,33 @@ Leetcode/数组/59螺旋矩阵.cpp.s:
 	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/Leetcode/数组/59螺旋矩阵.cpp.s
 .PHONY : Leetcode/数组/59螺旋矩阵.cpp.s
 
+Leetcode/数组/867转置矩阵.o: Leetcode/数组/867转置矩阵.cpp.o
+
+.PHONY : Leetcode/数组/867转置矩阵.o
+
+# target to build an object file
+Leetcode/数组/867转置矩阵.cpp.o:
+	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/Leetcode/数组/867转置矩阵.cpp.o
+.PHONY : Leetcode/数组/867转置矩阵.cpp.o
+
+Leetcode/数组/867转置矩阵.i: Leetcode/数组/867转置矩阵.cpp.i
+
+.PHONY : Leetcode/数组/867转置矩阵.i
+
+# target to preprocess a source file
+Leetcode/数组/867转置矩阵.cpp.i:
+	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/Leetcode/数组/867转置矩阵.cpp.i
+.PHONY : Leetcode/数组/867转置矩阵.cpp.i
+
+Leetcode/数组/867转置矩阵.s: Leetcode/数组/867转置矩阵.cpp.s
+
+.PHONY : Leetcode/数组/867转置矩阵.s
+
+# target to generate assembly for a file
+Leetcode/数组/867转置矩阵.cpp.s:
+	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/Leetcode/数组/867转置矩阵.cpp.s
+.PHONY : Leetcode/数组/867转置矩阵.cpp.s
+
 Leetcode/链表/142环形链表2.o: Leetcode/链表/142环形链表2.cpp.o
 
 .PHONY : Leetcode/链表/142环形链表2.o
@@ -663,11 +783,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... LeastRecentlyUsedCache"
 	@echo "... 206"
+	@echo "... LeastRecentlyUsedCache"
+	@echo "... 37"
+	@echo "... 867"
+	@echo "... 17.10"
 	@echo "... rebuild_cache"
-	@echo "... 18"
 	@echo "... 322"
+	@echo "... 18"
 	@echo "... 59-2"
 	@echo "... 209"
 	@echo "... ACM"
@@ -681,9 +804,15 @@ help:
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
+	@echo "... Leetcode/回溯/37解数独.o"
+	@echo "... Leetcode/回溯/37解数独.i"
+	@echo "... Leetcode/回溯/37解数独.s"
 	@echo "... Leetcode/数组/15三数之和.o"
 	@echo "... Leetcode/数组/15三数之和.i"
 	@echo "... Leetcode/数组/15三数之和.s"
+	@echo "... Leetcode/数组/17.10主要元素.o"
+	@echo "... Leetcode/数组/17.10主要元素.i"
+	@echo "... Leetcode/数组/17.10主要元素.s"
 	@echo "... Leetcode/数组/18四数之和.o"
 	@echo "... Leetcode/数组/18四数之和.i"
 	@echo "... Leetcode/数组/18四数之和.s"
@@ -705,6 +834,9 @@ help:
 	@echo "... Leetcode/数组/59螺旋矩阵.o"
 	@echo "... Leetcode/数组/59螺旋矩阵.i"
 	@echo "... Leetcode/数组/59螺旋矩阵.s"
+	@echo "... Leetcode/数组/867转置矩阵.o"
+	@echo "... Leetcode/数组/867转置矩阵.i"
+	@echo "... Leetcode/数组/867转置矩阵.s"
 	@echo "... Leetcode/链表/142环形链表2.o"
 	@echo "... Leetcode/链表/142环形链表2.i"
 	@echo "... Leetcode/链表/142环形链表2.s"
