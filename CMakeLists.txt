@@ -14,6 +14,7 @@ add_executable(18-2 Leetcode/数组/18四数之和2.cpp)
 add_executable(59-2 Leetcode/数组/59螺旋矩阵.cpp)
 add_executable(867 Leetcode/数组/867转置矩阵.cpp)
 add_executable(17.10 Leetcode/数组/17.10主要元素.cpp)
+add_executable(1588 Leetcode/数组/1588所有奇数长度子数组的和.cpp)
 
 add_executable(322 Leetcode/回溯/322重新安排行程.cpp)
 add_executable(37 Leetcode/回溯/37解数独.cpp)

@@ -189,6 +189,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 322/fast
 
 #=============================================================================
+# Target rules for targets named 1588
+
+# Build rule for target.
+1588: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1588
+.PHONY : 1588
+
+# fast build rule for target.
+1588/fast:
+	$(MAKE) -f CMakeFiles/1588.dir/build.make CMakeFiles/1588.dir/build
+.PHONY : 1588/fast
+
+#=============================================================================
 # Target rules for targets named 18
 
 # Build rule for target.
@@ -371,6 +384,33 @@ Leetcode/回溯/37解数独.s: Leetcode/回溯/37解数独.cpp.s
 Leetcode/回溯/37解数独.cpp.s:
 	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/Leetcode/回溯/37解数独.cpp.s
 .PHONY : Leetcode/回溯/37解数独.cpp.s
+
+Leetcode/数组/1588所有奇数长度子数组的和.o: Leetcode/数组/1588所有奇数长度子数组的和.cpp.o
+
+.PHONY : Leetcode/数组/1588所有奇数长度子数组的和.o
+
+# target to build an object file
+Leetcode/数组/1588所有奇数长度子数组的和.cpp.o:
+	$(MAKE) -f CMakeFiles/1588.dir/build.make CMakeFiles/1588.dir/Leetcode/数组/1588所有奇数长度子数组的和.cpp.o
+.PHONY : Leetcode/数组/1588所有奇数长度子数组的和.cpp.o
+
+Leetcode/数组/1588所有奇数长度子数组的和.i: Leetcode/数组/1588所有奇数长度子数组的和.cpp.i
+
+.PHONY : Leetcode/数组/1588所有奇数长度子数组的和.i
+
+# target to preprocess a source file
+Leetcode/数组/1588所有奇数长度子数组的和.cpp.i:
+	$(MAKE) -f CMakeFiles/1588.dir/build.make CMakeFiles/1588.dir/Leetcode/数组/1588所有奇数长度子数组的和.cpp.i
+.PHONY : Leetcode/数组/1588所有奇数长度子数组的和.cpp.i
+
+Leetcode/数组/1588所有奇数长度子数组的和.s: Leetcode/数组/1588所有奇数长度子数组的和.cpp.s
+
+.PHONY : Leetcode/数组/1588所有奇数长度子数组的和.s
+
+# target to generate assembly for a file
+Leetcode/数组/1588所有奇数长度子数组的和.cpp.s:
+	$(MAKE) -f CMakeFiles/1588.dir/build.make CMakeFiles/1588.dir/Leetcode/数组/1588所有奇数长度子数组的和.cpp.s
+.PHONY : Leetcode/数组/1588所有奇数长度子数组的和.cpp.s
 
 Leetcode/数组/15三数之和.o: Leetcode/数组/15三数之和.cpp.o
 
@@ -790,6 +830,7 @@ help:
 	@echo "... 17.10"
 	@echo "... rebuild_cache"
 	@echo "... 322"
+	@echo "... 1588"
 	@echo "... 18"
 	@echo "... 59-2"
 	@echo "... 209"
@@ -807,6 +848,9 @@ help:
 	@echo "... Leetcode/回溯/37解数独.o"
 	@echo "... Leetcode/回溯/37解数独.i"
 	@echo "... Leetcode/回溯/37解数独.s"
+	@echo "... Leetcode/数组/1588所有奇数长度子数组的和.o"
+	@echo "... Leetcode/数组/1588所有奇数长度子数组的和.i"
+	@echo "... Leetcode/数组/1588所有奇数长度子数组的和.s"
 	@echo "... Leetcode/数组/15三数之和.o"
 	@echo "... Leetcode/数组/15三数之和.i"
 	@echo "... Leetcode/数组/15三数之和.s"
