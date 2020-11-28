@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zuoyuhui/CLionProjects/ACM/Leetcode/数组/628三个数的最大乘积.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+

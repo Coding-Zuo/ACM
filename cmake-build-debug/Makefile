@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 206
-
-# Build rule for target.
-206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 206
-.PHONY : 206
-
-# fast build rule for target.
-206/fast:
-	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
-.PHONY : 206/fast
-
-#=============================================================================
 # Target rules for targets named LeastRecentlyUsedCache
 
 # Build rule for target.
@@ -150,19 +137,6 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 37/fast
 
 #=============================================================================
-# Target rules for targets named 867
-
-# Build rule for target.
-867: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 867
-.PHONY : 867
-
-# fast build rule for target.
-867/fast:
-	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/build
-.PHONY : 867/fast
-
-#=============================================================================
 # Target rules for targets named 17.10
 
 # Build rule for target.
@@ -174,6 +148,19 @@ LeastRecentlyUsedCache/fast:
 17.10/fast:
 	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
 .PHONY : 17.10/fast
+
+#=============================================================================
+# Target rules for targets named 867
+
+# Build rule for target.
+867: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 867
+.PHONY : 867
+
+# fast build rule for target.
+867/fast:
+	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/build
+.PHONY : 867/fast
 
 #=============================================================================
 # Target rules for targets named 322
@@ -241,30 +228,30 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 209/fast
 
 #=============================================================================
-# Target rules for targets named ACM
+# Target rules for targets named 206
 
 # Build rule for target.
-ACM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ACM
-.PHONY : ACM
+206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206
+.PHONY : 206
 
 # fast build rule for target.
-ACM/fast:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
-.PHONY : ACM/fast
+206/fast:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
+.PHONY : 206/fast
 
 #=============================================================================
-# Target rules for targets named 1
+# Target rules for targets named 628
 
 # Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1
-.PHONY : 1
+628: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 628
+.PHONY : 628
 
 # fast build rule for target.
-1/fast:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
-.PHONY : 1/fast
+628/fast:
+	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/build
+.PHONY : 628/fast
 
 #=============================================================================
 # Target rules for targets named 15
@@ -331,6 +318,45 @@ ACM/fast:
 	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
 .PHONY : 35/fast
 
+#=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named 1476
+
+# Build rule for target.
+1476: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1476
+.PHONY : 1476
+
+# fast build rule for target.
+1476/fast:
+	$(MAKE) -f CMakeFiles/1476.dir/build.make CMakeFiles/1476.dir/build
+.PHONY : 1476/fast
+
+#=============================================================================
+# Target rules for targets named ACM
+
+# Build rule for target.
+ACM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ACM
+.PHONY : ACM
+
+# fast build rule for target.
+ACM/fast:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
+.PHONY : ACM/fast
+
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
 .PHONY : Leetcode/回溯/322重新安排行程.o
@@ -384,6 +410,33 @@ Leetcode/回溯/37解数独.s: Leetcode/回溯/37解数独.cpp.s
 Leetcode/回溯/37解数独.cpp.s:
 	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/Leetcode/回溯/37解数独.cpp.s
 .PHONY : Leetcode/回溯/37解数独.cpp.s
+
+Leetcode/数组/1476子矩形查询.o: Leetcode/数组/1476子矩形查询.cpp.o
+
+.PHONY : Leetcode/数组/1476子矩形查询.o
+
+# target to build an object file
+Leetcode/数组/1476子矩形查询.cpp.o:
+	$(MAKE) -f CMakeFiles/1476.dir/build.make CMakeFiles/1476.dir/Leetcode/数组/1476子矩形查询.cpp.o
+.PHONY : Leetcode/数组/1476子矩形查询.cpp.o
+
+Leetcode/数组/1476子矩形查询.i: Leetcode/数组/1476子矩形查询.cpp.i
+
+.PHONY : Leetcode/数组/1476子矩形查询.i
+
+# target to preprocess a source file
+Leetcode/数组/1476子矩形查询.cpp.i:
+	$(MAKE) -f CMakeFiles/1476.dir/build.make CMakeFiles/1476.dir/Leetcode/数组/1476子矩形查询.cpp.i
+.PHONY : Leetcode/数组/1476子矩形查询.cpp.i
+
+Leetcode/数组/1476子矩形查询.s: Leetcode/数组/1476子矩形查询.cpp.s
+
+.PHONY : Leetcode/数组/1476子矩形查询.s
+
+# target to generate assembly for a file
+Leetcode/数组/1476子矩形查询.cpp.s:
+	$(MAKE) -f CMakeFiles/1476.dir/build.make CMakeFiles/1476.dir/Leetcode/数组/1476子矩形查询.cpp.s
+.PHONY : Leetcode/数组/1476子矩形查询.cpp.s
 
 Leetcode/数组/1588所有奇数长度子数组的和.o: Leetcode/数组/1588所有奇数长度子数组的和.cpp.o
 
@@ -655,6 +708,33 @@ Leetcode/数组/59螺旋矩阵.cpp.s:
 	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/Leetcode/数组/59螺旋矩阵.cpp.s
 .PHONY : Leetcode/数组/59螺旋矩阵.cpp.s
 
+Leetcode/数组/628三个数的最大乘积.o: Leetcode/数组/628三个数的最大乘积.cpp.o
+
+.PHONY : Leetcode/数组/628三个数的最大乘积.o
+
+# target to build an object file
+Leetcode/数组/628三个数的最大乘积.cpp.o:
+	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/Leetcode/数组/628三个数的最大乘积.cpp.o
+.PHONY : Leetcode/数组/628三个数的最大乘积.cpp.o
+
+Leetcode/数组/628三个数的最大乘积.i: Leetcode/数组/628三个数的最大乘积.cpp.i
+
+.PHONY : Leetcode/数组/628三个数的最大乘积.i
+
+# target to preprocess a source file
+Leetcode/数组/628三个数的最大乘积.cpp.i:
+	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/Leetcode/数组/628三个数的最大乘积.cpp.i
+.PHONY : Leetcode/数组/628三个数的最大乘积.cpp.i
+
+Leetcode/数组/628三个数的最大乘积.s: Leetcode/数组/628三个数的最大乘积.cpp.s
+
+.PHONY : Leetcode/数组/628三个数的最大乘积.s
+
+# target to generate assembly for a file
+Leetcode/数组/628三个数的最大乘积.cpp.s:
+	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/Leetcode/数组/628三个数的最大乘积.cpp.s
+.PHONY : Leetcode/数组/628三个数的最大乘积.cpp.s
+
 Leetcode/数组/867转置矩阵.o: Leetcode/数组/867转置矩阵.cpp.o
 
 .PHONY : Leetcode/数组/867转置矩阵.o
@@ -823,31 +903,36 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... 206"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... 37"
-	@echo "... 867"
 	@echo "... 17.10"
+	@echo "... 867"
 	@echo "... rebuild_cache"
 	@echo "... 322"
 	@echo "... 1588"
 	@echo "... 18"
 	@echo "... 59-2"
 	@echo "... 209"
-	@echo "... ACM"
-	@echo "... 1"
+	@echo "... 206"
+	@echo "... 628"
 	@echo "... 15"
 	@echo "... edit_cache"
 	@echo "... 27"
 	@echo "... 18-2"
 	@echo "... 142"
 	@echo "... 35"
+	@echo "... 1"
+	@echo "... 1476"
+	@echo "... ACM"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
 	@echo "... Leetcode/回溯/37解数独.o"
 	@echo "... Leetcode/回溯/37解数独.i"
 	@echo "... Leetcode/回溯/37解数独.s"
+	@echo "... Leetcode/数组/1476子矩形查询.o"
+	@echo "... Leetcode/数组/1476子矩形查询.i"
+	@echo "... Leetcode/数组/1476子矩形查询.s"
 	@echo "... Leetcode/数组/1588所有奇数长度子数组的和.o"
 	@echo "... Leetcode/数组/1588所有奇数长度子数组的和.i"
 	@echo "... Leetcode/数组/1588所有奇数长度子数组的和.s"
@@ -878,6 +963,9 @@ help:
 	@echo "... Leetcode/数组/59螺旋矩阵.o"
 	@echo "... Leetcode/数组/59螺旋矩阵.i"
 	@echo "... Leetcode/数组/59螺旋矩阵.s"
+	@echo "... Leetcode/数组/628三个数的最大乘积.o"
+	@echo "... Leetcode/数组/628三个数的最大乘积.i"
+	@echo "... Leetcode/数组/628三个数的最大乘积.s"
 	@echo "... Leetcode/数组/867转置矩阵.o"
 	@echo "... Leetcode/数组/867转置矩阵.i"
 	@echo "... Leetcode/数组/867转置矩阵.s"
