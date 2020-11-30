@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named N4
+
+# Build rule for target.
+N4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N4
+.PHONY : N4
+
+# fast build rule for target.
+N4/fast:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
+.PHONY : N4/fast
+
+#=============================================================================
+# Target rules for targets named N3
+
+# Build rule for target.
+N3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N3
+.PHONY : N3
+
+# fast build rule for target.
+N3/fast:
+	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
+.PHONY : N3/fast
+
+#=============================================================================
+# Target rules for targets named N2
+
+# Build rule for target.
+N2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N2
+.PHONY : N2
+
+# fast build rule for target.
+N2/fast:
+	$(MAKE) -f CMakeFiles/N2.dir/build.make CMakeFiles/N2.dir/build
+.PHONY : N2/fast
+
+#=============================================================================
 # Target rules for targets named LeastRecentlyUsedCache
 
 # Build rule for target.
@@ -122,6 +161,19 @@ LeastRecentlyUsedCache: cmake_check_build_system
 LeastRecentlyUsedCache/fast:
 	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
 .PHONY : LeastRecentlyUsedCache/fast
+
+#=============================================================================
+# Target rules for targets named 59-2
+
+# Build rule for target.
+59-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 59-2
+.PHONY : 59-2
+
+# fast build rule for target.
+59-2/fast:
+	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/build
+.PHONY : 59-2/fast
 
 #=============================================================================
 # Target rules for targets named 37
@@ -148,6 +200,19 @@ LeastRecentlyUsedCache/fast:
 17.10/fast:
 	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
 .PHONY : 17.10/fast
+
+#=============================================================================
+# Target rules for targets named 206
+
+# Build rule for target.
+206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206
+.PHONY : 206
+
+# fast build rule for target.
+206/fast:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
+.PHONY : 206/fast
 
 #=============================================================================
 # Target rules for targets named 867
@@ -189,6 +254,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 1588/fast
 
 #=============================================================================
+# Target rules for targets named 1476
+
+# Build rule for target.
+1476: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1476
+.PHONY : 1476
+
+# fast build rule for target.
+1476/fast:
+	$(MAKE) -f CMakeFiles/1476.dir/build.make CMakeFiles/1476.dir/build
+.PHONY : 1476/fast
+
+#=============================================================================
 # Target rules for targets named 18
 
 # Build rule for target.
@@ -200,19 +278,6 @@ LeastRecentlyUsedCache/fast:
 18/fast:
 	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
 .PHONY : 18/fast
-
-#=============================================================================
-# Target rules for targets named 59-2
-
-# Build rule for target.
-59-2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 59-2
-.PHONY : 59-2
-
-# fast build rule for target.
-59-2/fast:
-	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/build
-.PHONY : 59-2/fast
 
 #=============================================================================
 # Target rules for targets named 209
@@ -228,19 +293,6 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 209/fast
 
 #=============================================================================
-# Target rules for targets named 206
-
-# Build rule for target.
-206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 206
-.PHONY : 206
-
-# fast build rule for target.
-206/fast:
-	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
-.PHONY : 206/fast
-
-#=============================================================================
 # Target rules for targets named 628
 
 # Build rule for target.
@@ -252,6 +304,19 @@ LeastRecentlyUsedCache/fast:
 628/fast:
 	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/build
 .PHONY : 628/fast
+
+#=============================================================================
+# Target rules for targets named ACM
+
+# Build rule for target.
+ACM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ACM
+.PHONY : ACM
+
+# fast build rule for target.
+ACM/fast:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
+.PHONY : ACM/fast
 
 #=============================================================================
 # Target rules for targets named 15
@@ -330,32 +395,6 @@ LeastRecentlyUsedCache/fast:
 1/fast:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
-
-#=============================================================================
-# Target rules for targets named 1476
-
-# Build rule for target.
-1476: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1476
-.PHONY : 1476
-
-# fast build rule for target.
-1476/fast:
-	$(MAKE) -f CMakeFiles/1476.dir/build.make CMakeFiles/1476.dir/build
-.PHONY : 1476/fast
-
-#=============================================================================
-# Target rules for targets named ACM
-
-# Build rule for target.
-ACM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ACM
-.PHONY : ACM
-
-# fast build rule for target.
-ACM/fast:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
-.PHONY : ACM/fast
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -843,6 +882,87 @@ NowCoder/1Lru/LeastRecentlyUsedCache.cpp.s:
 	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/NowCoder/1Lru/LeastRecentlyUsedCache.cpp.s
 .PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.cpp.s
 
+NowCoder/2直线过点.o: NowCoder/2直线过点.cpp.o
+
+.PHONY : NowCoder/2直线过点.o
+
+# target to build an object file
+NowCoder/2直线过点.cpp.o:
+	$(MAKE) -f CMakeFiles/N2.dir/build.make CMakeFiles/N2.dir/NowCoder/2直线过点.cpp.o
+.PHONY : NowCoder/2直线过点.cpp.o
+
+NowCoder/2直线过点.i: NowCoder/2直线过点.cpp.i
+
+.PHONY : NowCoder/2直线过点.i
+
+# target to preprocess a source file
+NowCoder/2直线过点.cpp.i:
+	$(MAKE) -f CMakeFiles/N2.dir/build.make CMakeFiles/N2.dir/NowCoder/2直线过点.cpp.i
+.PHONY : NowCoder/2直线过点.cpp.i
+
+NowCoder/2直线过点.s: NowCoder/2直线过点.cpp.s
+
+.PHONY : NowCoder/2直线过点.s
+
+# target to generate assembly for a file
+NowCoder/2直线过点.cpp.s:
+	$(MAKE) -f CMakeFiles/N2.dir/build.make CMakeFiles/N2.dir/NowCoder/2直线过点.cpp.s
+.PHONY : NowCoder/2直线过点.cpp.s
+
+NowCoder/3跳跃次数.o: NowCoder/3跳跃次数.cpp.o
+
+.PHONY : NowCoder/3跳跃次数.o
+
+# target to build an object file
+NowCoder/3跳跃次数.cpp.o:
+	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/NowCoder/3跳跃次数.cpp.o
+.PHONY : NowCoder/3跳跃次数.cpp.o
+
+NowCoder/3跳跃次数.i: NowCoder/3跳跃次数.cpp.i
+
+.PHONY : NowCoder/3跳跃次数.i
+
+# target to preprocess a source file
+NowCoder/3跳跃次数.cpp.i:
+	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/NowCoder/3跳跃次数.cpp.i
+.PHONY : NowCoder/3跳跃次数.cpp.i
+
+NowCoder/3跳跃次数.s: NowCoder/3跳跃次数.cpp.s
+
+.PHONY : NowCoder/3跳跃次数.s
+
+# target to generate assembly for a file
+NowCoder/3跳跃次数.cpp.s:
+	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/NowCoder/3跳跃次数.cpp.s
+.PHONY : NowCoder/3跳跃次数.cpp.s
+
+NowCoder/4返回两数组相加最大前k.o: NowCoder/4返回两数组相加最大前k.cpp.o
+
+.PHONY : NowCoder/4返回两数组相加最大前k.o
+
+# target to build an object file
+NowCoder/4返回两数组相加最大前k.cpp.o:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/NowCoder/4返回两数组相加最大前k.cpp.o
+.PHONY : NowCoder/4返回两数组相加最大前k.cpp.o
+
+NowCoder/4返回两数组相加最大前k.i: NowCoder/4返回两数组相加最大前k.cpp.i
+
+.PHONY : NowCoder/4返回两数组相加最大前k.i
+
+# target to preprocess a source file
+NowCoder/4返回两数组相加最大前k.cpp.i:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/NowCoder/4返回两数组相加最大前k.cpp.i
+.PHONY : NowCoder/4返回两数组相加最大前k.cpp.i
+
+NowCoder/4返回两数组相加最大前k.s: NowCoder/4返回两数组相加最大前k.cpp.s
+
+.PHONY : NowCoder/4返回两数组相加最大前k.s
+
+# target to generate assembly for a file
+NowCoder/4返回两数组相加最大前k.cpp.s:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/NowCoder/4返回两数组相加最大前k.cpp.s
+.PHONY : NowCoder/4返回两数组相加最大前k.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -903,27 +1023,30 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... N4"
+	@echo "... N3"
+	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
+	@echo "... 59-2"
 	@echo "... 37"
 	@echo "... 17.10"
+	@echo "... 206"
 	@echo "... 867"
 	@echo "... rebuild_cache"
 	@echo "... 322"
-	@echo "... 1588"
-	@echo "... 18"
-	@echo "... 59-2"
-	@echo "... 209"
-	@echo "... 206"
-	@echo "... 628"
-	@echo "... 15"
 	@echo "... edit_cache"
+	@echo "... 1588"
+	@echo "... 1476"
+	@echo "... 18"
+	@echo "... 209"
+	@echo "... 628"
+	@echo "... ACM"
+	@echo "... 15"
 	@echo "... 27"
 	@echo "... 18-2"
 	@echo "... 142"
 	@echo "... 35"
 	@echo "... 1"
-	@echo "... 1476"
-	@echo "... ACM"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
@@ -978,6 +1101,15 @@ help:
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.o"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.i"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.s"
+	@echo "... NowCoder/2直线过点.o"
+	@echo "... NowCoder/2直线过点.i"
+	@echo "... NowCoder/2直线过点.s"
+	@echo "... NowCoder/3跳跃次数.o"
+	@echo "... NowCoder/3跳跃次数.i"
+	@echo "... NowCoder/3跳跃次数.s"
+	@echo "... NowCoder/4返回两数组相加最大前k.o"
+	@echo "... NowCoder/4返回两数组相加最大前k.i"
+	@echo "... NowCoder/4返回两数组相加最大前k.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

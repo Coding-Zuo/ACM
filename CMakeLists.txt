@@ -27,4 +27,7 @@ add_executable(142 Leetcode/链表/142环形链表2.cpp)
 
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)
+add_executable(N2 NowCoder/2直线过点.cpp)
+add_executable(N3 NowCoder/3跳跃次数.cpp)
+add_executable(N4 NowCoder/4返回两数组相加最大前k.cpp)
 
