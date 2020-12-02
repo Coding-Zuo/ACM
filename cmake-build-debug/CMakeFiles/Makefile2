@@ -53,7 +53,6 @@ CMAKE_BINARY_DIR = /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/N4.dir/all
 all: CMakeFiles/N3.dir/all
 all: CMakeFiles/N2.dir/all
 all: CMakeFiles/203.dir/all
@@ -76,11 +75,12 @@ all: CMakeFiles/18-2.dir/all
 all: CMakeFiles/142.dir/all
 all: CMakeFiles/35.dir/all
 all: CMakeFiles/1.dir/all
+all: CMakeFiles/N4.dir/all
+all: CMakeFiles/707.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/N4.dir/clean
 clean: CMakeFiles/N3.dir/clean
 clean: CMakeFiles/N2.dir/clean
 clean: CMakeFiles/203.dir/clean
@@ -103,6 +103,8 @@ clean: CMakeFiles/18-2.dir/clean
 clean: CMakeFiles/142.dir/clean
 clean: CMakeFiles/35.dir/clean
 clean: CMakeFiles/1.dir/clean
+clean: CMakeFiles/N4.dir/clean
+clean: CMakeFiles/707.dir/clean
 
 .PHONY : clean
 
@@ -112,40 +114,13 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/N4.dir
-
-# All Build rule for target.
-CMakeFiles/N4.dir/all:
-	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/depend
-	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target N4"
-.PHONY : CMakeFiles/N4.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/N4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/N4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/N4.dir/rule
-
-# Convenience name for target.
-N4: CMakeFiles/N4.dir/rule
-
-.PHONY : N4
-
-# clean rule for target.
-CMakeFiles/N4.dir/clean:
-	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/clean
-.PHONY : CMakeFiles/N4.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/N3.dir
 
 # All Build rule for target.
 CMakeFiles/N3.dir/all:
 	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/depend
 	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target N3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target N3"
 .PHONY : CMakeFiles/N3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -172,7 +147,7 @@ CMakeFiles/N3.dir/clean:
 CMakeFiles/N2.dir/all:
 	$(MAKE) -f CMakeFiles/N2.dir/build.make CMakeFiles/N2.dir/depend
 	$(MAKE) -f CMakeFiles/N2.dir/build.make CMakeFiles/N2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target N2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target N2"
 .PHONY : CMakeFiles/N2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -226,7 +201,7 @@ CMakeFiles/203.dir/clean:
 CMakeFiles/LeastRecentlyUsedCache.dir/all:
 	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/depend
 	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target LeastRecentlyUsedCache"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target LeastRecentlyUsedCache"
 .PHONY : CMakeFiles/LeastRecentlyUsedCache.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,7 +336,7 @@ CMakeFiles/206.dir/clean:
 CMakeFiles/867.dir/all:
 	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/depend
 	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target 867"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target 867"
 .PHONY : CMakeFiles/867.dir/all
 
 # Build rule for subdir invocation for target.
@@ -550,7 +525,7 @@ CMakeFiles/628.dir/clean:
 CMakeFiles/ACM.dir/all:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/depend
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=37,38,39 "Built target ACM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=39,40,41 "Built target ACM"
 .PHONY : CMakeFiles/ACM.dir/all
 
 # Build rule for subdir invocation for target.
@@ -731,6 +706,60 @@ CMakeFiles/1.dir/rule: cmake_check_build_system
 CMakeFiles/1.dir/clean:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/clean
 .PHONY : CMakeFiles/1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/N4.dir
+
+# All Build rule for target.
+CMakeFiles/N4.dir/all:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/depend
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target N4"
+.PHONY : CMakeFiles/N4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/N4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/N4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/N4.dir/rule
+
+# Convenience name for target.
+N4: CMakeFiles/N4.dir/rule
+
+.PHONY : N4
+
+# clean rule for target.
+CMakeFiles/N4.dir/clean:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/clean
+.PHONY : CMakeFiles/N4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/707.dir
+
+# All Build rule for target.
+CMakeFiles/707.dir/all:
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/depend
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target 707"
+.PHONY : CMakeFiles/707.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/707.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/707.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/707.dir/rule
+
+# Convenience name for target.
+707: CMakeFiles/707.dir/rule
+
+.PHONY : 707
+
+# clean rule for target.
+CMakeFiles/707.dir/clean:
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/clean
+.PHONY : CMakeFiles/707.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

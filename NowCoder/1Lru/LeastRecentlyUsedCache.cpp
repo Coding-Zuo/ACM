@@ -68,8 +68,8 @@ public:
             node->last->next = node->next;
             node->last->last = node->last;
         }
-        node.last = this->tail;
-        node.next = NULL;
+        node->value = this->tail;
+        node->next = NULL;
         this->tail->next = node;
         this->tail = node;
     }
@@ -95,8 +95,8 @@ public:
 template<class K, class V>
 class MyCache {
 public:
-    unordered_map<K, Node<K, V>> keyNodeMap;
-    NodeDoubleLinkedList<K, V> nodeList;
+    unordered_map<K, Node<K, V>> *keyNodeMap;
+    NodeDoubleLinkedList<K, V> *nodeList;
     int capacity;
 
     MyCache(int capacity) {
@@ -106,7 +106,7 @@ public:
     }
 
     V get(K key) {
-        if (this->keyNodeMap.find(key) != keyNodeMap.end()) {
+        if (this->keyNodeMap.find(key) != keyNodeMap->end()) {
             Node<K, V> res = this->keyNodeMap[key];
             this->nodeList.moveNodeToTail(&res);
             return res.value;
@@ -114,15 +114,15 @@ public:
     }
 
     void set(K key, V value) {
-        if (this->keyNodeMap.find(key) != this->keyNodeMap.end()) {
+        if (this->keyNodeMap->find(key) != this->keyNodeMap->end()) {
             Node<K, V> node = this->keyNodeMap[key];
             node.value = value;
             this->nodeList.moveNodeToTail(&node);
         } else { //新加的记录，有可能出现替换
             Node<K, V> *newNode(key, value);
-            this->keyNodeMap.insert(key, newNode);
+            this->keyNodeMap->insert(key, newNode);
             this->nodeList.addNode(newNode);
-            if (this->keyNodeMap.size() == this->capacity + 1) {
+            if (this->keyNodeMap->size() == this->capacity + 1) {
                 this->removeMostUnusedCache();
             }
         }
@@ -130,7 +130,7 @@ public:
 
     void removeMostUnusedCache() {
 //        Node<K, V> removeNode = this->nodeList.removeHead();
-        this->keyNodeMap.erase(this->nodeList.removeHead()->key);
+        this->keyNodeMap.erase(this->nodeList->removeHead()->key);
     }
 };
 

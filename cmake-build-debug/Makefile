@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named N4
-
-# Build rule for target.
-N4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 N4
-.PHONY : N4
-
-# fast build rule for target.
-N4/fast:
-	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
-.PHONY : N4/fast
-
-#=============================================================================
 # Target rules for targets named N3
 
 # Build rule for target.
@@ -408,6 +395,32 @@ ACM/fast:
 1/fast:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named N4
+
+# Build rule for target.
+N4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N4
+.PHONY : N4
+
+# fast build rule for target.
+N4/fast:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
+.PHONY : N4/fast
+
+#=============================================================================
+# Target rules for targets named 707
+
+# Build rule for target.
+707: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 707
+.PHONY : 707
+
+# fast build rule for target.
+707/fast:
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/build
+.PHONY : 707/fast
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -895,6 +908,33 @@ Leetcode/链表/206翻转链表.cpp.s:
 	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/Leetcode/链表/206翻转链表.cpp.s
 .PHONY : Leetcode/链表/206翻转链表.cpp.s
 
+Leetcode/链表/707设计链表.o: Leetcode/链表/707设计链表.cpp.o
+
+.PHONY : Leetcode/链表/707设计链表.o
+
+# target to build an object file
+Leetcode/链表/707设计链表.cpp.o:
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/Leetcode/链表/707设计链表.cpp.o
+.PHONY : Leetcode/链表/707设计链表.cpp.o
+
+Leetcode/链表/707设计链表.i: Leetcode/链表/707设计链表.cpp.i
+
+.PHONY : Leetcode/链表/707设计链表.i
+
+# target to preprocess a source file
+Leetcode/链表/707设计链表.cpp.i:
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/Leetcode/链表/707设计链表.cpp.i
+.PHONY : Leetcode/链表/707设计链表.cpp.i
+
+Leetcode/链表/707设计链表.s: Leetcode/链表/707设计链表.cpp.s
+
+.PHONY : Leetcode/链表/707设计链表.s
+
+# target to generate assembly for a file
+Leetcode/链表/707设计链表.cpp.s:
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/Leetcode/链表/707设计链表.cpp.s
+.PHONY : Leetcode/链表/707设计链表.cpp.s
+
 NowCoder/1Lru/LeastRecentlyUsedCache.o: NowCoder/1Lru/LeastRecentlyUsedCache.cpp.o
 
 .PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.o
@@ -1063,7 +1103,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... N4"
 	@echo "... N3"
 	@echo "... N2"
 	@echo "... 203"
@@ -1088,6 +1127,8 @@ help:
 	@echo "... 142"
 	@echo "... 35"
 	@echo "... 1"
+	@echo "... N4"
+	@echo "... 707"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
@@ -1142,6 +1183,9 @@ help:
 	@echo "... Leetcode/链表/206翻转链表.o"
 	@echo "... Leetcode/链表/206翻转链表.i"
 	@echo "... Leetcode/链表/206翻转链表.s"
+	@echo "... Leetcode/链表/707设计链表.o"
+	@echo "... Leetcode/链表/707设计链表.i"
+	@echo "... Leetcode/链表/707设计链表.s"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.o"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.i"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.s"
