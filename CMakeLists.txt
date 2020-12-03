@@ -26,6 +26,8 @@ add_executable(206 Leetcode/链表/206翻转链表.cpp)
 add_executable(142 Leetcode/链表/142环形链表2.cpp)
 add_executable(203 Leetcode/链表/203移除元素.cpp)
 add_executable(707 Leetcode/链表/707设计链表.cpp)
+add_executable(206-1 Leetcode/链表/206反转链表.cpp)
+add_executable(445-2 Leetcode/链表/445两数相加2.cpp)
 
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)
