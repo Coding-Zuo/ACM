@@ -150,6 +150,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
+# Target rules for targets named offer35
+
+# Build rule for target.
+offer35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer35
+.PHONY : offer35
+
+# fast build rule for target.
+offer35/fast:
+	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/build
+.PHONY : offer35/fast
+
+#=============================================================================
 # Target rules for targets named 160
 
 # Build rule for target.
@@ -447,6 +460,19 @@ ACM/fast:
 35/fast:
 	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
 .PHONY : 35/fast
+
+#=============================================================================
+# Target rules for targets named 21
+
+# Build rule for target.
+21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 21
+.PHONY : 21
+
+# fast build rule for target.
+21/fast:
+	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/build
+.PHONY : 21/fast
 
 #=============================================================================
 # Target rules for targets named 1
@@ -1054,6 +1080,33 @@ Leetcode/链表/206翻转链表.cpp.s:
 	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/Leetcode/链表/206翻转链表.cpp.s
 .PHONY : Leetcode/链表/206翻转链表.cpp.s
 
+Leetcode/链表/21合并两个有序链表.o: Leetcode/链表/21合并两个有序链表.cpp.o
+
+.PHONY : Leetcode/链表/21合并两个有序链表.o
+
+# target to build an object file
+Leetcode/链表/21合并两个有序链表.cpp.o:
+	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/Leetcode/链表/21合并两个有序链表.cpp.o
+.PHONY : Leetcode/链表/21合并两个有序链表.cpp.o
+
+Leetcode/链表/21合并两个有序链表.i: Leetcode/链表/21合并两个有序链表.cpp.i
+
+.PHONY : Leetcode/链表/21合并两个有序链表.i
+
+# target to preprocess a source file
+Leetcode/链表/21合并两个有序链表.cpp.i:
+	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/Leetcode/链表/21合并两个有序链表.cpp.i
+.PHONY : Leetcode/链表/21合并两个有序链表.cpp.i
+
+Leetcode/链表/21合并两个有序链表.s: Leetcode/链表/21合并两个有序链表.cpp.s
+
+.PHONY : Leetcode/链表/21合并两个有序链表.s
+
+# target to generate assembly for a file
+Leetcode/链表/21合并两个有序链表.cpp.s:
+	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/Leetcode/链表/21合并两个有序链表.cpp.s
+.PHONY : Leetcode/链表/21合并两个有序链表.cpp.s
+
 Leetcode/链表/328奇偶链表.o: Leetcode/链表/328奇偶链表.cpp.o
 
 .PHONY : Leetcode/链表/328奇偶链表.o
@@ -1134,6 +1187,33 @@ Leetcode/链表/707设计链表.s: Leetcode/链表/707设计链表.cpp.s
 Leetcode/链表/707设计链表.cpp.s:
 	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/Leetcode/链表/707设计链表.cpp.s
 .PHONY : Leetcode/链表/707设计链表.cpp.s
+
+Leetcode/链表/剑指Offer35复杂链表的复制.o: Leetcode/链表/剑指Offer35复杂链表的复制.cpp.o
+
+.PHONY : Leetcode/链表/剑指Offer35复杂链表的复制.o
+
+# target to build an object file
+Leetcode/链表/剑指Offer35复杂链表的复制.cpp.o:
+	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/Leetcode/链表/剑指Offer35复杂链表的复制.cpp.o
+.PHONY : Leetcode/链表/剑指Offer35复杂链表的复制.cpp.o
+
+Leetcode/链表/剑指Offer35复杂链表的复制.i: Leetcode/链表/剑指Offer35复杂链表的复制.cpp.i
+
+.PHONY : Leetcode/链表/剑指Offer35复杂链表的复制.i
+
+# target to preprocess a source file
+Leetcode/链表/剑指Offer35复杂链表的复制.cpp.i:
+	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/Leetcode/链表/剑指Offer35复杂链表的复制.cpp.i
+.PHONY : Leetcode/链表/剑指Offer35复杂链表的复制.cpp.i
+
+Leetcode/链表/剑指Offer35复杂链表的复制.s: Leetcode/链表/剑指Offer35复杂链表的复制.cpp.s
+
+.PHONY : Leetcode/链表/剑指Offer35复杂链表的复制.s
+
+# target to generate assembly for a file
+Leetcode/链表/剑指Offer35复杂链表的复制.cpp.s:
+	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/Leetcode/链表/剑指Offer35复杂链表的复制.cpp.s
+.PHONY : Leetcode/链表/剑指Offer35复杂链表的复制.cpp.s
 
 NowCoder/1Lru/LeastRecentlyUsedCache.o: NowCoder/1Lru/LeastRecentlyUsedCache.cpp.o
 
@@ -1306,6 +1386,7 @@ help:
 	@echo "... N3"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
+	@echo "... offer35"
 	@echo "... 160"
 	@echo "... 0206"
 	@echo "... 328"
@@ -1331,6 +1412,7 @@ help:
 	@echo "... 18-2"
 	@echo "... 142"
 	@echo "... 35"
+	@echo "... 21"
 	@echo "... 1"
 	@echo "... N4"
 	@echo "... 707"
@@ -1397,6 +1479,9 @@ help:
 	@echo "... Leetcode/链表/206翻转链表.o"
 	@echo "... Leetcode/链表/206翻转链表.i"
 	@echo "... Leetcode/链表/206翻转链表.s"
+	@echo "... Leetcode/链表/21合并两个有序链表.o"
+	@echo "... Leetcode/链表/21合并两个有序链表.i"
+	@echo "... Leetcode/链表/21合并两个有序链表.s"
 	@echo "... Leetcode/链表/328奇偶链表.o"
 	@echo "... Leetcode/链表/328奇偶链表.i"
 	@echo "... Leetcode/链表/328奇偶链表.s"
@@ -1406,6 +1491,9 @@ help:
 	@echo "... Leetcode/链表/707设计链表.o"
 	@echo "... Leetcode/链表/707设计链表.i"
 	@echo "... Leetcode/链表/707设计链表.s"
+	@echo "... Leetcode/链表/剑指Offer35复杂链表的复制.o"
+	@echo "... Leetcode/链表/剑指Offer35复杂链表的复制.i"
+	@echo "... Leetcode/链表/剑指Offer35复杂链表的复制.s"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.o"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.i"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.s"

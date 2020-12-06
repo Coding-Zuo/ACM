@@ -31,6 +31,8 @@ add_executable(445-2 Leetcode/链表/445两数相加2.cpp)
 add_executable(328 Leetcode/链表/328奇偶链表.cpp)
 add_executable(0206 Leetcode/链表/0206回文链表.cpp)
 add_executable(160 Leetcode/链表/160相交链表.cpp)
+add_executable(21 Leetcode/链表/21合并两个有序链表.cpp)
+add_executable(offer35 Leetcode/链表/剑指Offer35复杂链表的复制.cpp)
 
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)
