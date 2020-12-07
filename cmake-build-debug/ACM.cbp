@@ -59,6 +59,48 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LeastRecentlyUsedCache">
+				<Option output="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/LeastRecentlyUsedCache" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeastRecentlyUsedCache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeastRecentlyUsedCache/fast">
+				<Option output="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/LeastRecentlyUsedCache" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeastRecentlyUsedCache/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="N2">
 				<Option output="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/N2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug"/>
@@ -101,8 +143,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LeastRecentlyUsedCache">
-				<Option output="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/LeastRecentlyUsedCache" prefix_auto="0" extension_auto="0"/>
+			<Target title="0204">
+				<Option output="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/0204" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -116,14 +158,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeastRecentlyUsedCache"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 0204"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LeastRecentlyUsedCache/fast">
-				<Option output="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/LeastRecentlyUsedCache" prefix_auto="0" extension_auto="0"/>
+			<Target title="0204/fast">
+				<Option output="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/0204" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -137,7 +179,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeastRecentlyUsedCache/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 0204/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1417,6 +1459,9 @@
 		</Unit>
 		<Unit filename="/Users/zuoyuhui/CLionProjects/ACM/Leetcode/链表/剑指Offer35复杂链表的复制.cpp">
 			<Option target="offer35"/>
+		</Unit>
+		<Unit filename="/Users/zuoyuhui/CLionProjects/ACM/Leetcode/链表/面试题0204分割链表.cpp">
+			<Option target="0204"/>
 		</Unit>
 		<Unit filename="/Users/zuoyuhui/CLionProjects/ACM/NowCoder/1Lru/LeastRecentlyUsedCache.cpp">
 			<Option target="LeastRecentlyUsedCache"/>

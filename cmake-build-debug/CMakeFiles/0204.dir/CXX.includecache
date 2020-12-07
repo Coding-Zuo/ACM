@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zuoyuhui/CLionProjects/ACM/Leetcode/链表/面试题0204分割链表.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+unordered_map
+-
+numeric
+-
+unordered_set
+-
+
