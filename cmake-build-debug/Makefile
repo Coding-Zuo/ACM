@@ -475,6 +475,19 @@ ACM/fast:
 .PHONY : 35/fast
 
 #=============================================================================
+# Target rules for targets named 1669
+
+# Build rule for target.
+1669: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1669
+.PHONY : 1669
+
+# fast build rule for target.
+1669/fast:
+	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/build
+.PHONY : 1669/fast
+
+#=============================================================================
 # Target rules for targets named 21
 
 # Build rule for target.
@@ -1012,6 +1025,33 @@ Leetcode/链表/160相交链表.cpp.s:
 	$(MAKE) -f CMakeFiles/160.dir/build.make CMakeFiles/160.dir/Leetcode/链表/160相交链表.cpp.s
 .PHONY : Leetcode/链表/160相交链表.cpp.s
 
+Leetcode/链表/1669合并两个链表.o: Leetcode/链表/1669合并两个链表.cpp.o
+
+.PHONY : Leetcode/链表/1669合并两个链表.o
+
+# target to build an object file
+Leetcode/链表/1669合并两个链表.cpp.o:
+	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/Leetcode/链表/1669合并两个链表.cpp.o
+.PHONY : Leetcode/链表/1669合并两个链表.cpp.o
+
+Leetcode/链表/1669合并两个链表.i: Leetcode/链表/1669合并两个链表.cpp.i
+
+.PHONY : Leetcode/链表/1669合并两个链表.i
+
+# target to preprocess a source file
+Leetcode/链表/1669合并两个链表.cpp.i:
+	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/Leetcode/链表/1669合并两个链表.cpp.i
+.PHONY : Leetcode/链表/1669合并两个链表.cpp.i
+
+Leetcode/链表/1669合并两个链表.s: Leetcode/链表/1669合并两个链表.cpp.s
+
+.PHONY : Leetcode/链表/1669合并两个链表.s
+
+# target to generate assembly for a file
+Leetcode/链表/1669合并两个链表.cpp.s:
+	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/Leetcode/链表/1669合并两个链表.cpp.s
+.PHONY : Leetcode/链表/1669合并两个链表.cpp.s
+
 Leetcode/链表/203移除元素.o: Leetcode/链表/203移除元素.cpp.o
 
 .PHONY : Leetcode/链表/203移除元素.o
@@ -1453,6 +1493,7 @@ help:
 	@echo "... 18-2"
 	@echo "... 142"
 	@echo "... 35"
+	@echo "... 1669"
 	@echo "... 21"
 	@echo "... 1"
 	@echo "... N4"
@@ -1511,6 +1552,9 @@ help:
 	@echo "... Leetcode/链表/160相交链表.o"
 	@echo "... Leetcode/链表/160相交链表.i"
 	@echo "... Leetcode/链表/160相交链表.s"
+	@echo "... Leetcode/链表/1669合并两个链表.o"
+	@echo "... Leetcode/链表/1669合并两个链表.i"
+	@echo "... Leetcode/链表/1669合并两个链表.s"
 	@echo "... Leetcode/链表/203移除元素.o"
 	@echo "... Leetcode/链表/203移除元素.i"
 	@echo "... Leetcode/链表/203移除元素.s"
