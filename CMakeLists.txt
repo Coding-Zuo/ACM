@@ -23,6 +23,8 @@ add_executable(37 Leetcode/回溯/37解数独.cpp)
 
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)
+add_executable(25 Leetcode/链表/25K个一组翻转链表.cpp)
+add_executable(offer22 Leetcode/链表/剑指Offer22链表中倒数第k个节点.cpp)
 add_executable(142 Leetcode/链表/142环形链表2.cpp)
 add_executable(203 Leetcode/链表/203移除元素.cpp)
 add_executable(707 Leetcode/链表/707设计链表.cpp)
