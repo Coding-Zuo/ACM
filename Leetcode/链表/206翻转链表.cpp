@@ -32,6 +32,30 @@ public:
         }
         return pre;
     }
+
+    ListNode *reverseList1(ListNode *head) {
+        if (head == NULL || head->next == NULL) {
+            return head;
+        }
+        ListNode *ret = reverseList(head->next);
+        head->next->next = head;
+        head->next = NULL;
+        return ret;
+    }
+
+    ListNode *reverseList2(ListNode *head) {
+        if (head == NULL) { return NULL; }
+        ListNode *cur = head;
+        while (head->next != NULL) {
+            ListNode *t = head->next->next;
+            head->next->next = cur;
+            cur = head->next;
+            head->next = t;
+        }
+        return cur;
+    }
+
+
 };
 
 

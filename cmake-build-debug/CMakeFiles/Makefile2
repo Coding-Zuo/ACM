@@ -76,6 +76,7 @@ all: CMakeFiles/1588.dir/all
 all: CMakeFiles/1476.dir/all
 all: CMakeFiles/18.dir/all
 all: CMakeFiles/209.dir/all
+all: CMakeFiles/offer04.dir/all
 all: CMakeFiles/628.dir/all
 all: CMakeFiles/ACM.dir/all
 all: CMakeFiles/15.dir/all
@@ -115,6 +116,7 @@ clean: CMakeFiles/1588.dir/clean
 clean: CMakeFiles/1476.dir/clean
 clean: CMakeFiles/18.dir/clean
 clean: CMakeFiles/209.dir/clean
+clean: CMakeFiles/offer04.dir/clean
 clean: CMakeFiles/628.dir/clean
 clean: CMakeFiles/ACM.dir/clean
 clean: CMakeFiles/15.dir/clean
@@ -250,7 +252,7 @@ CMakeFiles/0204.dir/clean:
 CMakeFiles/offer35.dir/all:
 	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/depend
 	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=70,71 "Built target offer35"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=72,73 "Built target offer35"
 .PHONY : CMakeFiles/offer35.dir/all
 
 # Build rule for subdir invocation for target.
@@ -493,7 +495,7 @@ CMakeFiles/37.dir/clean:
 CMakeFiles/offer22.dir/all:
 	$(MAKE) -f CMakeFiles/offer22.dir/build.make CMakeFiles/offer22.dir/depend
 	$(MAKE) -f CMakeFiles/offer22.dir/build.make CMakeFiles/offer22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target offer22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=70,71 "Built target offer22"
 .PHONY : CMakeFiles/offer22.dir/all
 
 # Build rule for subdir invocation for target.
@@ -755,6 +757,33 @@ CMakeFiles/209.dir/rule: cmake_check_build_system
 CMakeFiles/209.dir/clean:
 	$(MAKE) -f CMakeFiles/209.dir/build.make CMakeFiles/209.dir/clean
 .PHONY : CMakeFiles/209.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/offer04.dir
+
+# All Build rule for target.
+CMakeFiles/offer04.dir/all:
+	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/depend
+	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target offer04"
+.PHONY : CMakeFiles/offer04.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/offer04.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/offer04.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/offer04.dir/rule
+
+# Convenience name for target.
+offer04: CMakeFiles/offer04.dir/rule
+
+.PHONY : offer04
+
+# clean rule for target.
+CMakeFiles/offer04.dir/clean:
+	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/clean
+.PHONY : CMakeFiles/offer04.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/628.dir

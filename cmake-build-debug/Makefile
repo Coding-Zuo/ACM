@@ -410,6 +410,19 @@ offer22/fast:
 .PHONY : 209/fast
 
 #=============================================================================
+# Target rules for targets named offer04
+
+# Build rule for target.
+offer04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer04
+.PHONY : offer04
+
+# fast build rule for target.
+offer04/fast:
+	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/build
+.PHONY : offer04/fast
+
+#=============================================================================
 # Target rules for targets named 628
 
 # Build rule for target.
@@ -969,6 +982,33 @@ Leetcode/数组/867转置矩阵.s: Leetcode/数组/867转置矩阵.cpp.s
 Leetcode/数组/867转置矩阵.cpp.s:
 	$(MAKE) -f CMakeFiles/867.dir/build.make CMakeFiles/867.dir/Leetcode/数组/867转置矩阵.cpp.s
 .PHONY : Leetcode/数组/867转置矩阵.cpp.s
+
+Leetcode/数组/剑指Offer04二维数组中的查找.o: Leetcode/数组/剑指Offer04二维数组中的查找.cpp.o
+
+.PHONY : Leetcode/数组/剑指Offer04二维数组中的查找.o
+
+# target to build an object file
+Leetcode/数组/剑指Offer04二维数组中的查找.cpp.o:
+	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/Leetcode/数组/剑指Offer04二维数组中的查找.cpp.o
+.PHONY : Leetcode/数组/剑指Offer04二维数组中的查找.cpp.o
+
+Leetcode/数组/剑指Offer04二维数组中的查找.i: Leetcode/数组/剑指Offer04二维数组中的查找.cpp.i
+
+.PHONY : Leetcode/数组/剑指Offer04二维数组中的查找.i
+
+# target to preprocess a source file
+Leetcode/数组/剑指Offer04二维数组中的查找.cpp.i:
+	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/Leetcode/数组/剑指Offer04二维数组中的查找.cpp.i
+.PHONY : Leetcode/数组/剑指Offer04二维数组中的查找.cpp.i
+
+Leetcode/数组/剑指Offer04二维数组中的查找.s: Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s
+
+.PHONY : Leetcode/数组/剑指Offer04二维数组中的查找.s
+
+# target to generate assembly for a file
+Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s:
+	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s
+.PHONY : Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s
 
 Leetcode/链表/0206回文链表.o: Leetcode/链表/0206回文链表.cpp.o
 
@@ -1568,6 +1608,7 @@ help:
 	@echo "... 1476"
 	@echo "... 18"
 	@echo "... 209"
+	@echo "... offer04"
 	@echo "... 628"
 	@echo "... ACM"
 	@echo "... 15"
@@ -1625,6 +1666,9 @@ help:
 	@echo "... Leetcode/数组/867转置矩阵.o"
 	@echo "... Leetcode/数组/867转置矩阵.i"
 	@echo "... Leetcode/数组/867转置矩阵.s"
+	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.o"
+	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.i"
+	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.s"
 	@echo "... Leetcode/链表/0206回文链表.o"
 	@echo "... Leetcode/链表/0206回文链表.i"
 	@echo "... Leetcode/链表/0206回文链表.s"

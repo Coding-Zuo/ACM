@@ -75,6 +75,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1476.dir/DependInfo.cmake"
   "CMakeFiles/18.dir/DependInfo.cmake"
   "CMakeFiles/209.dir/DependInfo.cmake"
+  "CMakeFiles/offer04.dir/DependInfo.cmake"
   "CMakeFiles/628.dir/DependInfo.cmake"
   "CMakeFiles/ACM.dir/DependInfo.cmake"
   "CMakeFiles/15.dir/DependInfo.cmake"
