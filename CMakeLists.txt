@@ -18,12 +18,14 @@ add_executable(1476 Leetcode/数组/1476子矩形查询.cpp)
 add_executable(17.10 Leetcode/数组/17.10主要元素.cpp)
 add_executable(1588 Leetcode/数组/1588所有奇数长度子数组的和.cpp)
 add_executable(offer04 Leetcode/数组/剑指Offer04二维数组中的查找.cpp)
+add_executable(offer53 Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp)
 
 add_executable(322 Leetcode/回溯/322重新安排行程.cpp)
 add_executable(37 Leetcode/回溯/37解数独.cpp)
 
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)
+add_executable(61 Leetcode/链表/61旋转链表.cpp)
 add_executable(25 Leetcode/链表/25K个一组翻转链表.cpp)
 add_executable(offer22 Leetcode/链表/剑指Offer22链表中倒数第k个节点.cpp)
 add_executable(142 Leetcode/链表/142环形链表2.cpp)

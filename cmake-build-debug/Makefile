@@ -215,17 +215,30 @@ offer35/fast:
 .PHONY : 328/fast
 
 #=============================================================================
-# Target rules for targets named 206-1
+# Target rules for targets named N4
 
 # Build rule for target.
-206-1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 206-1
-.PHONY : 206-1
+N4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N4
+.PHONY : N4
 
 # fast build rule for target.
-206-1/fast:
-	$(MAKE) -f CMakeFiles/206-1.dir/build.make CMakeFiles/206-1.dir/build
-.PHONY : 206-1/fast
+N4/fast:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
+.PHONY : N4/fast
+
+#=============================================================================
+# Target rules for targets named 707
+
+# Build rule for target.
+707: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 707
+.PHONY : 707
+
+# fast build rule for target.
+707/fast:
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/build
+.PHONY : 707/fast
 
 #=============================================================================
 # Target rules for targets named 203
@@ -254,6 +267,32 @@ offer35/fast:
 .PHONY : 25/fast
 
 #=============================================================================
+# Target rules for targets named 35
+
+# Build rule for target.
+35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 35
+.PHONY : 35
+
+# fast build rule for target.
+35/fast:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
+.PHONY : 35/fast
+
+#=============================================================================
+# Target rules for targets named 61
+
+# Build rule for target.
+61: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 61
+.PHONY : 61
+
+# fast build rule for target.
+61/fast:
+	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/build
+.PHONY : 61/fast
+
+#=============================================================================
 # Target rules for targets named 59-2
 
 # Build rule for target.
@@ -278,6 +317,32 @@ offer35/fast:
 37/fast:
 	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/build
 .PHONY : 37/fast
+
+#=============================================================================
+# Target rules for targets named 206-1
+
+# Build rule for target.
+206-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206-1
+.PHONY : 206-1
+
+# fast build rule for target.
+206-1/fast:
+	$(MAKE) -f CMakeFiles/206-1.dir/build.make CMakeFiles/206-1.dir/build
+.PHONY : 206-1/fast
+
+#=============================================================================
+# Target rules for targets named offer53
+
+# Build rule for target.
+offer53: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer53
+.PHONY : offer53
+
+# fast build rule for target.
+offer53/fast:
+	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/build
+.PHONY : offer53/fast
 
 #=============================================================================
 # Target rules for targets named offer22
@@ -501,19 +566,6 @@ ACM/fast:
 .PHONY : 142/fast
 
 #=============================================================================
-# Target rules for targets named 35
-
-# Build rule for target.
-35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 35
-.PHONY : 35
-
-# fast build rule for target.
-35/fast:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
-.PHONY : 35/fast
-
-#=============================================================================
 # Target rules for targets named 1669
 
 # Build rule for target.
@@ -551,32 +603,6 @@ ACM/fast:
 1/fast:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
-
-#=============================================================================
-# Target rules for targets named N4
-
-# Build rule for target.
-N4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 N4
-.PHONY : N4
-
-# fast build rule for target.
-N4/fast:
-	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
-.PHONY : N4/fast
-
-#=============================================================================
-# Target rules for targets named 707
-
-# Build rule for target.
-707: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 707
-.PHONY : 707
-
-# fast build rule for target.
-707/fast:
-	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/build
-.PHONY : 707/fast
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -1010,6 +1036,33 @@ Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s:
 	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s
 .PHONY : Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s
 
+Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.o: Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.o
+
+.PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.o
+
+# target to build an object file
+Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.o:
+	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.o
+.PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.o
+
+Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.i: Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.i
+
+.PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.i
+
+# target to preprocess a source file
+Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.i:
+	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.i
+.PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.i
+
+Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.s: Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s
+
+.PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.s
+
+# target to generate assembly for a file
+Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s:
+	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s
+.PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s
+
 Leetcode/链表/0206回文链表.o: Leetcode/链表/0206回文链表.cpp.o
 
 .PHONY : Leetcode/链表/0206回文链表.o
@@ -1307,6 +1360,33 @@ Leetcode/链表/445两数相加2.cpp.s:
 	$(MAKE) -f CMakeFiles/445-2.dir/build.make CMakeFiles/445-2.dir/Leetcode/链表/445两数相加2.cpp.s
 .PHONY : Leetcode/链表/445两数相加2.cpp.s
 
+Leetcode/链表/61旋转链表.o: Leetcode/链表/61旋转链表.cpp.o
+
+.PHONY : Leetcode/链表/61旋转链表.o
+
+# target to build an object file
+Leetcode/链表/61旋转链表.cpp.o:
+	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/Leetcode/链表/61旋转链表.cpp.o
+.PHONY : Leetcode/链表/61旋转链表.cpp.o
+
+Leetcode/链表/61旋转链表.i: Leetcode/链表/61旋转链表.cpp.i
+
+.PHONY : Leetcode/链表/61旋转链表.i
+
+# target to preprocess a source file
+Leetcode/链表/61旋转链表.cpp.i:
+	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/Leetcode/链表/61旋转链表.cpp.i
+.PHONY : Leetcode/链表/61旋转链表.cpp.i
+
+Leetcode/链表/61旋转链表.s: Leetcode/链表/61旋转链表.cpp.s
+
+.PHONY : Leetcode/链表/61旋转链表.s
+
+# target to generate assembly for a file
+Leetcode/链表/61旋转链表.cpp.s:
+	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/Leetcode/链表/61旋转链表.cpp.s
+.PHONY : Leetcode/链表/61旋转链表.cpp.s
+
 Leetcode/链表/707设计链表.o: Leetcode/链表/707设计链表.cpp.o
 
 .PHONY : Leetcode/链表/707设计链表.o
@@ -1591,11 +1671,16 @@ help:
 	@echo "... 160"
 	@echo "... 0206"
 	@echo "... 328"
-	@echo "... 206-1"
+	@echo "... N4"
+	@echo "... 707"
 	@echo "... 203"
 	@echo "... 25"
+	@echo "... 35"
+	@echo "... 61"
 	@echo "... 59-2"
 	@echo "... 37"
+	@echo "... 206-1"
+	@echo "... offer53"
 	@echo "... offer22"
 	@echo "... 17.10"
 	@echo "... 206"
@@ -1615,12 +1700,9 @@ help:
 	@echo "... 27"
 	@echo "... 18-2"
 	@echo "... 142"
-	@echo "... 35"
 	@echo "... 1669"
 	@echo "... 21"
 	@echo "... 1"
-	@echo "... N4"
-	@echo "... 707"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
@@ -1669,6 +1751,9 @@ help:
 	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.o"
 	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.i"
 	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.s"
+	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.o"
+	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.i"
+	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.s"
 	@echo "... Leetcode/链表/0206回文链表.o"
 	@echo "... Leetcode/链表/0206回文链表.i"
 	@echo "... Leetcode/链表/0206回文链表.s"
@@ -1702,6 +1787,9 @@ help:
 	@echo "... Leetcode/链表/445两数相加2.o"
 	@echo "... Leetcode/链表/445两数相加2.i"
 	@echo "... Leetcode/链表/445两数相加2.s"
+	@echo "... Leetcode/链表/61旋转链表.o"
+	@echo "... Leetcode/链表/61旋转链表.i"
+	@echo "... Leetcode/链表/61旋转链表.s"
 	@echo "... Leetcode/链表/707设计链表.o"
 	@echo "... Leetcode/链表/707设计链表.i"
 	@echo "... Leetcode/链表/707设计链表.s"
