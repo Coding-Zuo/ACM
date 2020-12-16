@@ -9,6 +9,7 @@
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/N4.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/707.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/203.dir
+/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/142.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/25.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/35.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/61.dir
@@ -27,6 +28,7 @@
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/1588.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/1476.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/18.dir
+/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/56.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/209.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/offer04.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/628.dir
@@ -34,7 +36,6 @@
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/15.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/27.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/18-2.dir
-/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/142.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/1669.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/21.dir
 /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/1.dir

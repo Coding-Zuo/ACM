@@ -254,6 +254,19 @@ N4/fast:
 .PHONY : 203/fast
 
 #=============================================================================
+# Target rules for targets named 142
+
+# Build rule for target.
+142: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 142
+.PHONY : 142
+
+# fast build rule for target.
+142/fast:
+	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
+.PHONY : 142/fast
+
+#=============================================================================
 # Target rules for targets named 25
 
 # Build rule for target.
@@ -462,6 +475,19 @@ offer22/fast:
 .PHONY : 18/fast
 
 #=============================================================================
+# Target rules for targets named 56
+
+# Build rule for target.
+56: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 56
+.PHONY : 56
+
+# fast build rule for target.
+56/fast:
+	$(MAKE) -f CMakeFiles/56.dir/build.make CMakeFiles/56.dir/build
+.PHONY : 56/fast
+
+#=============================================================================
 # Target rules for targets named 209
 
 # Build rule for target.
@@ -551,19 +577,6 @@ ACM/fast:
 18-2/fast:
 	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/build
 .PHONY : 18-2/fast
-
-#=============================================================================
-# Target rules for targets named 142
-
-# Build rule for target.
-142: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 142
-.PHONY : 142
-
-# fast build rule for target.
-142/fast:
-	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
-.PHONY : 142/fast
 
 #=============================================================================
 # Target rules for targets named 1669
@@ -927,6 +940,33 @@ Leetcode/数组/35搜索插入位置.s: Leetcode/数组/35搜索插入位置.cpp
 Leetcode/数组/35搜索插入位置.cpp.s:
 	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/Leetcode/数组/35搜索插入位置.cpp.s
 .PHONY : Leetcode/数组/35搜索插入位置.cpp.s
+
+Leetcode/数组/56合并区间.o: Leetcode/数组/56合并区间.cpp.o
+
+.PHONY : Leetcode/数组/56合并区间.o
+
+# target to build an object file
+Leetcode/数组/56合并区间.cpp.o:
+	$(MAKE) -f CMakeFiles/56.dir/build.make CMakeFiles/56.dir/Leetcode/数组/56合并区间.cpp.o
+.PHONY : Leetcode/数组/56合并区间.cpp.o
+
+Leetcode/数组/56合并区间.i: Leetcode/数组/56合并区间.cpp.i
+
+.PHONY : Leetcode/数组/56合并区间.i
+
+# target to preprocess a source file
+Leetcode/数组/56合并区间.cpp.i:
+	$(MAKE) -f CMakeFiles/56.dir/build.make CMakeFiles/56.dir/Leetcode/数组/56合并区间.cpp.i
+.PHONY : Leetcode/数组/56合并区间.cpp.i
+
+Leetcode/数组/56合并区间.s: Leetcode/数组/56合并区间.cpp.s
+
+.PHONY : Leetcode/数组/56合并区间.s
+
+# target to generate assembly for a file
+Leetcode/数组/56合并区间.cpp.s:
+	$(MAKE) -f CMakeFiles/56.dir/build.make CMakeFiles/56.dir/Leetcode/数组/56合并区间.cpp.s
+.PHONY : Leetcode/数组/56合并区间.cpp.s
 
 Leetcode/数组/59螺旋矩阵.o: Leetcode/数组/59螺旋矩阵.cpp.o
 
@@ -1674,6 +1714,7 @@ help:
 	@echo "... N4"
 	@echo "... 707"
 	@echo "... 203"
+	@echo "... 142"
 	@echo "... 25"
 	@echo "... 35"
 	@echo "... 61"
@@ -1692,6 +1733,7 @@ help:
 	@echo "... 1588"
 	@echo "... 1476"
 	@echo "... 18"
+	@echo "... 56"
 	@echo "... 209"
 	@echo "... offer04"
 	@echo "... 628"
@@ -1699,7 +1741,6 @@ help:
 	@echo "... 15"
 	@echo "... 27"
 	@echo "... 18-2"
-	@echo "... 142"
 	@echo "... 1669"
 	@echo "... 21"
 	@echo "... 1"
@@ -1739,6 +1780,9 @@ help:
 	@echo "... Leetcode/数组/35搜索插入位置.o"
 	@echo "... Leetcode/数组/35搜索插入位置.i"
 	@echo "... Leetcode/数组/35搜索插入位置.s"
+	@echo "... Leetcode/数组/56合并区间.o"
+	@echo "... Leetcode/数组/56合并区间.i"
+	@echo "... Leetcode/数组/56合并区间.s"
 	@echo "... Leetcode/数组/59螺旋矩阵.o"
 	@echo "... Leetcode/数组/59螺旋矩阵.i"
 	@echo "... Leetcode/数组/59螺旋矩阵.s"

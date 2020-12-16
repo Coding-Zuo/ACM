@@ -18,6 +18,7 @@ add_executable(1476 Leetcode/数组/1476子矩形查询.cpp)
 add_executable(17.10 Leetcode/数组/17.10主要元素.cpp)
 add_executable(1588 Leetcode/数组/1588所有奇数长度子数组的和.cpp)
 add_executable(offer04 Leetcode/数组/剑指Offer04二维数组中的查找.cpp)
+add_executable(56 Leetcode/数组/56合并区间.cpp)
 add_executable(offer53 Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp)
 
 add_executable(322 Leetcode/回溯/322重新安排行程.cpp)
