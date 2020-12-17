@@ -267,6 +267,19 @@ N4/fast:
 .PHONY : 142/fast
 
 #=============================================================================
+# Target rules for targets named offer22
+
+# Build rule for target.
+offer22: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer22
+.PHONY : offer22
+
+# fast build rule for target.
+offer22/fast:
+	$(MAKE) -f CMakeFiles/offer22.dir/build.make CMakeFiles/offer22.dir/build
+.PHONY : offer22/fast
+
+#=============================================================================
 # Target rules for targets named 25
 
 # Build rule for target.
@@ -358,19 +371,6 @@ offer53/fast:
 .PHONY : offer53/fast
 
 #=============================================================================
-# Target rules for targets named offer22
-
-# Build rule for target.
-offer22: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 offer22
-.PHONY : offer22
-
-# fast build rule for target.
-offer22/fast:
-	$(MAKE) -f CMakeFiles/offer22.dir/build.make CMakeFiles/offer22.dir/build
-.PHONY : offer22/fast
-
-#=============================================================================
 # Target rules for targets named 17.10
 
 # Build rule for target.
@@ -434,6 +434,32 @@ offer22/fast:
 322/fast:
 	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/build
 .PHONY : 322/fast
+
+#=============================================================================
+# Target rules for targets named 27
+
+# Build rule for target.
+27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 27
+.PHONY : 27
+
+# fast build rule for target.
+27/fast:
+	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/build
+.PHONY : 27/fast
+
+#=============================================================================
+# Target rules for targets named 73
+
+# Build rule for target.
+73: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 73
+.PHONY : 73
+
+# fast build rule for target.
+73/fast:
+	$(MAKE) -f CMakeFiles/73.dir/build.make CMakeFiles/73.dir/build
+.PHONY : 73/fast
 
 #=============================================================================
 # Target rules for targets named 1588
@@ -551,19 +577,6 @@ ACM/fast:
 15/fast:
 	$(MAKE) -f CMakeFiles/15.dir/build.make CMakeFiles/15.dir/build
 .PHONY : 15/fast
-
-#=============================================================================
-# Target rules for targets named 27
-
-# Build rule for target.
-27: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 27
-.PHONY : 27
-
-# fast build rule for target.
-27/fast:
-	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/build
-.PHONY : 27/fast
 
 #=============================================================================
 # Target rules for targets named 18-2
@@ -1021,6 +1034,33 @@ Leetcode/数组/628三个数的最大乘积.s: Leetcode/数组/628三个数的�
 Leetcode/数组/628三个数的最大乘积.cpp.s:
 	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/Leetcode/数组/628三个数的最大乘积.cpp.s
 .PHONY : Leetcode/数组/628三个数的最大乘积.cpp.s
+
+Leetcode/数组/73矩阵置零.o: Leetcode/数组/73矩阵置零.cpp.o
+
+.PHONY : Leetcode/数组/73矩阵置零.o
+
+# target to build an object file
+Leetcode/数组/73矩阵置零.cpp.o:
+	$(MAKE) -f CMakeFiles/73.dir/build.make CMakeFiles/73.dir/Leetcode/数组/73矩阵置零.cpp.o
+.PHONY : Leetcode/数组/73矩阵置零.cpp.o
+
+Leetcode/数组/73矩阵置零.i: Leetcode/数组/73矩阵置零.cpp.i
+
+.PHONY : Leetcode/数组/73矩阵置零.i
+
+# target to preprocess a source file
+Leetcode/数组/73矩阵置零.cpp.i:
+	$(MAKE) -f CMakeFiles/73.dir/build.make CMakeFiles/73.dir/Leetcode/数组/73矩阵置零.cpp.i
+.PHONY : Leetcode/数组/73矩阵置零.cpp.i
+
+Leetcode/数组/73矩阵置零.s: Leetcode/数组/73矩阵置零.cpp.s
+
+.PHONY : Leetcode/数组/73矩阵置零.s
+
+# target to generate assembly for a file
+Leetcode/数组/73矩阵置零.cpp.s:
+	$(MAKE) -f CMakeFiles/73.dir/build.make CMakeFiles/73.dir/Leetcode/数组/73矩阵置零.cpp.s
+.PHONY : Leetcode/数组/73矩阵置零.cpp.s
 
 Leetcode/数组/867转置矩阵.o: Leetcode/数组/867转置矩阵.cpp.o
 
@@ -1715,6 +1755,7 @@ help:
 	@echo "... 707"
 	@echo "... 203"
 	@echo "... 142"
+	@echo "... offer22"
 	@echo "... 25"
 	@echo "... 35"
 	@echo "... 61"
@@ -1722,13 +1763,14 @@ help:
 	@echo "... 37"
 	@echo "... 206-1"
 	@echo "... offer53"
-	@echo "... offer22"
 	@echo "... 17.10"
 	@echo "... 206"
 	@echo "... 867"
 	@echo "... rebuild_cache"
 	@echo "... 445-2"
 	@echo "... 322"
+	@echo "... 27"
+	@echo "... 73"
 	@echo "... edit_cache"
 	@echo "... 1588"
 	@echo "... 1476"
@@ -1739,7 +1781,6 @@ help:
 	@echo "... 628"
 	@echo "... ACM"
 	@echo "... 15"
-	@echo "... 27"
 	@echo "... 18-2"
 	@echo "... 1669"
 	@echo "... 21"
@@ -1789,6 +1830,9 @@ help:
 	@echo "... Leetcode/数组/628三个数的最大乘积.o"
 	@echo "... Leetcode/数组/628三个数的最大乘积.i"
 	@echo "... Leetcode/数组/628三个数的最大乘积.s"
+	@echo "... Leetcode/数组/73矩阵置零.o"
+	@echo "... Leetcode/数组/73矩阵置零.i"
+	@echo "... Leetcode/数组/73矩阵置零.s"
 	@echo "... Leetcode/数组/867转置矩阵.o"
 	@echo "... Leetcode/数组/867转置矩阵.i"
 	@echo "... Leetcode/数组/867转置矩阵.s"
