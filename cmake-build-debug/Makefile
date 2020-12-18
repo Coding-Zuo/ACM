@@ -254,19 +254,6 @@ N4/fast:
 .PHONY : 203/fast
 
 #=============================================================================
-# Target rules for targets named 142
-
-# Build rule for target.
-142: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 142
-.PHONY : 142
-
-# fast build rule for target.
-142/fast:
-	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
-.PHONY : 142/fast
-
-#=============================================================================
 # Target rules for targets named offer22
 
 # Build rule for target.
@@ -629,6 +616,32 @@ ACM/fast:
 1/fast:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named 142
+
+# Build rule for target.
+142: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 142
+.PHONY : 142
+
+# fast build rule for target.
+142/fast:
+	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
+.PHONY : 142/fast
+
+#=============================================================================
+# Target rules for targets named 74
+
+# Build rule for target.
+74: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 74
+.PHONY : 74
+
+# fast build rule for target.
+74/fast:
+	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
+.PHONY : 74/fast
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -1061,6 +1074,33 @@ Leetcode/数组/73矩阵置零.s: Leetcode/数组/73矩阵置零.cpp.s
 Leetcode/数组/73矩阵置零.cpp.s:
 	$(MAKE) -f CMakeFiles/73.dir/build.make CMakeFiles/73.dir/Leetcode/数组/73矩阵置零.cpp.s
 .PHONY : Leetcode/数组/73矩阵置零.cpp.s
+
+Leetcode/数组/74搜索二维矩阵.o: Leetcode/数组/74搜索二维矩阵.cpp.o
+
+.PHONY : Leetcode/数组/74搜索二维矩阵.o
+
+# target to build an object file
+Leetcode/数组/74搜索二维矩阵.cpp.o:
+	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/Leetcode/数组/74搜索二维矩阵.cpp.o
+.PHONY : Leetcode/数组/74搜索二维矩阵.cpp.o
+
+Leetcode/数组/74搜索二维矩阵.i: Leetcode/数组/74搜索二维矩阵.cpp.i
+
+.PHONY : Leetcode/数组/74搜索二维矩阵.i
+
+# target to preprocess a source file
+Leetcode/数组/74搜索二维矩阵.cpp.i:
+	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/Leetcode/数组/74搜索二维矩阵.cpp.i
+.PHONY : Leetcode/数组/74搜索二维矩阵.cpp.i
+
+Leetcode/数组/74搜索二维矩阵.s: Leetcode/数组/74搜索二维矩阵.cpp.s
+
+.PHONY : Leetcode/数组/74搜索二维矩阵.s
+
+# target to generate assembly for a file
+Leetcode/数组/74搜索二维矩阵.cpp.s:
+	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/Leetcode/数组/74搜索二维矩阵.cpp.s
+.PHONY : Leetcode/数组/74搜索二维矩阵.cpp.s
 
 Leetcode/数组/867转置矩阵.o: Leetcode/数组/867转置矩阵.cpp.o
 
@@ -1754,7 +1794,6 @@ help:
 	@echo "... N4"
 	@echo "... 707"
 	@echo "... 203"
-	@echo "... 142"
 	@echo "... offer22"
 	@echo "... 25"
 	@echo "... 35"
@@ -1785,6 +1824,8 @@ help:
 	@echo "... 1669"
 	@echo "... 21"
 	@echo "... 1"
+	@echo "... 142"
+	@echo "... 74"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
@@ -1833,6 +1874,9 @@ help:
 	@echo "... Leetcode/数组/73矩阵置零.o"
 	@echo "... Leetcode/数组/73矩阵置零.i"
 	@echo "... Leetcode/数组/73矩阵置零.s"
+	@echo "... Leetcode/数组/74搜索二维矩阵.o"
+	@echo "... Leetcode/数组/74搜索二维矩阵.i"
+	@echo "... Leetcode/数组/74搜索二维矩阵.s"
 	@echo "... Leetcode/数组/867转置矩阵.o"
 	@echo "... Leetcode/数组/867转置矩阵.i"
 	@echo "... Leetcode/数组/867转置矩阵.s"
