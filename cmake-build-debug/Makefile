@@ -280,30 +280,56 @@ offer22/fast:
 .PHONY : 25/fast
 
 #=============================================================================
-# Target rules for targets named 35
+# Target rules for targets named 1669
 
 # Build rule for target.
-35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 35
-.PHONY : 35
+1669: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1669
+.PHONY : 1669
 
 # fast build rule for target.
-35/fast:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
-.PHONY : 35/fast
+1669/fast:
+	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/build
+.PHONY : 1669/fast
 
 #=============================================================================
-# Target rules for targets named 61
+# Target rules for targets named 21
 
 # Build rule for target.
-61: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 61
-.PHONY : 61
+21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 21
+.PHONY : 21
 
 # fast build rule for target.
-61/fast:
-	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/build
-.PHONY : 61/fast
+21/fast:
+	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/build
+.PHONY : 21/fast
+
+#=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named 242
+
+# Build rule for target.
+242: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 242
+.PHONY : 242
+
+# fast build rule for target.
+242/fast:
+	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
+.PHONY : 242/fast
 
 #=============================================================================
 # Target rules for targets named 59-2
@@ -579,43 +605,30 @@ ACM/fast:
 .PHONY : 18-2/fast
 
 #=============================================================================
-# Target rules for targets named 1669
+# Target rules for targets named 61
 
 # Build rule for target.
-1669: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1669
-.PHONY : 1669
+61: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 61
+.PHONY : 61
 
 # fast build rule for target.
-1669/fast:
-	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/build
-.PHONY : 1669/fast
+61/fast:
+	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/build
+.PHONY : 61/fast
 
 #=============================================================================
-# Target rules for targets named 21
+# Target rules for targets named 35
 
 # Build rule for target.
-21: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 21
-.PHONY : 21
+35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 35
+.PHONY : 35
 
 # fast build rule for target.
-21/fast:
-	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/build
-.PHONY : 21/fast
-
-#=============================================================================
-# Target rules for targets named 1
-
-# Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1
-.PHONY : 1
-
-# fast build rule for target.
-1/fast:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
-.PHONY : 1/fast
+35/fast:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
+.PHONY : 35/fast
 
 #=============================================================================
 # Target rules for targets named 142
@@ -642,6 +655,33 @@ ACM/fast:
 74/fast:
 	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
 .PHONY : 74/fast
+
+Leetcode/哈希表/242有效的字母异位词.o: Leetcode/哈希表/242有效的字母异位词.cpp.o
+
+.PHONY : Leetcode/哈希表/242有效的字母异位词.o
+
+# target to build an object file
+Leetcode/哈希表/242有效的字母异位词.cpp.o:
+	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/Leetcode/哈希表/242有效的字母异位词.cpp.o
+.PHONY : Leetcode/哈希表/242有效的字母异位词.cpp.o
+
+Leetcode/哈希表/242有效的字母异位词.i: Leetcode/哈希表/242有效的字母异位词.cpp.i
+
+.PHONY : Leetcode/哈希表/242有效的字母异位词.i
+
+# target to preprocess a source file
+Leetcode/哈希表/242有效的字母异位词.cpp.i:
+	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/Leetcode/哈希表/242有效的字母异位词.cpp.i
+.PHONY : Leetcode/哈希表/242有效的字母异位词.cpp.i
+
+Leetcode/哈希表/242有效的字母异位词.s: Leetcode/哈希表/242有效的字母异位词.cpp.s
+
+.PHONY : Leetcode/哈希表/242有效的字母异位词.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/242有效的字母异位词.cpp.s:
+	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/Leetcode/哈希表/242有效的字母异位词.cpp.s
+.PHONY : Leetcode/哈希表/242有效的字母异位词.cpp.s
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -1796,8 +1836,10 @@ help:
 	@echo "... 203"
 	@echo "... offer22"
 	@echo "... 25"
-	@echo "... 35"
-	@echo "... 61"
+	@echo "... 1669"
+	@echo "... 21"
+	@echo "... 1"
+	@echo "... 242"
 	@echo "... 59-2"
 	@echo "... 37"
 	@echo "... 206-1"
@@ -1821,11 +1863,13 @@ help:
 	@echo "... ACM"
 	@echo "... 15"
 	@echo "... 18-2"
-	@echo "... 1669"
-	@echo "... 21"
-	@echo "... 1"
+	@echo "... 61"
+	@echo "... 35"
 	@echo "... 142"
 	@echo "... 74"
+	@echo "... Leetcode/哈希表/242有效的字母异位词.o"
+	@echo "... Leetcode/哈希表/242有效的字母异位词.i"
+	@echo "... Leetcode/哈希表/242有效的字母异位词.s"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"

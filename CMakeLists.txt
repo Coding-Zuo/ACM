@@ -27,6 +27,9 @@ add_executable(322 Leetcode/回溯/322重新安排行程.cpp)
 add_executable(37 Leetcode/回溯/37解数独.cpp)
 
 
+add_executable(242 Leetcode/哈希表/242有效的字母异位词.cpp)
+
+
 add_executable(206 Leetcode/链表/206翻转链表.cpp)
 add_executable(61 Leetcode/链表/61旋转链表.cpp)
 add_executable(25 Leetcode/链表/25K个一组翻转链表.cpp)
