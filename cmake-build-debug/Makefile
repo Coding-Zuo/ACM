@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named N3
-
-# Build rule for target.
-N3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 N3
-.PHONY : N3
-
-# fast build rule for target.
-N3/fast:
-	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
-.PHONY : N3/fast
-
-#=============================================================================
 # Target rules for targets named LeastRecentlyUsedCache
 
 # Build rule for target.
@@ -280,6 +267,19 @@ offer22/fast:
 .PHONY : 25/fast
 
 #=============================================================================
+# Target rules for targets named 202
+
+# Build rule for target.
+202: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 202
+.PHONY : 202
+
+# fast build rule for target.
+202/fast:
+	$(MAKE) -f CMakeFiles/202.dir/build.make CMakeFiles/202.dir/build
+.PHONY : 202/fast
+
+#=============================================================================
 # Target rules for targets named 1669
 
 # Build rule for target.
@@ -395,6 +395,32 @@ offer53/fast:
 17.10/fast:
 	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
 .PHONY : 17.10/fast
+
+#=============================================================================
+# Target rules for targets named N3
+
+# Build rule for target.
+N3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N3
+.PHONY : N3
+
+# fast build rule for target.
+N3/fast:
+	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
+.PHONY : N3/fast
+
+#=============================================================================
+# Target rules for targets named 349
+
+# Build rule for target.
+349: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 349
+.PHONY : 349
+
+# fast build rule for target.
+349/fast:
+	$(MAKE) -f CMakeFiles/349.dir/build.make CMakeFiles/349.dir/build
+.PHONY : 349/fast
 
 #=============================================================================
 # Target rules for targets named 206
@@ -656,6 +682,33 @@ ACM/fast:
 	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
 .PHONY : 74/fast
 
+Leetcode/哈希表/202快乐数.o: Leetcode/哈希表/202快乐数.cpp.o
+
+.PHONY : Leetcode/哈希表/202快乐数.o
+
+# target to build an object file
+Leetcode/哈希表/202快乐数.cpp.o:
+	$(MAKE) -f CMakeFiles/202.dir/build.make CMakeFiles/202.dir/Leetcode/哈希表/202快乐数.cpp.o
+.PHONY : Leetcode/哈希表/202快乐数.cpp.o
+
+Leetcode/哈希表/202快乐数.i: Leetcode/哈希表/202快乐数.cpp.i
+
+.PHONY : Leetcode/哈希表/202快乐数.i
+
+# target to preprocess a source file
+Leetcode/哈希表/202快乐数.cpp.i:
+	$(MAKE) -f CMakeFiles/202.dir/build.make CMakeFiles/202.dir/Leetcode/哈希表/202快乐数.cpp.i
+.PHONY : Leetcode/哈希表/202快乐数.cpp.i
+
+Leetcode/哈希表/202快乐数.s: Leetcode/哈希表/202快乐数.cpp.s
+
+.PHONY : Leetcode/哈希表/202快乐数.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/202快乐数.cpp.s:
+	$(MAKE) -f CMakeFiles/202.dir/build.make CMakeFiles/202.dir/Leetcode/哈希表/202快乐数.cpp.s
+.PHONY : Leetcode/哈希表/202快乐数.cpp.s
+
 Leetcode/哈希表/242有效的字母异位词.o: Leetcode/哈希表/242有效的字母异位词.cpp.o
 
 .PHONY : Leetcode/哈希表/242有效的字母异位词.o
@@ -682,6 +735,33 @@ Leetcode/哈希表/242有效的字母异位词.s: Leetcode/哈希表/242有效�
 Leetcode/哈希表/242有效的字母异位词.cpp.s:
 	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/Leetcode/哈希表/242有效的字母异位词.cpp.s
 .PHONY : Leetcode/哈希表/242有效的字母异位词.cpp.s
+
+Leetcode/哈希表/349两个数组的交集.o: Leetcode/哈希表/349两个数组的交集.cpp.o
+
+.PHONY : Leetcode/哈希表/349两个数组的交集.o
+
+# target to build an object file
+Leetcode/哈希表/349两个数组的交集.cpp.o:
+	$(MAKE) -f CMakeFiles/349.dir/build.make CMakeFiles/349.dir/Leetcode/哈希表/349两个数组的交集.cpp.o
+.PHONY : Leetcode/哈希表/349两个数组的交集.cpp.o
+
+Leetcode/哈希表/349两个数组的交集.i: Leetcode/哈希表/349两个数组的交集.cpp.i
+
+.PHONY : Leetcode/哈希表/349两个数组的交集.i
+
+# target to preprocess a source file
+Leetcode/哈希表/349两个数组的交集.cpp.i:
+	$(MAKE) -f CMakeFiles/349.dir/build.make CMakeFiles/349.dir/Leetcode/哈希表/349两个数组的交集.cpp.i
+.PHONY : Leetcode/哈希表/349两个数组的交集.cpp.i
+
+Leetcode/哈希表/349两个数组的交集.s: Leetcode/哈希表/349两个数组的交集.cpp.s
+
+.PHONY : Leetcode/哈希表/349两个数组的交集.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/349两个数组的交集.cpp.s:
+	$(MAKE) -f CMakeFiles/349.dir/build.make CMakeFiles/349.dir/Leetcode/哈希表/349两个数组的交集.cpp.s
+.PHONY : Leetcode/哈希表/349两个数组的交集.cpp.s
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -1823,7 +1903,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... N3"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... N2"
 	@echo "... 0204"
@@ -1836,6 +1915,7 @@ help:
 	@echo "... 203"
 	@echo "... offer22"
 	@echo "... 25"
+	@echo "... 202"
 	@echo "... 1669"
 	@echo "... 21"
 	@echo "... 1"
@@ -1845,6 +1925,8 @@ help:
 	@echo "... 206-1"
 	@echo "... offer53"
 	@echo "... 17.10"
+	@echo "... N3"
+	@echo "... 349"
 	@echo "... 206"
 	@echo "... 867"
 	@echo "... rebuild_cache"
@@ -1867,9 +1949,15 @@ help:
 	@echo "... 35"
 	@echo "... 142"
 	@echo "... 74"
+	@echo "... Leetcode/哈希表/202快乐数.o"
+	@echo "... Leetcode/哈希表/202快乐数.i"
+	@echo "... Leetcode/哈希表/202快乐数.s"
 	@echo "... Leetcode/哈希表/242有效的字母异位词.o"
 	@echo "... Leetcode/哈希表/242有效的字母异位词.i"
 	@echo "... Leetcode/哈希表/242有效的字母异位词.s"
+	@echo "... Leetcode/哈希表/349两个数组的交集.o"
+	@echo "... Leetcode/哈希表/349两个数组的交集.i"
+	@echo "... Leetcode/哈希表/349两个数组的交集.s"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
