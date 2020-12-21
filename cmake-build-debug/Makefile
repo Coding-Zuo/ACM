@@ -371,6 +371,19 @@ offer22/fast:
 .PHONY : 206-1/fast
 
 #=============================================================================
+# Target rules for targets named 383
+
+# Build rule for target.
+383: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 383
+.PHONY : 383
+
+# fast build rule for target.
+383/fast:
+	$(MAKE) -f CMakeFiles/383.dir/build.make CMakeFiles/383.dir/build
+.PHONY : 383/fast
+
+#=============================================================================
 # Target rules for targets named offer53
 
 # Build rule for target.
@@ -762,6 +775,33 @@ Leetcode/哈希表/349两个数组的交集.s: Leetcode/哈希表/349两个数�
 Leetcode/哈希表/349两个数组的交集.cpp.s:
 	$(MAKE) -f CMakeFiles/349.dir/build.make CMakeFiles/349.dir/Leetcode/哈希表/349两个数组的交集.cpp.s
 .PHONY : Leetcode/哈希表/349两个数组的交集.cpp.s
+
+Leetcode/哈希表/383赎金信.o: Leetcode/哈希表/383赎金信.cpp.o
+
+.PHONY : Leetcode/哈希表/383赎金信.o
+
+# target to build an object file
+Leetcode/哈希表/383赎金信.cpp.o:
+	$(MAKE) -f CMakeFiles/383.dir/build.make CMakeFiles/383.dir/Leetcode/哈希表/383赎金信.cpp.o
+.PHONY : Leetcode/哈希表/383赎金信.cpp.o
+
+Leetcode/哈希表/383赎金信.i: Leetcode/哈希表/383赎金信.cpp.i
+
+.PHONY : Leetcode/哈希表/383赎金信.i
+
+# target to preprocess a source file
+Leetcode/哈希表/383赎金信.cpp.i:
+	$(MAKE) -f CMakeFiles/383.dir/build.make CMakeFiles/383.dir/Leetcode/哈希表/383赎金信.cpp.i
+.PHONY : Leetcode/哈希表/383赎金信.cpp.i
+
+Leetcode/哈希表/383赎金信.s: Leetcode/哈希表/383赎金信.cpp.s
+
+.PHONY : Leetcode/哈希表/383赎金信.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/383赎金信.cpp.s:
+	$(MAKE) -f CMakeFiles/383.dir/build.make CMakeFiles/383.dir/Leetcode/哈希表/383赎金信.cpp.s
+.PHONY : Leetcode/哈希表/383赎金信.cpp.s
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -1923,6 +1963,7 @@ help:
 	@echo "... 59-2"
 	@echo "... 37"
 	@echo "... 206-1"
+	@echo "... 383"
 	@echo "... offer53"
 	@echo "... 17.10"
 	@echo "... N3"
@@ -1958,6 +1999,9 @@ help:
 	@echo "... Leetcode/哈希表/349两个数组的交集.o"
 	@echo "... Leetcode/哈希表/349两个数组的交集.i"
 	@echo "... Leetcode/哈希表/349两个数组的交集.s"
+	@echo "... Leetcode/哈希表/383赎金信.o"
+	@echo "... Leetcode/哈希表/383赎金信.i"
+	@echo "... Leetcode/哈希表/383赎金信.s"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
