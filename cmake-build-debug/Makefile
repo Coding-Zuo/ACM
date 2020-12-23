@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named N4
+
+# Build rule for target.
+N4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N4
+.PHONY : N4
+
+# fast build rule for target.
+N4/fast:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
+.PHONY : N4/fast
 
 #=============================================================================
 # Target rules for targets named LeastRecentlyUsedCache
@@ -254,19 +267,6 @@ offer35/fast:
 .PHONY : 328/fast
 
 #=============================================================================
-# Target rules for targets named N4
-
-# Build rule for target.
-N4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 N4
-.PHONY : N4
-
-# fast build rule for target.
-N4/fast:
-	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
-.PHONY : N4/fast
-
-#=============================================================================
 # Target rules for targets named 1476
 
 # Build rule for target.
@@ -330,6 +330,58 @@ offer22/fast:
 25/fast:
 	$(MAKE) -f CMakeFiles/25.dir/build.make CMakeFiles/25.dir/build
 .PHONY : 25/fast
+
+#=============================================================================
+# Target rules for targets named 18-2
+
+# Build rule for target.
+18-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 18-2
+.PHONY : 18-2
+
+# fast build rule for target.
+18-2/fast:
+	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/build
+.PHONY : 18-2/fast
+
+#=============================================================================
+# Target rules for targets named 73
+
+# Build rule for target.
+73: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 73
+.PHONY : 73
+
+# fast build rule for target.
+73/fast:
+	$(MAKE) -f CMakeFiles/73.dir/build.make CMakeFiles/73.dir/build
+.PHONY : 73/fast
+
+#=============================================================================
+# Target rules for targets named 347
+
+# Build rule for target.
+347: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 347
+.PHONY : 347
+
+# fast build rule for target.
+347/fast:
+	$(MAKE) -f CMakeFiles/347.dir/build.make CMakeFiles/347.dir/build
+.PHONY : 347/fast
+
+#=============================================================================
+# Target rules for targets named 204
+
+# Build rule for target.
+204: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 204
+.PHONY : 204
+
+# fast build rule for target.
+204/fast:
+	$(MAKE) -f CMakeFiles/204.dir/build.make CMakeFiles/204.dir/build
+.PHONY : 204/fast
 
 #=============================================================================
 # Target rules for targets named 142
@@ -553,32 +605,6 @@ N3/fast:
 .PHONY : 322/fast
 
 #=============================================================================
-# Target rules for targets named 18-2
-
-# Build rule for target.
-18-2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 18-2
-.PHONY : 18-2
-
-# fast build rule for target.
-18-2/fast:
-	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/build
-.PHONY : 18-2/fast
-
-#=============================================================================
-# Target rules for targets named 73
-
-# Build rule for target.
-73: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 73
-.PHONY : 73
-
-# fast build rule for target.
-73/fast:
-	$(MAKE) -f CMakeFiles/73.dir/build.make CMakeFiles/73.dir/build
-.PHONY : 73/fast
-
-#=============================================================================
 # Target rules for targets named 18
 
 # Build rule for target.
@@ -762,6 +788,33 @@ Leetcode/哈希表/202快乐数.cpp.s:
 	$(MAKE) -f CMakeFiles/202.dir/build.make CMakeFiles/202.dir/Leetcode/哈希表/202快乐数.cpp.s
 .PHONY : Leetcode/哈希表/202快乐数.cpp.s
 
+Leetcode/哈希表/204计数质数.o: Leetcode/哈希表/204计数质数.cpp.o
+
+.PHONY : Leetcode/哈希表/204计数质数.o
+
+# target to build an object file
+Leetcode/哈希表/204计数质数.cpp.o:
+	$(MAKE) -f CMakeFiles/204.dir/build.make CMakeFiles/204.dir/Leetcode/哈希表/204计数质数.cpp.o
+.PHONY : Leetcode/哈希表/204计数质数.cpp.o
+
+Leetcode/哈希表/204计数质数.i: Leetcode/哈希表/204计数质数.cpp.i
+
+.PHONY : Leetcode/哈希表/204计数质数.i
+
+# target to preprocess a source file
+Leetcode/哈希表/204计数质数.cpp.i:
+	$(MAKE) -f CMakeFiles/204.dir/build.make CMakeFiles/204.dir/Leetcode/哈希表/204计数质数.cpp.i
+.PHONY : Leetcode/哈希表/204计数质数.cpp.i
+
+Leetcode/哈希表/204计数质数.s: Leetcode/哈希表/204计数质数.cpp.s
+
+.PHONY : Leetcode/哈希表/204计数质数.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/204计数质数.cpp.s:
+	$(MAKE) -f CMakeFiles/204.dir/build.make CMakeFiles/204.dir/Leetcode/哈希表/204计数质数.cpp.s
+.PHONY : Leetcode/哈希表/204计数质数.cpp.s
+
 Leetcode/哈希表/242有效的字母异位词.o: Leetcode/哈希表/242有效的字母异位词.cpp.o
 
 .PHONY : Leetcode/哈希表/242有效的字母异位词.o
@@ -788,6 +841,33 @@ Leetcode/哈希表/242有效的字母异位词.s: Leetcode/哈希表/242有效�
 Leetcode/哈希表/242有效的字母异位词.cpp.s:
 	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/Leetcode/哈希表/242有效的字母异位词.cpp.s
 .PHONY : Leetcode/哈希表/242有效的字母异位词.cpp.s
+
+Leetcode/哈希表/347前K个高频元素.o: Leetcode/哈希表/347前K个高频元素.cpp.o
+
+.PHONY : Leetcode/哈希表/347前K个高频元素.o
+
+# target to build an object file
+Leetcode/哈希表/347前K个高频元素.cpp.o:
+	$(MAKE) -f CMakeFiles/347.dir/build.make CMakeFiles/347.dir/Leetcode/哈希表/347前K个高频元素.cpp.o
+.PHONY : Leetcode/哈希表/347前K个高频元素.cpp.o
+
+Leetcode/哈希表/347前K个高频元素.i: Leetcode/哈希表/347前K个高频元素.cpp.i
+
+.PHONY : Leetcode/哈希表/347前K个高频元素.i
+
+# target to preprocess a source file
+Leetcode/哈希表/347前K个高频元素.cpp.i:
+	$(MAKE) -f CMakeFiles/347.dir/build.make CMakeFiles/347.dir/Leetcode/哈希表/347前K个高频元素.cpp.i
+.PHONY : Leetcode/哈希表/347前K个高频元素.cpp.i
+
+Leetcode/哈希表/347前K个高频元素.s: Leetcode/哈希表/347前K个高频元素.cpp.s
+
+.PHONY : Leetcode/哈希表/347前K个高频元素.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/347前K个高频元素.cpp.s:
+	$(MAKE) -f CMakeFiles/347.dir/build.make CMakeFiles/347.dir/Leetcode/哈希表/347前K个高频元素.cpp.s
+.PHONY : Leetcode/哈希表/347前K个高频元素.cpp.s
 
 Leetcode/哈希表/349两个数组的交集.o: Leetcode/哈希表/349两个数组的交集.cpp.o
 
@@ -1983,6 +2063,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... N4"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... N2"
 	@echo "... 138"
@@ -1994,12 +2076,15 @@ help:
 	@echo "... 203"
 	@echo "... 0206"
 	@echo "... 328"
-	@echo "... N4"
 	@echo "... 1476"
 	@echo "... 707"
 	@echo "... 1588"
 	@echo "... offer22"
 	@echo "... 25"
+	@echo "... 18-2"
+	@echo "... 73"
+	@echo "... 347"
+	@echo "... 204"
 	@echo "... 142"
 	@echo "... 206-1"
 	@echo "... 202"
@@ -2018,9 +2103,6 @@ help:
 	@echo "... 867"
 	@echo "... 445-2"
 	@echo "... 322"
-	@echo "... 18-2"
-	@echo "... 73"
-	@echo "... edit_cache"
 	@echo "... 18"
 	@echo "... ACM"
 	@echo "... 56"
@@ -2037,9 +2119,15 @@ help:
 	@echo "... Leetcode/哈希表/202快乐数.o"
 	@echo "... Leetcode/哈希表/202快乐数.i"
 	@echo "... Leetcode/哈希表/202快乐数.s"
+	@echo "... Leetcode/哈希表/204计数质数.o"
+	@echo "... Leetcode/哈希表/204计数质数.i"
+	@echo "... Leetcode/哈希表/204计数质数.s"
 	@echo "... Leetcode/哈希表/242有效的字母异位词.o"
 	@echo "... Leetcode/哈希表/242有效的字母异位词.i"
 	@echo "... Leetcode/哈希表/242有效的字母异位词.s"
+	@echo "... Leetcode/哈希表/347前K个高频元素.o"
+	@echo "... Leetcode/哈希表/347前K个高频元素.i"
+	@echo "... Leetcode/哈希表/347前K个高频元素.s"
 	@echo "... Leetcode/哈希表/349两个数组的交集.o"
 	@echo "... Leetcode/哈希表/349两个数组的交集.i"
 	@echo "... Leetcode/哈希表/349两个数组的交集.s"

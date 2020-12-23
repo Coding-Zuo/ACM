@@ -32,6 +32,8 @@ add_executable(349 Leetcode/哈希表/349两个数组的交集.cpp)
 add_executable(202 Leetcode/哈希表/202快乐数.cpp)
 add_executable(383 Leetcode/哈希表/383赎金信.cpp)
 add_executable(138 Leetcode/哈希表/138复制带随机指针的链表.cpp)
+add_executable(204 Leetcode/哈希表/204计数质数.cpp)
+add_executable(347 Leetcode/哈希表/347前K个高频元素.cpp)
 
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)
