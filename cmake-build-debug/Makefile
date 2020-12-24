@@ -124,6 +124,19 @@ N4/fast:
 .PHONY : N4/fast
 
 #=============================================================================
+# Target rules for targets named N3
+
+# Build rule for target.
+N3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N3
+.PHONY : N3
+
+# fast build rule for target.
+N3/fast:
+	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
+.PHONY : N3/fast
+
+#=============================================================================
 # Target rules for targets named LeastRecentlyUsedCache
 
 # Build rule for target.
@@ -319,6 +332,45 @@ offer22/fast:
 .PHONY : offer22/fast
 
 #=============================================================================
+# Target rules for targets named 27
+
+# Build rule for target.
+27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 27
+.PHONY : 27
+
+# fast build rule for target.
+27/fast:
+	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/build
+.PHONY : 27/fast
+
+#=============================================================================
+# Target rules for targets named 21
+
+# Build rule for target.
+21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 21
+.PHONY : 21
+
+# fast build rule for target.
+21/fast:
+	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/build
+.PHONY : 21/fast
+
+#=============================================================================
+# Target rules for targets named 355
+
+# Build rule for target.
+355: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 355
+.PHONY : 355
+
+# fast build rule for target.
+355/fast:
+	$(MAKE) -f CMakeFiles/355.dir/build.make CMakeFiles/355.dir/build
+.PHONY : 355/fast
+
+#=============================================================================
 # Target rules for targets named 25
 
 # Build rule for target.
@@ -436,32 +488,6 @@ offer22/fast:
 .PHONY : 1669/fast
 
 #=============================================================================
-# Target rules for targets named 27
-
-# Build rule for target.
-27: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 27
-.PHONY : 27
-
-# fast build rule for target.
-27/fast:
-	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/build
-.PHONY : 27/fast
-
-#=============================================================================
-# Target rules for targets named 21
-
-# Build rule for target.
-21: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 21
-.PHONY : 21
-
-# fast build rule for target.
-21/fast:
-	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/build
-.PHONY : 21/fast
-
-#=============================================================================
 # Target rules for targets named 1
 
 # Build rule for target.
@@ -538,19 +564,6 @@ offer53/fast:
 17.10/fast:
 	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
 .PHONY : 17.10/fast
-
-#=============================================================================
-# Target rules for targets named N3
-
-# Build rule for target.
-N3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 N3
-.PHONY : N3
-
-# fast build rule for target.
-N3/fast:
-	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
-.PHONY : N3/fast
 
 #=============================================================================
 # Target rules for targets named 349
@@ -895,6 +908,33 @@ Leetcode/哈希表/349两个数组的交集.s: Leetcode/哈希表/349两个数�
 Leetcode/哈希表/349两个数组的交集.cpp.s:
 	$(MAKE) -f CMakeFiles/349.dir/build.make CMakeFiles/349.dir/Leetcode/哈希表/349两个数组的交集.cpp.s
 .PHONY : Leetcode/哈希表/349两个数组的交集.cpp.s
+
+Leetcode/哈希表/355设计推特.o: Leetcode/哈希表/355设计推特.cpp.o
+
+.PHONY : Leetcode/哈希表/355设计推特.o
+
+# target to build an object file
+Leetcode/哈希表/355设计推特.cpp.o:
+	$(MAKE) -f CMakeFiles/355.dir/build.make CMakeFiles/355.dir/Leetcode/哈希表/355设计推特.cpp.o
+.PHONY : Leetcode/哈希表/355设计推特.cpp.o
+
+Leetcode/哈希表/355设计推特.i: Leetcode/哈希表/355设计推特.cpp.i
+
+.PHONY : Leetcode/哈希表/355设计推特.i
+
+# target to preprocess a source file
+Leetcode/哈希表/355设计推特.cpp.i:
+	$(MAKE) -f CMakeFiles/355.dir/build.make CMakeFiles/355.dir/Leetcode/哈希表/355设计推特.cpp.i
+.PHONY : Leetcode/哈希表/355设计推特.cpp.i
+
+Leetcode/哈希表/355设计推特.s: Leetcode/哈希表/355设计推特.cpp.s
+
+.PHONY : Leetcode/哈希表/355设计推特.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/355设计推特.cpp.s:
+	$(MAKE) -f CMakeFiles/355.dir/build.make CMakeFiles/355.dir/Leetcode/哈希表/355设计推特.cpp.s
+.PHONY : Leetcode/哈希表/355设计推特.cpp.s
 
 Leetcode/哈希表/383赎金信.o: Leetcode/哈希表/383赎金信.cpp.o
 
@@ -2065,6 +2105,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... N4"
+	@echo "... rebuild_cache"
+	@echo "... N3"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... N2"
 	@echo "... 138"
@@ -2080,6 +2122,9 @@ help:
 	@echo "... 707"
 	@echo "... 1588"
 	@echo "... offer22"
+	@echo "... 27"
+	@echo "... 21"
+	@echo "... 355"
 	@echo "... 25"
 	@echo "... 18-2"
 	@echo "... 73"
@@ -2089,16 +2134,12 @@ help:
 	@echo "... 206-1"
 	@echo "... 202"
 	@echo "... 1669"
-	@echo "... 27"
-	@echo "... 21"
 	@echo "... 1"
 	@echo "... 59-2"
 	@echo "... 37"
 	@echo "... 383"
 	@echo "... offer53"
 	@echo "... 17.10"
-	@echo "... rebuild_cache"
-	@echo "... N3"
 	@echo "... 349"
 	@echo "... 867"
 	@echo "... 445-2"
@@ -2131,6 +2172,9 @@ help:
 	@echo "... Leetcode/哈希表/349两个数组的交集.o"
 	@echo "... Leetcode/哈希表/349两个数组的交集.i"
 	@echo "... Leetcode/哈希表/349两个数组的交集.s"
+	@echo "... Leetcode/哈希表/355设计推特.o"
+	@echo "... Leetcode/哈希表/355设计推特.i"
+	@echo "... Leetcode/哈希表/355设计推特.s"
 	@echo "... Leetcode/哈希表/383赎金信.o"
 	@echo "... Leetcode/哈希表/383赎金信.i"
 	@echo "... Leetcode/哈希表/383赎金信.s"

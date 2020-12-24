@@ -34,6 +34,7 @@ add_executable(383 Leetcode/哈希表/383赎金信.cpp)
 add_executable(138 Leetcode/哈希表/138复制带随机指针的链表.cpp)
 add_executable(204 Leetcode/哈希表/204计数质数.cpp)
 add_executable(347 Leetcode/哈希表/347前K个高频元素.cpp)
+add_executable(355 Leetcode/哈希表/355设计推特.cpp)
 
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)

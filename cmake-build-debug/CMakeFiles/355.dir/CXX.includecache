@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zuoyuhui/CLionProjects/ACM/Leetcode/哈希表/355设计推特.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+list
+-
+
