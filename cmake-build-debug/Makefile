@@ -137,19 +137,6 @@ N3/fast:
 .PHONY : N3/fast
 
 #=============================================================================
-# Target rules for targets named LeastRecentlyUsedCache
-
-# Build rule for target.
-LeastRecentlyUsedCache: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LeastRecentlyUsedCache
-.PHONY : LeastRecentlyUsedCache
-
-# fast build rule for target.
-LeastRecentlyUsedCache/fast:
-	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
-.PHONY : LeastRecentlyUsedCache/fast
-
-#=============================================================================
 # Target rules for targets named N2
 
 # Build rule for target.
@@ -161,6 +148,19 @@ N2: cmake_check_build_system
 N2/fast:
 	$(MAKE) -f CMakeFiles/N2.dir/build.make CMakeFiles/N2.dir/build
 .PHONY : N2/fast
+
+#=============================================================================
+# Target rules for targets named LeastRecentlyUsedCache
+
+# Build rule for target.
+LeastRecentlyUsedCache: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LeastRecentlyUsedCache
+.PHONY : LeastRecentlyUsedCache
+
+# fast build rule for target.
+LeastRecentlyUsedCache/fast:
+	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
+.PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
 # Target rules for targets named 138
@@ -330,6 +330,32 @@ offer22: cmake_check_build_system
 offer22/fast:
 	$(MAKE) -f CMakeFiles/offer22.dir/build.make CMakeFiles/offer22.dir/build
 .PHONY : offer22/fast
+
+#=============================================================================
+# Target rules for targets named 628
+
+# Build rule for target.
+628: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 628
+.PHONY : 628
+
+# fast build rule for target.
+628/fast:
+	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/build
+.PHONY : 628/fast
+
+#=============================================================================
+# Target rules for targets named 970
+
+# Build rule for target.
+970: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 970
+.PHONY : 970
+
+# fast build rule for target.
+970/fast:
+	$(MAKE) -f CMakeFiles/970.dir/build.make CMakeFiles/970.dir/build
+.PHONY : 970/fast
 
 #=============================================================================
 # Target rules for targets named 27
@@ -683,19 +709,6 @@ offer04/fast:
 .PHONY : offer04/fast
 
 #=============================================================================
-# Target rules for targets named 628
-
-# Build rule for target.
-628: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 628
-.PHONY : 628
-
-# fast build rule for target.
-628/fast:
-	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/build
-.PHONY : 628/fast
-
-#=============================================================================
 # Target rules for targets named 15
 
 # Build rule for target.
@@ -962,6 +975,33 @@ Leetcode/哈希表/383赎金信.s: Leetcode/哈希表/383赎金信.cpp.s
 Leetcode/哈希表/383赎金信.cpp.s:
 	$(MAKE) -f CMakeFiles/383.dir/build.make CMakeFiles/383.dir/Leetcode/哈希表/383赎金信.cpp.s
 .PHONY : Leetcode/哈希表/383赎金信.cpp.s
+
+Leetcode/哈希表/970强整数.o: Leetcode/哈希表/970强整数.cpp.o
+
+.PHONY : Leetcode/哈希表/970强整数.o
+
+# target to build an object file
+Leetcode/哈希表/970强整数.cpp.o:
+	$(MAKE) -f CMakeFiles/970.dir/build.make CMakeFiles/970.dir/Leetcode/哈希表/970强整数.cpp.o
+.PHONY : Leetcode/哈希表/970强整数.cpp.o
+
+Leetcode/哈希表/970强整数.i: Leetcode/哈希表/970强整数.cpp.i
+
+.PHONY : Leetcode/哈希表/970强整数.i
+
+# target to preprocess a source file
+Leetcode/哈希表/970强整数.cpp.i:
+	$(MAKE) -f CMakeFiles/970.dir/build.make CMakeFiles/970.dir/Leetcode/哈希表/970强整数.cpp.i
+.PHONY : Leetcode/哈希表/970强整数.cpp.i
+
+Leetcode/哈希表/970强整数.s: Leetcode/哈希表/970强整数.cpp.s
+
+.PHONY : Leetcode/哈希表/970强整数.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/970强整数.cpp.s:
+	$(MAKE) -f CMakeFiles/970.dir/build.make CMakeFiles/970.dir/Leetcode/哈希表/970强整数.cpp.s
+.PHONY : Leetcode/哈希表/970强整数.cpp.s
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -2107,8 +2147,8 @@ help:
 	@echo "... N4"
 	@echo "... rebuild_cache"
 	@echo "... N3"
-	@echo "... LeastRecentlyUsedCache"
 	@echo "... N2"
+	@echo "... LeastRecentlyUsedCache"
 	@echo "... 138"
 	@echo "... 0204"
 	@echo "... 206"
@@ -2122,6 +2162,8 @@ help:
 	@echo "... 707"
 	@echo "... 1588"
 	@echo "... offer22"
+	@echo "... 628"
+	@echo "... 970"
 	@echo "... 27"
 	@echo "... 21"
 	@echo "... 355"
@@ -2149,7 +2191,6 @@ help:
 	@echo "... 56"
 	@echo "... 209"
 	@echo "... offer04"
-	@echo "... 628"
 	@echo "... 15"
 	@echo "... 61"
 	@echo "... 35"
@@ -2178,6 +2219,9 @@ help:
 	@echo "... Leetcode/哈希表/383赎金信.o"
 	@echo "... Leetcode/哈希表/383赎金信.i"
 	@echo "... Leetcode/哈希表/383赎金信.s"
+	@echo "... Leetcode/哈希表/970强整数.o"
+	@echo "... Leetcode/哈希表/970强整数.i"
+	@echo "... Leetcode/哈希表/970强整数.s"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
