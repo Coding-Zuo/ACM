@@ -36,6 +36,11 @@ add_executable(204 Leetcode/哈希表/204计数质数.cpp)
 add_executable(347 Leetcode/哈希表/347前K个高频元素.cpp)
 add_executable(355 Leetcode/哈希表/355设计推特.cpp)
 add_executable(970 Leetcode/哈希表/970强整数.cpp)
+add_executable(16.02 Leetcode/哈希表/面试题16.02单词频率.cpp)
+add_executable(648 Leetcode/哈希表/648单词替换.cpp)
+
+
+add_executable(5642 Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp)
 
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)

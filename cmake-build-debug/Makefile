@@ -163,30 +163,17 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
-# Target rules for targets named 138
+# Target rules for targets named 1669
 
 # Build rule for target.
-138: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 138
-.PHONY : 138
+1669: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1669
+.PHONY : 1669
 
 # fast build rule for target.
-138/fast:
-	$(MAKE) -f CMakeFiles/138.dir/build.make CMakeFiles/138.dir/build
-.PHONY : 138/fast
-
-#=============================================================================
-# Target rules for targets named 0204
-
-# Build rule for target.
-0204: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 0204
-.PHONY : 0204
-
-# fast build rule for target.
-0204/fast:
-	$(MAKE) -f CMakeFiles/0204.dir/build.make CMakeFiles/0204.dir/build
-.PHONY : 0204/fast
+1669/fast:
+	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/build
+.PHONY : 1669/fast
 
 #=============================================================================
 # Target rules for targets named 206
@@ -332,6 +319,45 @@ offer22/fast:
 .PHONY : offer22/fast
 
 #=============================================================================
+# Target rules for targets named 5642
+
+# Build rule for target.
+5642: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5642
+.PHONY : 5642
+
+# fast build rule for target.
+5642/fast:
+	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/build
+.PHONY : 5642/fast
+
+#=============================================================================
+# Target rules for targets named 648
+
+# Build rule for target.
+648: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 648
+.PHONY : 648
+
+# fast build rule for target.
+648/fast:
+	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/build
+.PHONY : 648/fast
+
+#=============================================================================
+# Target rules for targets named 16.02
+
+# Build rule for target.
+16.02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 16.02
+.PHONY : 16.02
+
+# fast build rule for target.
+16.02/fast:
+	$(MAKE) -f CMakeFiles/16.02.dir/build.make CMakeFiles/16.02.dir/build
+.PHONY : 16.02/fast
+
+#=============================================================================
 # Target rules for targets named 628
 
 # Build rule for target.
@@ -462,6 +488,32 @@ offer22/fast:
 .PHONY : 204/fast
 
 #=============================================================================
+# Target rules for targets named 0204
+
+# Build rule for target.
+0204: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 0204
+.PHONY : 0204
+
+# fast build rule for target.
+0204/fast:
+	$(MAKE) -f CMakeFiles/0204.dir/build.make CMakeFiles/0204.dir/build
+.PHONY : 0204/fast
+
+#=============================================================================
+# Target rules for targets named 138
+
+# Build rule for target.
+138: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 138
+.PHONY : 138
+
+# fast build rule for target.
+138/fast:
+	$(MAKE) -f CMakeFiles/138.dir/build.make CMakeFiles/138.dir/build
+.PHONY : 138/fast
+
+#=============================================================================
 # Target rules for targets named 142
 
 # Build rule for target.
@@ -499,19 +551,6 @@ offer22/fast:
 202/fast:
 	$(MAKE) -f CMakeFiles/202.dir/build.make CMakeFiles/202.dir/build
 .PHONY : 202/fast
-
-#=============================================================================
-# Target rules for targets named 1669
-
-# Build rule for target.
-1669: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1669
-.PHONY : 1669
-
-# fast build rule for target.
-1669/fast:
-	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/build
-.PHONY : 1669/fast
 
 #=============================================================================
 # Target rules for targets named 1
@@ -760,6 +799,33 @@ offer04/fast:
 	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
 .PHONY : 74/fast
 
+Leetcode/双周赛/42/5621无法吃午餐的学生数量.o: Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o
+
+.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.o
+
+# target to build an object file
+Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o:
+	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o
+.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o
+
+Leetcode/双周赛/42/5621无法吃午餐的学生数量.i: Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.i
+
+.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.i
+
+# target to preprocess a source file
+Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.i:
+	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.i
+.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.i
+
+Leetcode/双周赛/42/5621无法吃午餐的学生数量.s: Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.s
+
+.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.s
+
+# target to generate assembly for a file
+Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.s:
+	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.s
+.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.s
+
 Leetcode/哈希表/138复制带随机指针的链表.o: Leetcode/哈希表/138复制带随机指针的链表.cpp.o
 
 .PHONY : Leetcode/哈希表/138复制带随机指针的链表.o
@@ -976,6 +1042,33 @@ Leetcode/哈希表/383赎金信.cpp.s:
 	$(MAKE) -f CMakeFiles/383.dir/build.make CMakeFiles/383.dir/Leetcode/哈希表/383赎金信.cpp.s
 .PHONY : Leetcode/哈希表/383赎金信.cpp.s
 
+Leetcode/哈希表/648单词替换.o: Leetcode/哈希表/648单词替换.cpp.o
+
+.PHONY : Leetcode/哈希表/648单词替换.o
+
+# target to build an object file
+Leetcode/哈希表/648单词替换.cpp.o:
+	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/Leetcode/哈希表/648单词替换.cpp.o
+.PHONY : Leetcode/哈希表/648单词替换.cpp.o
+
+Leetcode/哈希表/648单词替换.i: Leetcode/哈希表/648单词替换.cpp.i
+
+.PHONY : Leetcode/哈希表/648单词替换.i
+
+# target to preprocess a source file
+Leetcode/哈希表/648单词替换.cpp.i:
+	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/Leetcode/哈希表/648单词替换.cpp.i
+.PHONY : Leetcode/哈希表/648单词替换.cpp.i
+
+Leetcode/哈希表/648单词替换.s: Leetcode/哈希表/648单词替换.cpp.s
+
+.PHONY : Leetcode/哈希表/648单词替换.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/648单词替换.cpp.s:
+	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/Leetcode/哈希表/648单词替换.cpp.s
+.PHONY : Leetcode/哈希表/648单词替换.cpp.s
+
 Leetcode/哈希表/970强整数.o: Leetcode/哈希表/970强整数.cpp.o
 
 .PHONY : Leetcode/哈希表/970强整数.o
@@ -1002,6 +1095,33 @@ Leetcode/哈希表/970强整数.s: Leetcode/哈希表/970强整数.cpp.s
 Leetcode/哈希表/970强整数.cpp.s:
 	$(MAKE) -f CMakeFiles/970.dir/build.make CMakeFiles/970.dir/Leetcode/哈希表/970强整数.cpp.s
 .PHONY : Leetcode/哈希表/970强整数.cpp.s
+
+Leetcode/哈希表/面试题16.02单词频率.o: Leetcode/哈希表/面试题16.02单词频率.cpp.o
+
+.PHONY : Leetcode/哈希表/面试题16.02单词频率.o
+
+# target to build an object file
+Leetcode/哈希表/面试题16.02单词频率.cpp.o:
+	$(MAKE) -f CMakeFiles/16.02.dir/build.make CMakeFiles/16.02.dir/Leetcode/哈希表/面试题16.02单词频率.cpp.o
+.PHONY : Leetcode/哈希表/面试题16.02单词频率.cpp.o
+
+Leetcode/哈希表/面试题16.02单词频率.i: Leetcode/哈希表/面试题16.02单词频率.cpp.i
+
+.PHONY : Leetcode/哈希表/面试题16.02单词频率.i
+
+# target to preprocess a source file
+Leetcode/哈希表/面试题16.02单词频率.cpp.i:
+	$(MAKE) -f CMakeFiles/16.02.dir/build.make CMakeFiles/16.02.dir/Leetcode/哈希表/面试题16.02单词频率.cpp.i
+.PHONY : Leetcode/哈希表/面试题16.02单词频率.cpp.i
+
+Leetcode/哈希表/面试题16.02单词频率.s: Leetcode/哈希表/面试题16.02单词频率.cpp.s
+
+.PHONY : Leetcode/哈希表/面试题16.02单词频率.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/面试题16.02单词频率.cpp.s:
+	$(MAKE) -f CMakeFiles/16.02.dir/build.make CMakeFiles/16.02.dir/Leetcode/哈希表/面试题16.02单词频率.cpp.s
+.PHONY : Leetcode/哈希表/面试题16.02单词频率.cpp.s
 
 Leetcode/回溯/322重新安排行程.o: Leetcode/回溯/322重新安排行程.cpp.o
 
@@ -2149,8 +2269,7 @@ help:
 	@echo "... N3"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
-	@echo "... 138"
-	@echo "... 0204"
+	@echo "... 1669"
 	@echo "... 206"
 	@echo "... offer35"
 	@echo "... 160"
@@ -2162,6 +2281,9 @@ help:
 	@echo "... 707"
 	@echo "... 1588"
 	@echo "... offer22"
+	@echo "... 5642"
+	@echo "... 648"
+	@echo "... 16.02"
 	@echo "... 628"
 	@echo "... 970"
 	@echo "... 27"
@@ -2172,10 +2294,11 @@ help:
 	@echo "... 73"
 	@echo "... 347"
 	@echo "... 204"
+	@echo "... 0204"
+	@echo "... 138"
 	@echo "... 142"
 	@echo "... 206-1"
 	@echo "... 202"
-	@echo "... 1669"
 	@echo "... 1"
 	@echo "... 59-2"
 	@echo "... 37"
@@ -2195,6 +2318,9 @@ help:
 	@echo "... 61"
 	@echo "... 35"
 	@echo "... 74"
+	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.o"
+	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.i"
+	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.s"
 	@echo "... Leetcode/哈希表/138复制带随机指针的链表.o"
 	@echo "... Leetcode/哈希表/138复制带随机指针的链表.i"
 	@echo "... Leetcode/哈希表/138复制带随机指针的链表.s"
@@ -2219,9 +2345,15 @@ help:
 	@echo "... Leetcode/哈希表/383赎金信.o"
 	@echo "... Leetcode/哈希表/383赎金信.i"
 	@echo "... Leetcode/哈希表/383赎金信.s"
+	@echo "... Leetcode/哈希表/648单词替换.o"
+	@echo "... Leetcode/哈希表/648单词替换.i"
+	@echo "... Leetcode/哈希表/648单词替换.s"
 	@echo "... Leetcode/哈希表/970强整数.o"
 	@echo "... Leetcode/哈希表/970强整数.i"
 	@echo "... Leetcode/哈希表/970强整数.s"
+	@echo "... Leetcode/哈希表/面试题16.02单词频率.o"
+	@echo "... Leetcode/哈希表/面试题16.02单词频率.i"
+	@echo "... Leetcode/哈希表/面试题16.02单词频率.s"
 	@echo "... Leetcode/回溯/322重新安排行程.o"
 	@echo "... Leetcode/回溯/322重新安排行程.i"
 	@echo "... Leetcode/回溯/322重新安排行程.s"
