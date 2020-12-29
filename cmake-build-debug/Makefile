@@ -176,32 +176,6 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 1669/fast
 
 #=============================================================================
-# Target rules for targets named 206
-
-# Build rule for target.
-206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 206
-.PHONY : 206
-
-# fast build rule for target.
-206/fast:
-	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
-.PHONY : 206/fast
-
-#=============================================================================
-# Target rules for targets named offer35
-
-# Build rule for target.
-offer35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 offer35
-.PHONY : offer35
-
-# fast build rule for target.
-offer35/fast:
-	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/build
-.PHONY : offer35/fast
-
-#=============================================================================
 # Target rules for targets named 160
 
 # Build rule for target.
@@ -330,6 +304,19 @@ offer22/fast:
 5642/fast:
 	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/build
 .PHONY : 5642/fast
+
+#=============================================================================
+# Target rules for targets named 1701
+
+# Build rule for target.
+1701: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1701
+.PHONY : 1701
+
+# fast build rule for target.
+1701/fast:
+	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/build
+.PHONY : 1701/fast
 
 #=============================================================================
 # Target rules for targets named 648
@@ -644,6 +631,32 @@ offer53/fast:
 .PHONY : 349/fast
 
 #=============================================================================
+# Target rules for targets named offer35
+
+# Build rule for target.
+offer35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer35
+.PHONY : offer35
+
+# fast build rule for target.
+offer35/fast:
+	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/build
+.PHONY : offer35/fast
+
+#=============================================================================
+# Target rules for targets named 206
+
+# Build rule for target.
+206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206
+.PHONY : 206
+
+# fast build rule for target.
+206/fast:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
+.PHONY : 206/fast
+
+#=============================================================================
 # Target rules for targets named 867
 
 # Build rule for target.
@@ -798,6 +811,33 @@ offer04/fast:
 74/fast:
 	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
 .PHONY : 74/fast
+
+Leetcode/双周赛/42/1701平均等待时间.o: Leetcode/双周赛/42/1701平均等待时间.cpp.o
+
+.PHONY : Leetcode/双周赛/42/1701平均等待时间.o
+
+# target to build an object file
+Leetcode/双周赛/42/1701平均等待时间.cpp.o:
+	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.o
+.PHONY : Leetcode/双周赛/42/1701平均等待时间.cpp.o
+
+Leetcode/双周赛/42/1701平均等待时间.i: Leetcode/双周赛/42/1701平均等待时间.cpp.i
+
+.PHONY : Leetcode/双周赛/42/1701平均等待时间.i
+
+# target to preprocess a source file
+Leetcode/双周赛/42/1701平均等待时间.cpp.i:
+	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.i
+.PHONY : Leetcode/双周赛/42/1701平均等待时间.cpp.i
+
+Leetcode/双周赛/42/1701平均等待时间.s: Leetcode/双周赛/42/1701平均等待时间.cpp.s
+
+.PHONY : Leetcode/双周赛/42/1701平均等待时间.s
+
+# target to generate assembly for a file
+Leetcode/双周赛/42/1701平均等待时间.cpp.s:
+	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.s
+.PHONY : Leetcode/双周赛/42/1701平均等待时间.cpp.s
 
 Leetcode/双周赛/42/5621无法吃午餐的学生数量.o: Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o
 
@@ -2270,8 +2310,6 @@ help:
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... 1669"
-	@echo "... 206"
-	@echo "... offer35"
 	@echo "... 160"
 	@echo "... 242"
 	@echo "... 203"
@@ -2282,6 +2320,7 @@ help:
 	@echo "... 1588"
 	@echo "... offer22"
 	@echo "... 5642"
+	@echo "... 1701"
 	@echo "... 648"
 	@echo "... 16.02"
 	@echo "... 628"
@@ -2306,6 +2345,8 @@ help:
 	@echo "... offer53"
 	@echo "... 17.10"
 	@echo "... 349"
+	@echo "... offer35"
+	@echo "... 206"
 	@echo "... 867"
 	@echo "... 445-2"
 	@echo "... 322"
@@ -2318,6 +2359,9 @@ help:
 	@echo "... 61"
 	@echo "... 35"
 	@echo "... 74"
+	@echo "... Leetcode/双周赛/42/1701平均等待时间.o"
+	@echo "... Leetcode/双周赛/42/1701平均等待时间.i"
+	@echo "... Leetcode/双周赛/42/1701平均等待时间.s"
 	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.o"
 	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.i"
 	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.s"
