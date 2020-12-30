@@ -371,19 +371,6 @@ offer22/fast:
 .PHONY : 970/fast
 
 #=============================================================================
-# Target rules for targets named 27
-
-# Build rule for target.
-27: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 27
-.PHONY : 27
-
-# fast build rule for target.
-27/fast:
-	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/build
-.PHONY : 27/fast
-
-#=============================================================================
 # Target rules for targets named 21
 
 # Build rule for target.
@@ -395,6 +382,19 @@ offer22/fast:
 21/fast:
 	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/build
 .PHONY : 21/fast
+
+#=============================================================================
+# Target rules for targets named 27
+
+# Build rule for target.
+27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 27
+.PHONY : 27
+
+# fast build rule for target.
+27/fast:
+	$(MAKE) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/build
+.PHONY : 27/fast
 
 #=============================================================================
 # Target rules for targets named 355
@@ -460,6 +460,19 @@ offer22/fast:
 347/fast:
 	$(MAKE) -f CMakeFiles/347.dir/build.make CMakeFiles/347.dir/build
 .PHONY : 347/fast
+
+#=============================================================================
+# Target rules for targets named 1702
+
+# Build rule for target.
+1702: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1702
+.PHONY : 1702
+
+# fast build rule for target.
+1702/fast:
+	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/build
+.PHONY : 1702/fast
 
 #=============================================================================
 # Target rules for targets named 204
@@ -838,6 +851,33 @@ Leetcode/双周赛/42/1701平均等待时间.s: Leetcode/双周赛/42/1701平均
 Leetcode/双周赛/42/1701平均等待时间.cpp.s:
 	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.s
 .PHONY : Leetcode/双周赛/42/1701平均等待时间.cpp.s
+
+Leetcode/双周赛/42/1702修改后的最大二进制字符串.o: Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o
+
+.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.o
+
+# target to build an object file
+Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o:
+	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o
+.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o
+
+Leetcode/双周赛/42/1702修改后的最大二进制字符串.i: Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.i
+
+.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.i
+
+# target to preprocess a source file
+Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.i:
+	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.i
+.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.i
+
+Leetcode/双周赛/42/1702修改后的最大二进制字符串.s: Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.s
+
+.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.s
+
+# target to generate assembly for a file
+Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.s:
+	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.s
+.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.s
 
 Leetcode/双周赛/42/5621无法吃午餐的学生数量.o: Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o
 
@@ -2325,13 +2365,14 @@ help:
 	@echo "... 16.02"
 	@echo "... 628"
 	@echo "... 970"
-	@echo "... 27"
 	@echo "... 21"
+	@echo "... 27"
 	@echo "... 355"
 	@echo "... 25"
 	@echo "... 18-2"
 	@echo "... 73"
 	@echo "... 347"
+	@echo "... 1702"
 	@echo "... 204"
 	@echo "... 0204"
 	@echo "... 138"
@@ -2362,6 +2403,9 @@ help:
 	@echo "... Leetcode/双周赛/42/1701平均等待时间.o"
 	@echo "... Leetcode/双周赛/42/1701平均等待时间.i"
 	@echo "... Leetcode/双周赛/42/1701平均等待时间.s"
+	@echo "... Leetcode/双周赛/42/1702修改后的最大二进制字符串.o"
+	@echo "... Leetcode/双周赛/42/1702修改后的最大二进制字符串.i"
+	@echo "... Leetcode/双周赛/42/1702修改后的最大二进制字符串.s"
 	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.o"
 	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.i"
 	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.s"
