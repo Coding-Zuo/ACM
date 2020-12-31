@@ -306,6 +306,19 @@ offer22/fast:
 .PHONY : 5642/fast
 
 #=============================================================================
+# Target rules for targets named offer48
+
+# Build rule for target.
+offer48: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer48
+.PHONY : offer48
+
+# fast build rule for target.
+offer48/fast:
+	$(MAKE) -f CMakeFiles/offer48.dir/build.make CMakeFiles/offer48.dir/build
+.PHONY : offer48/fast
+
+#=============================================================================
 # Target rules for targets named 1701
 
 # Build rule for target.
@@ -1175,6 +1188,33 @@ Leetcode/哈希表/970强整数.s: Leetcode/哈希表/970强整数.cpp.s
 Leetcode/哈希表/970强整数.cpp.s:
 	$(MAKE) -f CMakeFiles/970.dir/build.make CMakeFiles/970.dir/Leetcode/哈希表/970强整数.cpp.s
 .PHONY : Leetcode/哈希表/970强整数.cpp.s
+
+Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.o: Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.o
+
+.PHONY : Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.o
+
+# target to build an object file
+Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.o:
+	$(MAKE) -f CMakeFiles/offer48.dir/build.make CMakeFiles/offer48.dir/Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.o
+.PHONY : Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.o
+
+Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.i: Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.i
+
+.PHONY : Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.i
+
+# target to preprocess a source file
+Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.i:
+	$(MAKE) -f CMakeFiles/offer48.dir/build.make CMakeFiles/offer48.dir/Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.i
+.PHONY : Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.i
+
+Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.s: Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.s
+
+.PHONY : Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.s:
+	$(MAKE) -f CMakeFiles/offer48.dir/build.make CMakeFiles/offer48.dir/Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.s
+.PHONY : Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp.s
 
 Leetcode/哈希表/面试题16.02单词频率.o: Leetcode/哈希表/面试题16.02单词频率.cpp.o
 
@@ -2360,6 +2400,7 @@ help:
 	@echo "... 1588"
 	@echo "... offer22"
 	@echo "... 5642"
+	@echo "... offer48"
 	@echo "... 1701"
 	@echo "... 648"
 	@echo "... 16.02"
@@ -2439,6 +2480,9 @@ help:
 	@echo "... Leetcode/哈希表/970强整数.o"
 	@echo "... Leetcode/哈希表/970强整数.i"
 	@echo "... Leetcode/哈希表/970强整数.s"
+	@echo "... Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.o"
+	@echo "... Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.i"
+	@echo "... Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.s"
 	@echo "... Leetcode/哈希表/面试题16.02单词频率.o"
 	@echo "... Leetcode/哈希表/面试题16.02单词频率.i"
 	@echo "... Leetcode/哈希表/面试题16.02单词频率.s"
