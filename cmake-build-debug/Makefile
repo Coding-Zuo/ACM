@@ -124,19 +124,6 @@ N4/fast:
 .PHONY : N4/fast
 
 #=============================================================================
-# Target rules for targets named N3
-
-# Build rule for target.
-N3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 N3
-.PHONY : N3
-
-# fast build rule for target.
-N3/fast:
-	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
-.PHONY : N3/fast
-
-#=============================================================================
 # Target rules for targets named N2
 
 # Build rule for target.
@@ -187,45 +174,6 @@ LeastRecentlyUsedCache/fast:
 160/fast:
 	$(MAKE) -f CMakeFiles/160.dir/build.make CMakeFiles/160.dir/build
 .PHONY : 160/fast
-
-#=============================================================================
-# Target rules for targets named 242
-
-# Build rule for target.
-242: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 242
-.PHONY : 242
-
-# fast build rule for target.
-242/fast:
-	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
-.PHONY : 242/fast
-
-#=============================================================================
-# Target rules for targets named 203
-
-# Build rule for target.
-203: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 203
-.PHONY : 203
-
-# fast build rule for target.
-203/fast:
-	$(MAKE) -f CMakeFiles/203.dir/build.make CMakeFiles/203.dir/build
-.PHONY : 203/fast
-
-#=============================================================================
-# Target rules for targets named 0206
-
-# Build rule for target.
-0206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 0206
-.PHONY : 0206
-
-# fast build rule for target.
-0206/fast:
-	$(MAKE) -f CMakeFiles/0206.dir/build.make CMakeFiles/0206.dir/build
-.PHONY : 0206/fast
 
 #=============================================================================
 # Target rules for targets named 328
@@ -319,6 +267,32 @@ offer48/fast:
 .PHONY : offer48/fast
 
 #=============================================================================
+# Target rules for targets named N3
+
+# Build rule for target.
+N3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N3
+.PHONY : N3
+
+# fast build rule for target.
+N3/fast:
+	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
+.PHONY : N3/fast
+
+#=============================================================================
+# Target rules for targets named 438
+
+# Build rule for target.
+438: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 438
+.PHONY : 438
+
+# fast build rule for target.
+438/fast:
+	$(MAKE) -f CMakeFiles/438.dir/build.make CMakeFiles/438.dir/build
+.PHONY : 438/fast
+
+#=============================================================================
 # Target rules for targets named 1701
 
 # Build rule for target.
@@ -343,6 +317,45 @@ offer48/fast:
 648/fast:
 	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/build
 .PHONY : 648/fast
+
+#=============================================================================
+# Target rules for targets named 0206
+
+# Build rule for target.
+0206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 0206
+.PHONY : 0206
+
+# fast build rule for target.
+0206/fast:
+	$(MAKE) -f CMakeFiles/0206.dir/build.make CMakeFiles/0206.dir/build
+.PHONY : 0206/fast
+
+#=============================================================================
+# Target rules for targets named 242
+
+# Build rule for target.
+242: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 242
+.PHONY : 242
+
+# fast build rule for target.
+242/fast:
+	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
+.PHONY : 242/fast
+
+#=============================================================================
+# Target rules for targets named 203
+
+# Build rule for target.
+203: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 203
+.PHONY : 203
+
+# fast build rule for target.
+203/fast:
+	$(MAKE) -f CMakeFiles/203.dir/build.make CMakeFiles/203.dir/build
+.PHONY : 203/fast
 
 #=============================================================================
 # Target rules for targets named 16.02
@@ -1134,6 +1147,33 @@ Leetcode/哈希表/383赎金信.s: Leetcode/哈希表/383赎金信.cpp.s
 Leetcode/哈希表/383赎金信.cpp.s:
 	$(MAKE) -f CMakeFiles/383.dir/build.make CMakeFiles/383.dir/Leetcode/哈希表/383赎金信.cpp.s
 .PHONY : Leetcode/哈希表/383赎金信.cpp.s
+
+Leetcode/哈希表/438找到字符串中所有字母异位词.o: Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.o
+
+.PHONY : Leetcode/哈希表/438找到字符串中所有字母异位词.o
+
+# target to build an object file
+Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.o:
+	$(MAKE) -f CMakeFiles/438.dir/build.make CMakeFiles/438.dir/Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.o
+.PHONY : Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.o
+
+Leetcode/哈希表/438找到字符串中所有字母异位词.i: Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.i
+
+.PHONY : Leetcode/哈希表/438找到字符串中所有字母异位词.i
+
+# target to preprocess a source file
+Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.i:
+	$(MAKE) -f CMakeFiles/438.dir/build.make CMakeFiles/438.dir/Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.i
+.PHONY : Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.i
+
+Leetcode/哈希表/438找到字符串中所有字母异位词.s: Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.s
+
+.PHONY : Leetcode/哈希表/438找到字符串中所有字母异位词.s
+
+# target to generate assembly for a file
+Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.s:
+	$(MAKE) -f CMakeFiles/438.dir/build.make CMakeFiles/438.dir/Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.s
+.PHONY : Leetcode/哈希表/438找到字符串中所有字母异位词.cpp.s
 
 Leetcode/哈希表/648单词替换.o: Leetcode/哈希表/648单词替换.cpp.o
 
@@ -2385,15 +2425,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... N4"
-	@echo "... rebuild_cache"
-	@echo "... N3"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... 1669"
 	@echo "... 160"
-	@echo "... 242"
-	@echo "... 203"
-	@echo "... 0206"
 	@echo "... 328"
 	@echo "... 1476"
 	@echo "... 707"
@@ -2401,8 +2436,14 @@ help:
 	@echo "... offer22"
 	@echo "... 5642"
 	@echo "... offer48"
+	@echo "... rebuild_cache"
+	@echo "... N3"
+	@echo "... 438"
 	@echo "... 1701"
 	@echo "... 648"
+	@echo "... 0206"
+	@echo "... 242"
+	@echo "... 203"
 	@echo "... 16.02"
 	@echo "... 628"
 	@echo "... 970"
@@ -2474,6 +2515,9 @@ help:
 	@echo "... Leetcode/哈希表/383赎金信.o"
 	@echo "... Leetcode/哈希表/383赎金信.i"
 	@echo "... Leetcode/哈希表/383赎金信.s"
+	@echo "... Leetcode/哈希表/438找到字符串中所有字母异位词.o"
+	@echo "... Leetcode/哈希表/438找到字符串中所有字母异位词.i"
+	@echo "... Leetcode/哈希表/438找到字符串中所有字母异位词.s"
 	@echo "... Leetcode/哈希表/648单词替换.o"
 	@echo "... Leetcode/哈希表/648单词替换.i"
 	@echo "... Leetcode/哈希表/648单词替换.s"
