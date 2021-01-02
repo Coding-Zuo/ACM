@@ -22,6 +22,7 @@ add_executable(56 Leetcode/数组/56合并区间.cpp)
 add_executable(offer53 Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp)
 add_executable(73 Leetcode/数组/73矩阵置零.cpp)
 add_executable(74 Leetcode/数组/74搜索二维矩阵.cpp)
+add_executable(80 Leetcode/数组/80删除排序数组中的重复项II.cpp)
 
 add_executable(322 Leetcode/回溯/322重新安排行程.cpp)
 add_executable(37 Leetcode/回溯/37解数独.cpp)
