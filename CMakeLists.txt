@@ -41,6 +41,7 @@ add_executable(16.02 Leetcode/哈希表/面试题16.02单词频率.cpp)
 add_executable(648 Leetcode/哈希表/648单词替换.cpp)
 add_executable(438 Leetcode/哈希表/438找到字符串中所有字母异位词.cpp)
 add_executable(offer48 Leetcode/哈希表/剑指Offer48最长不含重复字符的子字符串.cpp)
+add_executable(609 Leetcode/哈希表/609在系统中查找重复文件.cpp)
 
 
 add_executable(5642 Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp)
