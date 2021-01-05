@@ -57,27 +57,27 @@ include CMakeFiles/1701.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1701.dir/flags.make
 
-CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.o: CMakeFiles/1701.dir/flags.make
-CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.o: ../Leetcode/双周赛/42/1701平均等待时间.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.o -c /Users/zuoyuhui/CLionProjects/ACM/Leetcode/双周赛/42/1701平均等待时间.cpp
+CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.o: CMakeFiles/1701.dir/flags.make
+CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.o: ../Leetcode/周赛/42/1701平均等待时间.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.o -c /Users/zuoyuhui/CLionProjects/ACM/Leetcode/周赛/42/1701平均等待时间.cpp
 
-CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zuoyuhui/CLionProjects/ACM/Leetcode/双周赛/42/1701平均等待时间.cpp > CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.i
+CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zuoyuhui/CLionProjects/ACM/Leetcode/周赛/42/1701平均等待时间.cpp > CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.i
 
-CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zuoyuhui/CLionProjects/ACM/Leetcode/双周赛/42/1701平均等待时间.cpp -o CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.s
+CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zuoyuhui/CLionProjects/ACM/Leetcode/周赛/42/1701平均等待时间.cpp -o CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.s
 
 # Object files for target 1701
 1701_OBJECTS = \
-"CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.o"
+"CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.o"
 
 # External object files for target 1701
 1701_EXTERNAL_OBJECTS =
 
-1701: CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.o
+1701: CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.o
 1701: CMakeFiles/1701.dir/build.make
 1701: CMakeFiles/1701.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 1701"

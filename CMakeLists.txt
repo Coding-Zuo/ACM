@@ -44,9 +44,10 @@ add_executable(offer48 Leetcode/哈希表/剑指Offer48最长不含重复字符�
 add_executable(609 Leetcode/哈希表/609在系统中查找重复文件.cpp)
 
 
-add_executable(5642 Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp)
-add_executable(1701 Leetcode/双周赛/42/1701平均等待时间.cpp)
-add_executable(1702 Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp)
+add_executable(5642 Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp)
+add_executable(1701 Leetcode/周赛/42/1701平均等待时间.cpp)
+add_executable(1702 Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp)
+add_executable(1704 Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp)
 
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)

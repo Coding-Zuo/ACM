@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zuoyuhui/CLionProjects/ACM/Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp" "/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/1702.dir/Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o"
+  "/Users/zuoyuhui/CLionProjects/ACM/Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp" "/Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug/CMakeFiles/1702.dir/Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

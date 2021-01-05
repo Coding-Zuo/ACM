@@ -228,6 +228,32 @@ offer22/fast:
 .PHONY : offer22/fast
 
 #=============================================================================
+# Target rules for targets named 17.10
+
+# Build rule for target.
+17.10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 17.10
+.PHONY : 17.10
+
+# fast build rule for target.
+17.10/fast:
+	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
+.PHONY : 17.10/fast
+
+#=============================================================================
+# Target rules for targets named 1704
+
+# Build rule for target.
+1704: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1704
+.PHONY : 1704
+
+# fast build rule for target.
+1704/fast:
+	$(MAKE) -f CMakeFiles/1704.dir/build.make CMakeFiles/1704.dir/build
+.PHONY : 1704/fast
+
+#=============================================================================
 # Target rules for targets named 5642
 
 # Build rule for target.
@@ -553,19 +579,6 @@ N3/fast:
 .PHONY : 609/fast
 
 #=============================================================================
-# Target rules for targets named 142
-
-# Build rule for target.
-142: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 142
-.PHONY : 142
-
-# fast build rule for target.
-142/fast:
-	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
-.PHONY : 142/fast
-
-#=============================================================================
 # Target rules for targets named 206-1
 
 # Build rule for target.
@@ -577,6 +590,19 @@ N3/fast:
 206-1/fast:
 	$(MAKE) -f CMakeFiles/206-1.dir/build.make CMakeFiles/206-1.dir/build
 .PHONY : 206-1/fast
+
+#=============================================================================
+# Target rules for targets named 142
+
+# Build rule for target.
+142: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 142
+.PHONY : 142
+
+# fast build rule for target.
+142/fast:
+	$(MAKE) -f CMakeFiles/142.dir/build.make CMakeFiles/142.dir/build
+.PHONY : 142/fast
 
 #=============================================================================
 # Target rules for targets named 202
@@ -668,19 +694,6 @@ offer53: cmake_check_build_system
 offer53/fast:
 	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/build
 .PHONY : offer53/fast
-
-#=============================================================================
-# Target rules for targets named 17.10
-
-# Build rule for target.
-17.10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 17.10
-.PHONY : 17.10
-
-# fast build rule for target.
-17.10/fast:
-	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
-.PHONY : 17.10/fast
 
 #=============================================================================
 # Target rules for targets named offer35
@@ -877,86 +890,113 @@ offer04/fast:
 	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
 .PHONY : 74/fast
 
-Leetcode/双周赛/42/1701平均等待时间.o: Leetcode/双周赛/42/1701平均等待时间.cpp.o
+Leetcode/周赛/221/1704判断字符串的两半是否相似.o: Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.o
 
-.PHONY : Leetcode/双周赛/42/1701平均等待时间.o
-
-# target to build an object file
-Leetcode/双周赛/42/1701平均等待时间.cpp.o:
-	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.o
-.PHONY : Leetcode/双周赛/42/1701平均等待时间.cpp.o
-
-Leetcode/双周赛/42/1701平均等待时间.i: Leetcode/双周赛/42/1701平均等待时间.cpp.i
-
-.PHONY : Leetcode/双周赛/42/1701平均等待时间.i
-
-# target to preprocess a source file
-Leetcode/双周赛/42/1701平均等待时间.cpp.i:
-	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.i
-.PHONY : Leetcode/双周赛/42/1701平均等待时间.cpp.i
-
-Leetcode/双周赛/42/1701平均等待时间.s: Leetcode/双周赛/42/1701平均等待时间.cpp.s
-
-.PHONY : Leetcode/双周赛/42/1701平均等待时间.s
-
-# target to generate assembly for a file
-Leetcode/双周赛/42/1701平均等待时间.cpp.s:
-	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/双周赛/42/1701平均等待时间.cpp.s
-.PHONY : Leetcode/双周赛/42/1701平均等待时间.cpp.s
-
-Leetcode/双周赛/42/1702修改后的最大二进制字符串.o: Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o
-
-.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.o
+.PHONY : Leetcode/周赛/221/1704判断字符串的两半是否相似.o
 
 # target to build an object file
-Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o:
-	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o
-.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.o
+Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.o:
+	$(MAKE) -f CMakeFiles/1704.dir/build.make CMakeFiles/1704.dir/Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.o
+.PHONY : Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.o
 
-Leetcode/双周赛/42/1702修改后的最大二进制字符串.i: Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.i
+Leetcode/周赛/221/1704判断字符串的两半是否相似.i: Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.i
 
-.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.i
+.PHONY : Leetcode/周赛/221/1704判断字符串的两半是否相似.i
 
 # target to preprocess a source file
-Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.i:
-	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.i
-.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.i
+Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.i:
+	$(MAKE) -f CMakeFiles/1704.dir/build.make CMakeFiles/1704.dir/Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.i
+.PHONY : Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.i
 
-Leetcode/双周赛/42/1702修改后的最大二进制字符串.s: Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.s
+Leetcode/周赛/221/1704判断字符串的两半是否相似.s: Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.s
 
-.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.s
+.PHONY : Leetcode/周赛/221/1704判断字符串的两半是否相似.s
 
 # target to generate assembly for a file
-Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.s:
-	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.s
-.PHONY : Leetcode/双周赛/42/1702修改后的最大二进制字符串.cpp.s
+Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.s:
+	$(MAKE) -f CMakeFiles/1704.dir/build.make CMakeFiles/1704.dir/Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.s
+.PHONY : Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.s
 
-Leetcode/双周赛/42/5621无法吃午餐的学生数量.o: Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o
+Leetcode/周赛/42/1701平均等待时间.o: Leetcode/周赛/42/1701平均等待时间.cpp.o
 
-.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.o
+.PHONY : Leetcode/周赛/42/1701平均等待时间.o
 
 # target to build an object file
-Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o:
-	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o
-.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.o
+Leetcode/周赛/42/1701平均等待时间.cpp.o:
+	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.o
+.PHONY : Leetcode/周赛/42/1701平均等待时间.cpp.o
 
-Leetcode/双周赛/42/5621无法吃午餐的学生数量.i: Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.i
+Leetcode/周赛/42/1701平均等待时间.i: Leetcode/周赛/42/1701平均等待时间.cpp.i
 
-.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.i
+.PHONY : Leetcode/周赛/42/1701平均等待时间.i
 
 # target to preprocess a source file
-Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.i:
-	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.i
-.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.i
+Leetcode/周赛/42/1701平均等待时间.cpp.i:
+	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.i
+.PHONY : Leetcode/周赛/42/1701平均等待时间.cpp.i
 
-Leetcode/双周赛/42/5621无法吃午餐的学生数量.s: Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.s
+Leetcode/周赛/42/1701平均等待时间.s: Leetcode/周赛/42/1701平均等待时间.cpp.s
 
-.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.s
+.PHONY : Leetcode/周赛/42/1701平均等待时间.s
 
 # target to generate assembly for a file
-Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.s:
-	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.s
-.PHONY : Leetcode/双周赛/42/5621无法吃午餐的学生数量.cpp.s
+Leetcode/周赛/42/1701平均等待时间.cpp.s:
+	$(MAKE) -f CMakeFiles/1701.dir/build.make CMakeFiles/1701.dir/Leetcode/周赛/42/1701平均等待时间.cpp.s
+.PHONY : Leetcode/周赛/42/1701平均等待时间.cpp.s
+
+Leetcode/周赛/42/1702修改后的最大二进制字符串.o: Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.o
+
+.PHONY : Leetcode/周赛/42/1702修改后的最大二进制字符串.o
+
+# target to build an object file
+Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.o:
+	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.o
+.PHONY : Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.o
+
+Leetcode/周赛/42/1702修改后的最大二进制字符串.i: Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.i
+
+.PHONY : Leetcode/周赛/42/1702修改后的最大二进制字符串.i
+
+# target to preprocess a source file
+Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.i:
+	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.i
+.PHONY : Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.i
+
+Leetcode/周赛/42/1702修改后的最大二进制字符串.s: Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.s
+
+.PHONY : Leetcode/周赛/42/1702修改后的最大二进制字符串.s
+
+# target to generate assembly for a file
+Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.s:
+	$(MAKE) -f CMakeFiles/1702.dir/build.make CMakeFiles/1702.dir/Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.s
+.PHONY : Leetcode/周赛/42/1702修改后的最大二进制字符串.cpp.s
+
+Leetcode/周赛/42/5621无法吃午餐的学生数量.o: Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.o
+
+.PHONY : Leetcode/周赛/42/5621无法吃午餐的学生数量.o
+
+# target to build an object file
+Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.o:
+	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.o
+.PHONY : Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.o
+
+Leetcode/周赛/42/5621无法吃午餐的学生数量.i: Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.i
+
+.PHONY : Leetcode/周赛/42/5621无法吃午餐的学生数量.i
+
+# target to preprocess a source file
+Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.i:
+	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.i
+.PHONY : Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.i
+
+Leetcode/周赛/42/5621无法吃午餐的学生数量.s: Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.s
+
+.PHONY : Leetcode/周赛/42/5621无法吃午餐的学生数量.s
+
+# target to generate assembly for a file
+Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.s:
+	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.s
+.PHONY : Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp.s
 
 Leetcode/哈希表/138复制带随机指针的链表.o: Leetcode/哈希表/138复制带随机指针的链表.cpp.o
 
@@ -2513,6 +2553,8 @@ help:
 	@echo "... 445-2"
 	@echo "... 1588"
 	@echo "... offer22"
+	@echo "... 17.10"
+	@echo "... 1704"
 	@echo "... 5642"
 	@echo "... offer48"
 	@echo "... rebuild_cache"
@@ -2539,8 +2581,8 @@ help:
 	@echo "... 0204"
 	@echo "... 138"
 	@echo "... 609"
-	@echo "... 142"
 	@echo "... 206-1"
+	@echo "... 142"
 	@echo "... 202"
 	@echo "... 349"
 	@echo "... 1"
@@ -2548,7 +2590,6 @@ help:
 	@echo "... 37"
 	@echo "... 383"
 	@echo "... offer53"
-	@echo "... 17.10"
 	@echo "... offer35"
 	@echo "... 206"
 	@echo "... 867"
@@ -2564,15 +2605,18 @@ help:
 	@echo "... 61"
 	@echo "... 35"
 	@echo "... 74"
-	@echo "... Leetcode/双周赛/42/1701平均等待时间.o"
-	@echo "... Leetcode/双周赛/42/1701平均等待时间.i"
-	@echo "... Leetcode/双周赛/42/1701平均等待时间.s"
-	@echo "... Leetcode/双周赛/42/1702修改后的最大二进制字符串.o"
-	@echo "... Leetcode/双周赛/42/1702修改后的最大二进制字符串.i"
-	@echo "... Leetcode/双周赛/42/1702修改后的最大二进制字符串.s"
-	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.o"
-	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.i"
-	@echo "... Leetcode/双周赛/42/5621无法吃午餐的学生数量.s"
+	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.o"
+	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.i"
+	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.s"
+	@echo "... Leetcode/周赛/42/1701平均等待时间.o"
+	@echo "... Leetcode/周赛/42/1701平均等待时间.i"
+	@echo "... Leetcode/周赛/42/1701平均等待时间.s"
+	@echo "... Leetcode/周赛/42/1702修改后的最大二进制字符串.o"
+	@echo "... Leetcode/周赛/42/1702修改后的最大二进制字符串.i"
+	@echo "... Leetcode/周赛/42/1702修改后的最大二进制字符串.s"
+	@echo "... Leetcode/周赛/42/5621无法吃午餐的学生数量.o"
+	@echo "... Leetcode/周赛/42/5621无法吃午餐的学生数量.i"
+	@echo "... Leetcode/周赛/42/5621无法吃午餐的学生数量.s"
 	@echo "... Leetcode/哈希表/138复制带随机指针的链表.o"
 	@echo "... Leetcode/哈希表/138复制带随机指针的链表.i"
 	@echo "... Leetcode/哈希表/138复制带随机指针的链表.s"
