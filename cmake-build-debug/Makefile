@@ -228,6 +228,19 @@ offer22/fast:
 .PHONY : offer22/fast
 
 #=============================================================================
+# Target rules for targets named 1705
+
+# Build rule for target.
+1705: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1705
+.PHONY : 1705
+
+# fast build rule for target.
+1705/fast:
+	$(MAKE) -f CMakeFiles/1705.dir/build.make CMakeFiles/1705.dir/build
+.PHONY : 1705/fast
+
+#=============================================================================
 # Target rules for targets named 17.10
 
 # Build rule for target.
@@ -916,6 +929,33 @@ Leetcode/周赛/221/1704判断字符串的两半是否相似.s: Leetcode/周赛/
 Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.s:
 	$(MAKE) -f CMakeFiles/1704.dir/build.make CMakeFiles/1704.dir/Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.s
 .PHONY : Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.s
+
+Leetcode/周赛/221/1705吃苹果的最大数目.o: Leetcode/周赛/221/1705吃苹果的最大数目.cpp.o
+
+.PHONY : Leetcode/周赛/221/1705吃苹果的最大数目.o
+
+# target to build an object file
+Leetcode/周赛/221/1705吃苹果的最大数目.cpp.o:
+	$(MAKE) -f CMakeFiles/1705.dir/build.make CMakeFiles/1705.dir/Leetcode/周赛/221/1705吃苹果的最大数目.cpp.o
+.PHONY : Leetcode/周赛/221/1705吃苹果的最大数目.cpp.o
+
+Leetcode/周赛/221/1705吃苹果的最大数目.i: Leetcode/周赛/221/1705吃苹果的最大数目.cpp.i
+
+.PHONY : Leetcode/周赛/221/1705吃苹果的最大数目.i
+
+# target to preprocess a source file
+Leetcode/周赛/221/1705吃苹果的最大数目.cpp.i:
+	$(MAKE) -f CMakeFiles/1705.dir/build.make CMakeFiles/1705.dir/Leetcode/周赛/221/1705吃苹果的最大数目.cpp.i
+.PHONY : Leetcode/周赛/221/1705吃苹果的最大数目.cpp.i
+
+Leetcode/周赛/221/1705吃苹果的最大数目.s: Leetcode/周赛/221/1705吃苹果的最大数目.cpp.s
+
+.PHONY : Leetcode/周赛/221/1705吃苹果的最大数目.s
+
+# target to generate assembly for a file
+Leetcode/周赛/221/1705吃苹果的最大数目.cpp.s:
+	$(MAKE) -f CMakeFiles/1705.dir/build.make CMakeFiles/1705.dir/Leetcode/周赛/221/1705吃苹果的最大数目.cpp.s
+.PHONY : Leetcode/周赛/221/1705吃苹果的最大数目.cpp.s
 
 Leetcode/周赛/42/1701平均等待时间.o: Leetcode/周赛/42/1701平均等待时间.cpp.o
 
@@ -2553,6 +2593,7 @@ help:
 	@echo "... 445-2"
 	@echo "... 1588"
 	@echo "... offer22"
+	@echo "... 1705"
 	@echo "... 17.10"
 	@echo "... 1704"
 	@echo "... 5642"
@@ -2608,6 +2649,9 @@ help:
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.o"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.i"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.s"
+	@echo "... Leetcode/周赛/221/1705吃苹果的最大数目.o"
+	@echo "... Leetcode/周赛/221/1705吃苹果的最大数目.i"
+	@echo "... Leetcode/周赛/221/1705吃苹果的最大数目.s"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.o"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.i"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.s"
