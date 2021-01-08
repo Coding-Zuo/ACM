@@ -50,6 +50,9 @@ add_executable(1702 Leetcode/周赛/42/1702修改后的最大二进制字符串.
 add_executable(1704 Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp)
 add_executable(1705 Leetcode/周赛/221/1705吃苹果的最大数目.cpp)
 
+add_executable(541 Leetcode/字符串/541反转字符串II.cpp)
+add_executable(344 Leetcode/字符串/344反转字符串.cpp)
+
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)
 add_executable(61 Leetcode/链表/61旋转链表.cpp)

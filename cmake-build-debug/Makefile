@@ -228,6 +228,19 @@ offer22/fast:
 .PHONY : offer22/fast
 
 #=============================================================================
+# Target rules for targets named 541
+
+# Build rule for target.
+541: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 541
+.PHONY : 541
+
+# fast build rule for target.
+541/fast:
+	$(MAKE) -f CMakeFiles/541.dir/build.make CMakeFiles/541.dir/build
+.PHONY : 541/fast
+
+#=============================================================================
 # Target rules for targets named 1705
 
 # Build rule for target.
@@ -356,45 +369,6 @@ N3/fast:
 648/fast:
 	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/build
 .PHONY : 648/fast
-
-#=============================================================================
-# Target rules for targets named 0206
-
-# Build rule for target.
-0206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 0206
-.PHONY : 0206
-
-# fast build rule for target.
-0206/fast:
-	$(MAKE) -f CMakeFiles/0206.dir/build.make CMakeFiles/0206.dir/build
-.PHONY : 0206/fast
-
-#=============================================================================
-# Target rules for targets named 242
-
-# Build rule for target.
-242: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 242
-.PHONY : 242
-
-# fast build rule for target.
-242/fast:
-	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
-.PHONY : 242/fast
-
-#=============================================================================
-# Target rules for targets named 203
-
-# Build rule for target.
-203: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 203
-.PHONY : 203
-
-# fast build rule for target.
-203/fast:
-	$(MAKE) -f CMakeFiles/203.dir/build.make CMakeFiles/203.dir/build
-.PHONY : 203/fast
 
 #=============================================================================
 # Target rules for targets named 16.02
@@ -657,6 +631,45 @@ N3/fast:
 .PHONY : 1/fast
 
 #=============================================================================
+# Target rules for targets named 0206
+
+# Build rule for target.
+0206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 0206
+.PHONY : 0206
+
+# fast build rule for target.
+0206/fast:
+	$(MAKE) -f CMakeFiles/0206.dir/build.make CMakeFiles/0206.dir/build
+.PHONY : 0206/fast
+
+#=============================================================================
+# Target rules for targets named 203
+
+# Build rule for target.
+203: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 203
+.PHONY : 203
+
+# fast build rule for target.
+203/fast:
+	$(MAKE) -f CMakeFiles/203.dir/build.make CMakeFiles/203.dir/build
+.PHONY : 203/fast
+
+#=============================================================================
+# Target rules for targets named 242
+
+# Build rule for target.
+242: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 242
+.PHONY : 242
+
+# fast build rule for target.
+242/fast:
+	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
+.PHONY : 242/fast
+
+#=============================================================================
 # Target rules for targets named 59-2
 
 # Build rule for target.
@@ -759,6 +772,19 @@ offer35/fast:
 322/fast:
 	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/build
 .PHONY : 322/fast
+
+#=============================================================================
+# Target rules for targets named 344
+
+# Build rule for target.
+344: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 344
+.PHONY : 344
+
+# fast build rule for target.
+344/fast:
+	$(MAKE) -f CMakeFiles/344.dir/build.make CMakeFiles/344.dir/build
+.PHONY : 344/fast
 
 #=============================================================================
 # Target rules for targets named 707
@@ -1469,6 +1495,60 @@ Leetcode/回溯/37解数独.s: Leetcode/回溯/37解数独.cpp.s
 Leetcode/回溯/37解数独.cpp.s:
 	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/Leetcode/回溯/37解数独.cpp.s
 .PHONY : Leetcode/回溯/37解数独.cpp.s
+
+Leetcode/字符串/344反转字符串.o: Leetcode/字符串/344反转字符串.cpp.o
+
+.PHONY : Leetcode/字符串/344反转字符串.o
+
+# target to build an object file
+Leetcode/字符串/344反转字符串.cpp.o:
+	$(MAKE) -f CMakeFiles/344.dir/build.make CMakeFiles/344.dir/Leetcode/字符串/344反转字符串.cpp.o
+.PHONY : Leetcode/字符串/344反转字符串.cpp.o
+
+Leetcode/字符串/344反转字符串.i: Leetcode/字符串/344反转字符串.cpp.i
+
+.PHONY : Leetcode/字符串/344反转字符串.i
+
+# target to preprocess a source file
+Leetcode/字符串/344反转字符串.cpp.i:
+	$(MAKE) -f CMakeFiles/344.dir/build.make CMakeFiles/344.dir/Leetcode/字符串/344反转字符串.cpp.i
+.PHONY : Leetcode/字符串/344反转字符串.cpp.i
+
+Leetcode/字符串/344反转字符串.s: Leetcode/字符串/344反转字符串.cpp.s
+
+.PHONY : Leetcode/字符串/344反转字符串.s
+
+# target to generate assembly for a file
+Leetcode/字符串/344反转字符串.cpp.s:
+	$(MAKE) -f CMakeFiles/344.dir/build.make CMakeFiles/344.dir/Leetcode/字符串/344反转字符串.cpp.s
+.PHONY : Leetcode/字符串/344反转字符串.cpp.s
+
+Leetcode/字符串/541反转字符串II.o: Leetcode/字符串/541反转字符串II.cpp.o
+
+.PHONY : Leetcode/字符串/541反转字符串II.o
+
+# target to build an object file
+Leetcode/字符串/541反转字符串II.cpp.o:
+	$(MAKE) -f CMakeFiles/541.dir/build.make CMakeFiles/541.dir/Leetcode/字符串/541反转字符串II.cpp.o
+.PHONY : Leetcode/字符串/541反转字符串II.cpp.o
+
+Leetcode/字符串/541反转字符串II.i: Leetcode/字符串/541反转字符串II.cpp.i
+
+.PHONY : Leetcode/字符串/541反转字符串II.i
+
+# target to preprocess a source file
+Leetcode/字符串/541反转字符串II.cpp.i:
+	$(MAKE) -f CMakeFiles/541.dir/build.make CMakeFiles/541.dir/Leetcode/字符串/541反转字符串II.cpp.i
+.PHONY : Leetcode/字符串/541反转字符串II.cpp.i
+
+Leetcode/字符串/541反转字符串II.s: Leetcode/字符串/541反转字符串II.cpp.s
+
+.PHONY : Leetcode/字符串/541反转字符串II.s
+
+# target to generate assembly for a file
+Leetcode/字符串/541反转字符串II.cpp.s:
+	$(MAKE) -f CMakeFiles/541.dir/build.make CMakeFiles/541.dir/Leetcode/字符串/541反转字符串II.cpp.s
+.PHONY : Leetcode/字符串/541反转字符串II.cpp.s
 
 Leetcode/数组/1476子矩形查询.o: Leetcode/数组/1476子矩形查询.cpp.o
 
@@ -2593,6 +2673,7 @@ help:
 	@echo "... 445-2"
 	@echo "... 1588"
 	@echo "... offer22"
+	@echo "... 541"
 	@echo "... 1705"
 	@echo "... 17.10"
 	@echo "... 1704"
@@ -2604,9 +2685,6 @@ help:
 	@echo "... 438"
 	@echo "... 1701"
 	@echo "... 648"
-	@echo "... 0206"
-	@echo "... 242"
-	@echo "... 203"
 	@echo "... 16.02"
 	@echo "... 628"
 	@echo "... 970"
@@ -2627,6 +2705,9 @@ help:
 	@echo "... 202"
 	@echo "... 349"
 	@echo "... 1"
+	@echo "... 0206"
+	@echo "... 203"
+	@echo "... 242"
 	@echo "... 59-2"
 	@echo "... 37"
 	@echo "... 383"
@@ -2635,6 +2716,7 @@ help:
 	@echo "... 206"
 	@echo "... 867"
 	@echo "... 322"
+	@echo "... 344"
 	@echo "... 707"
 	@echo "... 1476"
 	@echo "... 18"
@@ -2709,6 +2791,12 @@ help:
 	@echo "... Leetcode/回溯/37解数独.o"
 	@echo "... Leetcode/回溯/37解数独.i"
 	@echo "... Leetcode/回溯/37解数独.s"
+	@echo "... Leetcode/字符串/344反转字符串.o"
+	@echo "... Leetcode/字符串/344反转字符串.i"
+	@echo "... Leetcode/字符串/344反转字符串.s"
+	@echo "... Leetcode/字符串/541反转字符串II.o"
+	@echo "... Leetcode/字符串/541反转字符串II.i"
+	@echo "... Leetcode/字符串/541反转字符串II.s"
 	@echo "... Leetcode/数组/1476子矩形查询.o"
 	@echo "... Leetcode/数组/1476子矩形查询.i"
 	@echo "... Leetcode/数组/1476子矩形查询.s"
