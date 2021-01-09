@@ -215,6 +215,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 25/fast
 
 #=============================================================================
+# Target rules for targets named 61
+
+# Build rule for target.
+61: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 61
+.PHONY : 61
+
+# fast build rule for target.
+61/fast:
+	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/build
+.PHONY : 61/fast
+
+#=============================================================================
 # Target rules for targets named 541
 
 # Build rule for target.
@@ -252,6 +265,19 @@ LeastRecentlyUsedCache/fast:
 17.10/fast:
 	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
 .PHONY : 17.10/fast
+
+#=============================================================================
+# Target rules for targets named offer05-2
+
+# Build rule for target.
+offer05-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer05-2
+.PHONY : offer05-2
+
+# fast build rule for target.
+offer05-2/fast:
+	$(MAKE) -f CMakeFiles/offer05-2.dir/build.make CMakeFiles/offer05-2.dir/build
+.PHONY : offer05-2/fast
 
 #=============================================================================
 # Target rules for targets named 1704
@@ -915,19 +941,6 @@ offer04/fast:
 15/fast:
 	$(MAKE) -f CMakeFiles/15.dir/build.make CMakeFiles/15.dir/build
 .PHONY : 15/fast
-
-#=============================================================================
-# Target rules for targets named 61
-
-# Build rule for target.
-61: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 61
-.PHONY : 61
-
-# fast build rule for target.
-61/fast:
-	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/build
-.PHONY : 61/fast
 
 #=============================================================================
 # Target rules for targets named 35
@@ -1609,6 +1622,7 @@ Leetcode/字符串/剑指Offer05替换空格.o: Leetcode/字符串/剑指Offer05
 
 # target to build an object file
 Leetcode/字符串/剑指Offer05替换空格.cpp.o:
+	$(MAKE) -f CMakeFiles/offer05-2.dir/build.make CMakeFiles/offer05-2.dir/Leetcode/字符串/剑指Offer05替换空格.cpp.o
 	$(MAKE) -f CMakeFiles/offer05.dir/build.make CMakeFiles/offer05.dir/Leetcode/字符串/剑指Offer05替换空格.cpp.o
 .PHONY : Leetcode/字符串/剑指Offer05替换空格.cpp.o
 
@@ -1618,6 +1632,7 @@ Leetcode/字符串/剑指Offer05替换空格.i: Leetcode/字符串/剑指Offer05
 
 # target to preprocess a source file
 Leetcode/字符串/剑指Offer05替换空格.cpp.i:
+	$(MAKE) -f CMakeFiles/offer05-2.dir/build.make CMakeFiles/offer05-2.dir/Leetcode/字符串/剑指Offer05替换空格.cpp.i
 	$(MAKE) -f CMakeFiles/offer05.dir/build.make CMakeFiles/offer05.dir/Leetcode/字符串/剑指Offer05替换空格.cpp.i
 .PHONY : Leetcode/字符串/剑指Offer05替换空格.cpp.i
 
@@ -1627,6 +1642,7 @@ Leetcode/字符串/剑指Offer05替换空格.s: Leetcode/字符串/剑指Offer05
 
 # target to generate assembly for a file
 Leetcode/字符串/剑指Offer05替换空格.cpp.s:
+	$(MAKE) -f CMakeFiles/offer05-2.dir/build.make CMakeFiles/offer05-2.dir/Leetcode/字符串/剑指Offer05替换空格.cpp.s
 	$(MAKE) -f CMakeFiles/offer05.dir/build.make CMakeFiles/offer05.dir/Leetcode/字符串/剑指Offer05替换空格.cpp.s
 .PHONY : Leetcode/字符串/剑指Offer05替换空格.cpp.s
 
@@ -2752,9 +2768,11 @@ help:
 	@echo "... 328"
 	@echo "... 445-2"
 	@echo "... 25"
+	@echo "... 61"
 	@echo "... 541"
 	@echo "... 1705"
 	@echo "... 17.10"
+	@echo "... offer05-2"
 	@echo "... 1704"
 	@echo "... offer05"
 	@echo "... 5642"
@@ -2807,7 +2825,6 @@ help:
 	@echo "... 209"
 	@echo "... offer04"
 	@echo "... 15"
-	@echo "... 61"
 	@echo "... 35"
 	@echo "... 74"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.o"
