@@ -228,6 +228,32 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 61/fast
 
 #=============================================================================
+# Target rules for targets named offer35
+
+# Build rule for target.
+offer35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer35
+.PHONY : offer35
+
+# fast build rule for target.
+offer35/fast:
+	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/build
+.PHONY : offer35/fast
+
+#=============================================================================
+# Target rules for targets named 206
+
+# Build rule for target.
+206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206
+.PHONY : 206
+
+# fast build rule for target.
+206/fast:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
+.PHONY : 206/fast
+
+#=============================================================================
 # Target rules for targets named 541
 
 # Build rule for target.
@@ -631,58 +657,6 @@ N3/fast:
 .PHONY : 349/fast
 
 #=============================================================================
-# Target rules for targets named 1
-
-# Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1
-.PHONY : 1
-
-# fast build rule for target.
-1/fast:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
-.PHONY : 1/fast
-
-#=============================================================================
-# Target rules for targets named 0206
-
-# Build rule for target.
-0206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 0206
-.PHONY : 0206
-
-# fast build rule for target.
-0206/fast:
-	$(MAKE) -f CMakeFiles/0206.dir/build.make CMakeFiles/0206.dir/build
-.PHONY : 0206/fast
-
-#=============================================================================
-# Target rules for targets named 203
-
-# Build rule for target.
-203: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 203
-.PHONY : 203
-
-# fast build rule for target.
-203/fast:
-	$(MAKE) -f CMakeFiles/203.dir/build.make CMakeFiles/203.dir/build
-.PHONY : 203/fast
-
-#=============================================================================
-# Target rules for targets named 242
-
-# Build rule for target.
-242: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 242
-.PHONY : 242
-
-# fast build rule for target.
-242/fast:
-	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
-.PHONY : 242/fast
-
-#=============================================================================
 # Target rules for targets named 59-2
 
 # Build rule for target.
@@ -746,32 +720,6 @@ offer53: cmake_check_build_system
 offer53/fast:
 	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/build
 .PHONY : offer53/fast
-
-#=============================================================================
-# Target rules for targets named offer35
-
-# Build rule for target.
-offer35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 offer35
-.PHONY : offer35
-
-# fast build rule for target.
-offer35/fast:
-	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/build
-.PHONY : offer35/fast
-
-#=============================================================================
-# Target rules for targets named 206
-
-# Build rule for target.
-206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 206
-.PHONY : 206
-
-# fast build rule for target.
-206/fast:
-	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
-.PHONY : 206/fast
 
 #=============================================================================
 # Target rules for targets named 867
@@ -943,6 +891,19 @@ offer04/fast:
 .PHONY : 15/fast
 
 #=============================================================================
+# Target rules for targets named 1471
+
+# Build rule for target.
+1471: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1471
+.PHONY : 1471
+
+# fast build rule for target.
+1471/fast:
+	$(MAKE) -f CMakeFiles/1471.dir/build.make CMakeFiles/1471.dir/build
+.PHONY : 1471/fast
+
+#=============================================================================
 # Target rules for targets named 35
 
 # Build rule for target.
@@ -954,6 +915,58 @@ offer04/fast:
 35/fast:
 	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
 .PHONY : 35/fast
+
+#=============================================================================
+# Target rules for targets named 0206
+
+# Build rule for target.
+0206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 0206
+.PHONY : 0206
+
+# fast build rule for target.
+0206/fast:
+	$(MAKE) -f CMakeFiles/0206.dir/build.make CMakeFiles/0206.dir/build
+.PHONY : 0206/fast
+
+#=============================================================================
+# Target rules for targets named 203
+
+# Build rule for target.
+203: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 203
+.PHONY : 203
+
+# fast build rule for target.
+203/fast:
+	$(MAKE) -f CMakeFiles/203.dir/build.make CMakeFiles/203.dir/build
+.PHONY : 203/fast
+
+#=============================================================================
+# Target rules for targets named 242
+
+# Build rule for target.
+242: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 242
+.PHONY : 242
+
+# fast build rule for target.
+242/fast:
+	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
+.PHONY : 242/fast
+
+#=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
 
 #=============================================================================
 # Target rules for targets named 74
@@ -1645,6 +1658,33 @@ Leetcode/字符串/剑指Offer05替换空格.cpp.s:
 	$(MAKE) -f CMakeFiles/offer05-2.dir/build.make CMakeFiles/offer05-2.dir/Leetcode/字符串/剑指Offer05替换空格.cpp.s
 	$(MAKE) -f CMakeFiles/offer05.dir/build.make CMakeFiles/offer05.dir/Leetcode/字符串/剑指Offer05替换空格.cpp.s
 .PHONY : Leetcode/字符串/剑指Offer05替换空格.cpp.s
+
+Leetcode/数组/1471数组中的k个最强值.o: Leetcode/数组/1471数组中的k个最强值.cpp.o
+
+.PHONY : Leetcode/数组/1471数组中的k个最强值.o
+
+# target to build an object file
+Leetcode/数组/1471数组中的k个最强值.cpp.o:
+	$(MAKE) -f CMakeFiles/1471.dir/build.make CMakeFiles/1471.dir/Leetcode/数组/1471数组中的k个最强值.cpp.o
+.PHONY : Leetcode/数组/1471数组中的k个最强值.cpp.o
+
+Leetcode/数组/1471数组中的k个最强值.i: Leetcode/数组/1471数组中的k个最强值.cpp.i
+
+.PHONY : Leetcode/数组/1471数组中的k个最强值.i
+
+# target to preprocess a source file
+Leetcode/数组/1471数组中的k个最强值.cpp.i:
+	$(MAKE) -f CMakeFiles/1471.dir/build.make CMakeFiles/1471.dir/Leetcode/数组/1471数组中的k个最强值.cpp.i
+.PHONY : Leetcode/数组/1471数组中的k个最强值.cpp.i
+
+Leetcode/数组/1471数组中的k个最强值.s: Leetcode/数组/1471数组中的k个最强值.cpp.s
+
+.PHONY : Leetcode/数组/1471数组中的k个最强值.s
+
+# target to generate assembly for a file
+Leetcode/数组/1471数组中的k个最强值.cpp.s:
+	$(MAKE) -f CMakeFiles/1471.dir/build.make CMakeFiles/1471.dir/Leetcode/数组/1471数组中的k个最强值.cpp.s
+.PHONY : Leetcode/数组/1471数组中的k个最强值.cpp.s
 
 Leetcode/数组/1476子矩形查询.o: Leetcode/数组/1476子矩形查询.cpp.o
 
@@ -2769,6 +2809,8 @@ help:
 	@echo "... 445-2"
 	@echo "... 25"
 	@echo "... 61"
+	@echo "... offer35"
+	@echo "... 206"
 	@echo "... 541"
 	@echo "... 1705"
 	@echo "... 17.10"
@@ -2801,17 +2843,11 @@ help:
 	@echo "... 142"
 	@echo "... 202"
 	@echo "... 349"
-	@echo "... 1"
-	@echo "... 0206"
-	@echo "... 203"
-	@echo "... 242"
 	@echo "... 59-2"
 	@echo "... 37"
 	@echo "... 151"
 	@echo "... 383"
 	@echo "... offer53"
-	@echo "... offer35"
-	@echo "... 206"
 	@echo "... 867"
 	@echo "... 322"
 	@echo "... 344"
@@ -2825,7 +2861,12 @@ help:
 	@echo "... 209"
 	@echo "... offer04"
 	@echo "... 15"
+	@echo "... 1471"
 	@echo "... 35"
+	@echo "... 0206"
+	@echo "... 203"
+	@echo "... 242"
+	@echo "... 1"
 	@echo "... 74"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.o"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.i"
@@ -2902,6 +2943,9 @@ help:
 	@echo "... Leetcode/字符串/剑指Offer05替换空格.o"
 	@echo "... Leetcode/字符串/剑指Offer05替换空格.i"
 	@echo "... Leetcode/字符串/剑指Offer05替换空格.s"
+	@echo "... Leetcode/数组/1471数组中的k个最强值.o"
+	@echo "... Leetcode/数组/1471数组中的k个最强值.i"
+	@echo "... Leetcode/数组/1471数组中的k个最强值.s"
 	@echo "... Leetcode/数组/1476子矩形查询.o"
 	@echo "... Leetcode/数组/1476子矩形查询.i"
 	@echo "... Leetcode/数组/1476子矩形查询.s"
