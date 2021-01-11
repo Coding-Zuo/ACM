@@ -280,19 +280,6 @@ offer35/fast:
 .PHONY : 1705/fast
 
 #=============================================================================
-# Target rules for targets named 17.10
-
-# Build rule for target.
-17.10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 17.10
-.PHONY : 17.10
-
-# fast build rule for target.
-17.10/fast:
-	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
-.PHONY : 17.10/fast
-
-#=============================================================================
 # Target rules for targets named offer05-2
 
 # Build rule for target.
@@ -304,6 +291,19 @@ offer05-2: cmake_check_build_system
 offer05-2/fast:
 	$(MAKE) -f CMakeFiles/offer05-2.dir/build.make CMakeFiles/offer05-2.dir/build
 .PHONY : offer05-2/fast
+
+#=============================================================================
+# Target rules for targets named 17.10
+
+# Build rule for target.
+17.10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 17.10
+.PHONY : 17.10
+
+# fast build rule for target.
+17.10/fast:
+	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
+.PHONY : 17.10/fast
 
 #=============================================================================
 # Target rules for targets named 1704
@@ -904,6 +904,19 @@ offer04/fast:
 .PHONY : 1471/fast
 
 #=============================================================================
+# Target rules for targets named 1710
+
+# Build rule for target.
+1710: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1710
+.PHONY : 1710
+
+# fast build rule for target.
+1710/fast:
+	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/build
+.PHONY : 1710/fast
+
+#=============================================================================
 # Target rules for targets named 35
 
 # Build rule for target.
@@ -1034,6 +1047,33 @@ Leetcode/周赛/221/1705吃苹果的最大数目.s: Leetcode/周赛/221/1705吃�
 Leetcode/周赛/221/1705吃苹果的最大数目.cpp.s:
 	$(MAKE) -f CMakeFiles/1705.dir/build.make CMakeFiles/1705.dir/Leetcode/周赛/221/1705吃苹果的最大数目.cpp.s
 .PHONY : Leetcode/周赛/221/1705吃苹果的最大数目.cpp.s
+
+Leetcode/周赛/222/1710卡车上的最大单元数.o: Leetcode/周赛/222/1710卡车上的最大单元数.cpp.o
+
+.PHONY : Leetcode/周赛/222/1710卡车上的最大单元数.o
+
+# target to build an object file
+Leetcode/周赛/222/1710卡车上的最大单元数.cpp.o:
+	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/Leetcode/周赛/222/1710卡车上的最大单元数.cpp.o
+.PHONY : Leetcode/周赛/222/1710卡车上的最大单元数.cpp.o
+
+Leetcode/周赛/222/1710卡车上的最大单元数.i: Leetcode/周赛/222/1710卡车上的最大单元数.cpp.i
+
+.PHONY : Leetcode/周赛/222/1710卡车上的最大单元数.i
+
+# target to preprocess a source file
+Leetcode/周赛/222/1710卡车上的最大单元数.cpp.i:
+	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/Leetcode/周赛/222/1710卡车上的最大单元数.cpp.i
+.PHONY : Leetcode/周赛/222/1710卡车上的最大单元数.cpp.i
+
+Leetcode/周赛/222/1710卡车上的最大单元数.s: Leetcode/周赛/222/1710卡车上的最大单元数.cpp.s
+
+.PHONY : Leetcode/周赛/222/1710卡车上的最大单元数.s
+
+# target to generate assembly for a file
+Leetcode/周赛/222/1710卡车上的最大单元数.cpp.s:
+	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/Leetcode/周赛/222/1710卡车上的最大单元数.cpp.s
+.PHONY : Leetcode/周赛/222/1710卡车上的最大单元数.cpp.s
 
 Leetcode/周赛/42/1701平均等待时间.o: Leetcode/周赛/42/1701平均等待时间.cpp.o
 
@@ -2813,8 +2853,8 @@ help:
 	@echo "... 206"
 	@echo "... 541"
 	@echo "... 1705"
-	@echo "... 17.10"
 	@echo "... offer05-2"
+	@echo "... 17.10"
 	@echo "... 1704"
 	@echo "... offer05"
 	@echo "... 5642"
@@ -2862,6 +2902,7 @@ help:
 	@echo "... offer04"
 	@echo "... 15"
 	@echo "... 1471"
+	@echo "... 1710"
 	@echo "... 35"
 	@echo "... 0206"
 	@echo "... 203"
@@ -2874,6 +2915,9 @@ help:
 	@echo "... Leetcode/周赛/221/1705吃苹果的最大数目.o"
 	@echo "... Leetcode/周赛/221/1705吃苹果的最大数目.i"
 	@echo "... Leetcode/周赛/221/1705吃苹果的最大数目.s"
+	@echo "... Leetcode/周赛/222/1710卡车上的最大单元数.o"
+	@echo "... Leetcode/周赛/222/1710卡车上的最大单元数.i"
+	@echo "... Leetcode/周赛/222/1710卡车上的最大单元数.s"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.o"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.i"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.s"

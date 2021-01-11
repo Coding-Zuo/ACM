@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zuoyuhui/CLionProjects/ACM/Leetcode/周赛/222/1710卡车上的最大单元数.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+sstream
+-
+set
+-
+queue
+-
+
