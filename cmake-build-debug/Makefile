@@ -280,6 +280,19 @@ offer35/fast:
 .PHONY : 151/fast
 
 #=============================================================================
+# Target rules for targets named 344
+
+# Build rule for target.
+344: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 344
+.PHONY : 344
+
+# fast build rule for target.
+344/fast:
+	$(MAKE) -f CMakeFiles/344.dir/build.make CMakeFiles/344.dir/build
+.PHONY : 344/fast
+
+#=============================================================================
 # Target rules for targets named 541
 
 # Build rule for target.
@@ -475,32 +488,6 @@ N3/fast:
 .PHONY : 16.02/fast
 
 #=============================================================================
-# Target rules for targets named 628
-
-# Build rule for target.
-628: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 628
-.PHONY : 628
-
-# fast build rule for target.
-628/fast:
-	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/build
-.PHONY : 628/fast
-
-#=============================================================================
-# Target rules for targets named 970
-
-# Build rule for target.
-970: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 970
-.PHONY : 970
-
-# fast build rule for target.
-970/fast:
-	$(MAKE) -f CMakeFiles/970.dir/build.make CMakeFiles/970.dir/build
-.PHONY : 970/fast
-
-#=============================================================================
 # Target rules for targets named 21
 
 # Build rule for target.
@@ -577,6 +564,19 @@ N3/fast:
 347/fast:
 	$(MAKE) -f CMakeFiles/347.dir/build.make CMakeFiles/347.dir/build
 .PHONY : 347/fast
+
+#=============================================================================
+# Target rules for targets named offer21
+
+# Build rule for target.
+offer21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer21
+.PHONY : offer21
+
+# fast build rule for target.
+offer21/fast:
+	$(MAKE) -f CMakeFiles/offer21.dir/build.make CMakeFiles/offer21.dir/build
+.PHONY : offer21/fast
 
 #=============================================================================
 # Target rules for targets named 1702
@@ -696,30 +696,43 @@ N3/fast:
 .PHONY : 349/fast
 
 #=============================================================================
-# Target rules for targets named 59-2
+# Target rules for targets named 322
 
 # Build rule for target.
-59-2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 59-2
-.PHONY : 59-2
+322: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 322
+.PHONY : 322
 
 # fast build rule for target.
-59-2/fast:
-	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/build
-.PHONY : 59-2/fast
+322/fast:
+	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/build
+.PHONY : 322/fast
 
 #=============================================================================
-# Target rules for targets named 37
+# Target rules for targets named 628
 
 # Build rule for target.
-37: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 37
-.PHONY : 37
+628: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 628
+.PHONY : 628
 
 # fast build rule for target.
-37/fast:
-	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/build
-.PHONY : 37/fast
+628/fast:
+	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/build
+.PHONY : 628/fast
+
+#=============================================================================
+# Target rules for targets named 970
+
+# Build rule for target.
+970: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 970
+.PHONY : 970
+
+# fast build rule for target.
+970/fast:
+	$(MAKE) -f CMakeFiles/970.dir/build.make CMakeFiles/970.dir/build
+.PHONY : 970/fast
 
 #=============================================================================
 # Target rules for targets named 383
@@ -761,32 +774,6 @@ offer53/fast:
 .PHONY : 867/fast
 
 #=============================================================================
-# Target rules for targets named 322
-
-# Build rule for target.
-322: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 322
-.PHONY : 322
-
-# fast build rule for target.
-322/fast:
-	$(MAKE) -f CMakeFiles/322.dir/build.make CMakeFiles/322.dir/build
-.PHONY : 322/fast
-
-#=============================================================================
-# Target rules for targets named 344
-
-# Build rule for target.
-344: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 344
-.PHONY : 344
-
-# fast build rule for target.
-344/fast:
-	$(MAKE) -f CMakeFiles/344.dir/build.make CMakeFiles/344.dir/build
-.PHONY : 344/fast
-
-#=============================================================================
 # Target rules for targets named offer22
 
 # Build rule for target.
@@ -798,6 +785,19 @@ offer22: cmake_check_build_system
 offer22/fast:
 	$(MAKE) -f CMakeFiles/offer22.dir/build.make CMakeFiles/offer22.dir/build
 .PHONY : offer22/fast
+
+#=============================================================================
+# Target rules for targets named offer12
+
+# Build rule for target.
+offer12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer12
+.PHONY : offer12
+
+# fast build rule for target.
+offer12/fast:
+	$(MAKE) -f CMakeFiles/offer12.dir/build.make CMakeFiles/offer12.dir/build
+.PHONY : offer12/fast
 
 #=============================================================================
 # Target rules for targets named 1588
@@ -850,6 +850,32 @@ offer22/fast:
 18/fast:
 	$(MAKE) -f CMakeFiles/18.dir/build.make CMakeFiles/18.dir/build
 .PHONY : 18/fast
+
+#=============================================================================
+# Target rules for targets named 37
+
+# Build rule for target.
+37: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 37
+.PHONY : 37
+
+# fast build rule for target.
+37/fast:
+	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/build
+.PHONY : 37/fast
+
+#=============================================================================
+# Target rules for targets named 59-2
+
+# Build rule for target.
+59-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 59-2
+.PHONY : 59-2
+
+# fast build rule for target.
+59-2/fast:
+	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/build
+.PHONY : 59-2/fast
 
 #=============================================================================
 # Target rules for targets named ACM
@@ -2292,6 +2318,60 @@ Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s:
 	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s
 .PHONY : Leetcode/数组/剑指Offer04二维数组中的查找.cpp.s
 
+Leetcode/数组/剑指Offer12矩阵中的路径.o: Leetcode/数组/剑指Offer12矩阵中的路径.cpp.o
+
+.PHONY : Leetcode/数组/剑指Offer12矩阵中的路径.o
+
+# target to build an object file
+Leetcode/数组/剑指Offer12矩阵中的路径.cpp.o:
+	$(MAKE) -f CMakeFiles/offer12.dir/build.make CMakeFiles/offer12.dir/Leetcode/数组/剑指Offer12矩阵中的路径.cpp.o
+.PHONY : Leetcode/数组/剑指Offer12矩阵中的路径.cpp.o
+
+Leetcode/数组/剑指Offer12矩阵中的路径.i: Leetcode/数组/剑指Offer12矩阵中的路径.cpp.i
+
+.PHONY : Leetcode/数组/剑指Offer12矩阵中的路径.i
+
+# target to preprocess a source file
+Leetcode/数组/剑指Offer12矩阵中的路径.cpp.i:
+	$(MAKE) -f CMakeFiles/offer12.dir/build.make CMakeFiles/offer12.dir/Leetcode/数组/剑指Offer12矩阵中的路径.cpp.i
+.PHONY : Leetcode/数组/剑指Offer12矩阵中的路径.cpp.i
+
+Leetcode/数组/剑指Offer12矩阵中的路径.s: Leetcode/数组/剑指Offer12矩阵中的路径.cpp.s
+
+.PHONY : Leetcode/数组/剑指Offer12矩阵中的路径.s
+
+# target to generate assembly for a file
+Leetcode/数组/剑指Offer12矩阵中的路径.cpp.s:
+	$(MAKE) -f CMakeFiles/offer12.dir/build.make CMakeFiles/offer12.dir/Leetcode/数组/剑指Offer12矩阵中的路径.cpp.s
+.PHONY : Leetcode/数组/剑指Offer12矩阵中的路径.cpp.s
+
+Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.o: Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.o
+
+.PHONY : Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.o
+
+# target to build an object file
+Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.o:
+	$(MAKE) -f CMakeFiles/offer21.dir/build.make CMakeFiles/offer21.dir/Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.o
+.PHONY : Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.o
+
+Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.i: Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.i
+
+.PHONY : Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.i
+
+# target to preprocess a source file
+Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.i:
+	$(MAKE) -f CMakeFiles/offer21.dir/build.make CMakeFiles/offer21.dir/Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.i
+.PHONY : Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.i
+
+Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.s: Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.s
+
+.PHONY : Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.s
+
+# target to generate assembly for a file
+Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.s:
+	$(MAKE) -f CMakeFiles/offer21.dir/build.make CMakeFiles/offer21.dir/Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.s
+.PHONY : Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp.s
+
 Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.o: Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.o
 
 .PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.o
@@ -2933,6 +3013,7 @@ help:
 	@echo "... 206"
 	@echo "... 443"
 	@echo "... 151"
+	@echo "... 344"
 	@echo "... 541"
 	@echo "... 1711"
 	@echo "... 1705"
@@ -2949,14 +3030,13 @@ help:
 	@echo "... 1701"
 	@echo "... 648"
 	@echo "... 16.02"
-	@echo "... 628"
-	@echo "... 970"
 	@echo "... 21"
 	@echo "... 27"
 	@echo "... 355"
 	@echo "... 18-2"
 	@echo "... 73"
 	@echo "... 347"
+	@echo "... offer21"
 	@echo "... 1702"
 	@echo "... 204"
 	@echo "... 0204"
@@ -2966,18 +3046,20 @@ help:
 	@echo "... 142"
 	@echo "... 202"
 	@echo "... 349"
-	@echo "... 59-2"
-	@echo "... 37"
+	@echo "... 322"
+	@echo "... 628"
+	@echo "... 970"
 	@echo "... 383"
 	@echo "... offer53"
 	@echo "... 867"
-	@echo "... 322"
-	@echo "... 344"
 	@echo "... offer22"
+	@echo "... offer12"
 	@echo "... 1588"
 	@echo "... 707"
 	@echo "... 1476"
 	@echo "... 18"
+	@echo "... 37"
+	@echo "... 59-2"
 	@echo "... ACM"
 	@echo "... 56"
 	@echo "... 209"
@@ -3132,6 +3214,12 @@ help:
 	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.o"
 	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.i"
 	@echo "... Leetcode/数组/剑指Offer04二维数组中的查找.s"
+	@echo "... Leetcode/数组/剑指Offer12矩阵中的路径.o"
+	@echo "... Leetcode/数组/剑指Offer12矩阵中的路径.i"
+	@echo "... Leetcode/数组/剑指Offer12矩阵中的路径.s"
+	@echo "... Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.o"
+	@echo "... Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.i"
+	@echo "... Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.s"
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.o"
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.i"
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.s"

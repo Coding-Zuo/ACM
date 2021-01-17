@@ -24,6 +24,8 @@ add_executable(73 Leetcode/数组/73矩阵置零.cpp)
 add_executable(74 Leetcode/数组/74搜索二维矩阵.cpp)
 add_executable(80 Leetcode/数组/80删除排序数组中的重复项II.cpp)
 add_executable(1471 Leetcode/数组/1471数组中的k个最强值.cpp)
+add_executable(offer21 Leetcode/数组/剑指Offer21调整数组顺序使奇数位于偶数前面.cpp)
+add_executable(offer12 Leetcode/数组/剑指Offer12矩阵中的路径.cpp)
 
 add_executable(322 Leetcode/回溯/322重新安排行程.cpp)
 add_executable(37 Leetcode/回溯/37解数独.cpp)
