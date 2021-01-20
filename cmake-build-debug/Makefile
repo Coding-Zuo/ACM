@@ -228,32 +228,6 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 61/fast
 
 #=============================================================================
-# Target rules for targets named offer35
-
-# Build rule for target.
-offer35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 offer35
-.PHONY : offer35
-
-# fast build rule for target.
-offer35/fast:
-	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/build
-.PHONY : offer35/fast
-
-#=============================================================================
-# Target rules for targets named 206
-
-# Build rule for target.
-206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 206
-.PHONY : 206
-
-# fast build rule for target.
-206/fast:
-	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
-.PHONY : 206/fast
-
-#=============================================================================
 # Target rules for targets named 443
 
 # Build rule for target.
@@ -304,6 +278,45 @@ offer35/fast:
 541/fast:
 	$(MAKE) -f CMakeFiles/541.dir/build.make CMakeFiles/541.dir/build
 .PHONY : 541/fast
+
+#=============================================================================
+# Target rules for targets named offer35
+
+# Build rule for target.
+offer35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer35
+.PHONY : offer35
+
+# fast build rule for target.
+offer35/fast:
+	$(MAKE) -f CMakeFiles/offer35.dir/build.make CMakeFiles/offer35.dir/build
+.PHONY : offer35/fast
+
+#=============================================================================
+# Target rules for targets named 206
+
+# Build rule for target.
+206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206
+.PHONY : 206
+
+# fast build rule for target.
+206/fast:
+	$(MAKE) -f CMakeFiles/206.dir/build.make CMakeFiles/206.dir/build
+.PHONY : 206/fast
+
+#=============================================================================
+# Target rules for targets named 1725
+
+# Build rule for target.
+1725: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1725
+.PHONY : 1725
+
+# fast build rule for target.
+1725/fast:
+	$(MAKE) -f CMakeFiles/1725.dir/build.make CMakeFiles/1725.dir/build
+.PHONY : 1725/fast
 
 #=============================================================================
 # Target rules for targets named 1711
@@ -1153,6 +1166,33 @@ Leetcode/周赛/222/1711大餐计数.s: Leetcode/周赛/222/1711大餐计数.cpp
 Leetcode/周赛/222/1711大餐计数.cpp.s:
 	$(MAKE) -f CMakeFiles/1711.dir/build.make CMakeFiles/1711.dir/Leetcode/周赛/222/1711大餐计数.cpp.s
 .PHONY : Leetcode/周赛/222/1711大餐计数.cpp.s
+
+Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.o: Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.o
+
+.PHONY : Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.o
+
+# target to build an object file
+Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.o:
+	$(MAKE) -f CMakeFiles/1725.dir/build.make CMakeFiles/1725.dir/Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.o
+.PHONY : Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.o
+
+Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.i: Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.i
+
+.PHONY : Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.i
+
+# target to preprocess a source file
+Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.i:
+	$(MAKE) -f CMakeFiles/1725.dir/build.make CMakeFiles/1725.dir/Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.i
+.PHONY : Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.i
+
+Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.s: Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.s
+
+.PHONY : Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.s
+
+# target to generate assembly for a file
+Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.s:
+	$(MAKE) -f CMakeFiles/1725.dir/build.make CMakeFiles/1725.dir/Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.s
+.PHONY : Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.cpp.s
 
 Leetcode/周赛/42/1701平均等待时间.o: Leetcode/周赛/42/1701平均等待时间.cpp.o
 
@@ -3009,12 +3049,13 @@ help:
 	@echo "... 445-2"
 	@echo "... 25"
 	@echo "... 61"
-	@echo "... offer35"
-	@echo "... 206"
 	@echo "... 443"
 	@echo "... 151"
 	@echo "... 344"
 	@echo "... 541"
+	@echo "... offer35"
+	@echo "... 206"
+	@echo "... 1725"
 	@echo "... 1711"
 	@echo "... 1705"
 	@echo "... offer05-2"
@@ -3085,6 +3126,9 @@ help:
 	@echo "... Leetcode/周赛/222/1711大餐计数.o"
 	@echo "... Leetcode/周赛/222/1711大餐计数.i"
 	@echo "... Leetcode/周赛/222/1711大餐计数.s"
+	@echo "... Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.o"
+	@echo "... Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.i"
+	@echo "... Leetcode/周赛/224/1725可以形成最大正方形的矩形数目.s"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.o"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.i"
 	@echo "... Leetcode/周赛/42/1701平均等待时间.s"
