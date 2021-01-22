@@ -241,19 +241,6 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 443/fast
 
 #=============================================================================
-# Target rules for targets named 151
-
-# Build rule for target.
-151: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 151
-.PHONY : 151
-
-# fast build rule for target.
-151/fast:
-	$(MAKE) -f CMakeFiles/151.dir/build.make CMakeFiles/151.dir/build
-.PHONY : 151/fast
-
-#=============================================================================
 # Target rules for targets named 344
 
 # Build rule for target.
@@ -384,6 +371,32 @@ offer05-2/fast:
 .PHONY : 1704/fast
 
 #=============================================================================
+# Target rules for targets named 151
+
+# Build rule for target.
+151: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 151
+.PHONY : 151
+
+# fast build rule for target.
+151/fast:
+	$(MAKE) -f CMakeFiles/151.dir/build.make CMakeFiles/151.dir/build
+.PHONY : 151/fast
+
+#=============================================================================
+# Target rules for targets named 235
+
+# Build rule for target.
+235: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 235
+.PHONY : 235
+
+# fast build rule for target.
+235/fast:
+	$(MAKE) -f CMakeFiles/235.dir/build.make CMakeFiles/235.dir/build
+.PHONY : 235/fast
+
+#=============================================================================
 # Target rules for targets named offer05
 
 # Build rule for target.
@@ -486,6 +499,19 @@ N3/fast:
 648/fast:
 	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/build
 .PHONY : 648/fast
+
+#=============================================================================
+# Target rules for targets named 232
+
+# Build rule for target.
+232: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 232
+.PHONY : 232
+
+# fast build rule for target.
+232/fast:
+	$(MAKE) -f CMakeFiles/232.dir/build.make CMakeFiles/232.dir/build
+.PHONY : 232/fast
 
 #=============================================================================
 # Target rules for targets named 16.02
@@ -2439,6 +2465,60 @@ Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s:
 	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s
 .PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s
 
+Leetcode/栈队/225用队列实现栈.o: Leetcode/栈队/225用队列实现栈.cpp.o
+
+.PHONY : Leetcode/栈队/225用队列实现栈.o
+
+# target to build an object file
+Leetcode/栈队/225用队列实现栈.cpp.o:
+	$(MAKE) -f CMakeFiles/235.dir/build.make CMakeFiles/235.dir/Leetcode/栈队/225用队列实现栈.cpp.o
+.PHONY : Leetcode/栈队/225用队列实现栈.cpp.o
+
+Leetcode/栈队/225用队列实现栈.i: Leetcode/栈队/225用队列实现栈.cpp.i
+
+.PHONY : Leetcode/栈队/225用队列实现栈.i
+
+# target to preprocess a source file
+Leetcode/栈队/225用队列实现栈.cpp.i:
+	$(MAKE) -f CMakeFiles/235.dir/build.make CMakeFiles/235.dir/Leetcode/栈队/225用队列实现栈.cpp.i
+.PHONY : Leetcode/栈队/225用队列实现栈.cpp.i
+
+Leetcode/栈队/225用队列实现栈.s: Leetcode/栈队/225用队列实现栈.cpp.s
+
+.PHONY : Leetcode/栈队/225用队列实现栈.s
+
+# target to generate assembly for a file
+Leetcode/栈队/225用队列实现栈.cpp.s:
+	$(MAKE) -f CMakeFiles/235.dir/build.make CMakeFiles/235.dir/Leetcode/栈队/225用队列实现栈.cpp.s
+.PHONY : Leetcode/栈队/225用队列实现栈.cpp.s
+
+Leetcode/栈队/232用栈实现队列.o: Leetcode/栈队/232用栈实现队列.cpp.o
+
+.PHONY : Leetcode/栈队/232用栈实现队列.o
+
+# target to build an object file
+Leetcode/栈队/232用栈实现队列.cpp.o:
+	$(MAKE) -f CMakeFiles/232.dir/build.make CMakeFiles/232.dir/Leetcode/栈队/232用栈实现队列.cpp.o
+.PHONY : Leetcode/栈队/232用栈实现队列.cpp.o
+
+Leetcode/栈队/232用栈实现队列.i: Leetcode/栈队/232用栈实现队列.cpp.i
+
+.PHONY : Leetcode/栈队/232用栈实现队列.i
+
+# target to preprocess a source file
+Leetcode/栈队/232用栈实现队列.cpp.i:
+	$(MAKE) -f CMakeFiles/232.dir/build.make CMakeFiles/232.dir/Leetcode/栈队/232用栈实现队列.cpp.i
+.PHONY : Leetcode/栈队/232用栈实现队列.cpp.i
+
+Leetcode/栈队/232用栈实现队列.s: Leetcode/栈队/232用栈实现队列.cpp.s
+
+.PHONY : Leetcode/栈队/232用栈实现队列.s
+
+# target to generate assembly for a file
+Leetcode/栈队/232用栈实现队列.cpp.s:
+	$(MAKE) -f CMakeFiles/232.dir/build.make CMakeFiles/232.dir/Leetcode/栈队/232用栈实现队列.cpp.s
+.PHONY : Leetcode/栈队/232用栈实现队列.cpp.s
+
 Leetcode/链表/0206回文链表.o: Leetcode/链表/0206回文链表.cpp.o
 
 .PHONY : Leetcode/链表/0206回文链表.o
@@ -3050,7 +3130,6 @@ help:
 	@echo "... 25"
 	@echo "... 61"
 	@echo "... 443"
-	@echo "... 151"
 	@echo "... 344"
 	@echo "... 541"
 	@echo "... offer35"
@@ -3061,6 +3140,8 @@ help:
 	@echo "... offer05-2"
 	@echo "... 17.10"
 	@echo "... 1704"
+	@echo "... 151"
+	@echo "... 235"
 	@echo "... offer05"
 	@echo "... 5642"
 	@echo "... offer48"
@@ -3070,6 +3151,7 @@ help:
 	@echo "... 438"
 	@echo "... 1701"
 	@echo "... 648"
+	@echo "... 232"
 	@echo "... 16.02"
 	@echo "... 21"
 	@echo "... 27"
@@ -3267,6 +3349,12 @@ help:
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.o"
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.i"
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.s"
+	@echo "... Leetcode/栈队/225用队列实现栈.o"
+	@echo "... Leetcode/栈队/225用队列实现栈.i"
+	@echo "... Leetcode/栈队/225用队列实现栈.s"
+	@echo "... Leetcode/栈队/232用栈实现队列.o"
+	@echo "... Leetcode/栈队/232用栈实现队列.i"
+	@echo "... Leetcode/栈队/232用栈实现队列.s"
 	@echo "... Leetcode/链表/0206回文链表.o"
 	@echo "... Leetcode/链表/0206回文链表.i"
 	@echo "... Leetcode/链表/0206回文链表.s"
