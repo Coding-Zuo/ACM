@@ -150,19 +150,6 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
-# Target rules for targets named 1669
-
-# Build rule for target.
-1669: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1669
-.PHONY : 1669
-
-# fast build rule for target.
-1669/fast:
-	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/build
-.PHONY : 1669/fast
-
-#=============================================================================
 # Target rules for targets named 160
 
 # Build rule for target.
@@ -319,6 +306,19 @@ offer35/fast:
 .PHONY : 1711/fast
 
 #=============================================================================
+# Target rules for targets named 1710
+
+# Build rule for target.
+1710: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1710
+.PHONY : 1710
+
+# fast build rule for target.
+1710/fast:
+	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/build
+.PHONY : 1710/fast
+
+#=============================================================================
 # Target rules for targets named 1705
 
 # Build rule for target.
@@ -421,6 +421,32 @@ offer05/fast:
 5642/fast:
 	$(MAKE) -f CMakeFiles/5642.dir/build.make CMakeFiles/5642.dir/build
 .PHONY : 5642/fast
+
+#=============================================================================
+# Target rules for targets named 1669
+
+# Build rule for target.
+1669: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1669
+.PHONY : 1669
+
+# fast build rule for target.
+1669/fast:
+	$(MAKE) -f CMakeFiles/1669.dir/build.make CMakeFiles/1669.dir/build
+.PHONY : 1669/fast
+
+#=============================================================================
+# Target rules for targets named 20
+
+# Build rule for target.
+20: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 20
+.PHONY : 20
+
+# fast build rule for target.
+20/fast:
+	$(MAKE) -f CMakeFiles/20.dir/build.make CMakeFiles/20.dir/build
+.PHONY : 20/fast
 
 #=============================================================================
 # Target rules for targets named offer48
@@ -993,19 +1019,6 @@ offer04/fast:
 1471/fast:
 	$(MAKE) -f CMakeFiles/1471.dir/build.make CMakeFiles/1471.dir/build
 .PHONY : 1471/fast
-
-#=============================================================================
-# Target rules for targets named 1710
-
-# Build rule for target.
-1710: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1710
-.PHONY : 1710
-
-# fast build rule for target.
-1710/fast:
-	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/build
-.PHONY : 1710/fast
 
 #=============================================================================
 # Target rules for targets named 35
@@ -2465,6 +2478,33 @@ Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s:
 	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s
 .PHONY : Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.cpp.s
 
+Leetcode/栈队/20有效的括号.o: Leetcode/栈队/20有效的括号.cpp.o
+
+.PHONY : Leetcode/栈队/20有效的括号.o
+
+# target to build an object file
+Leetcode/栈队/20有效的括号.cpp.o:
+	$(MAKE) -f CMakeFiles/20.dir/build.make CMakeFiles/20.dir/Leetcode/栈队/20有效的括号.cpp.o
+.PHONY : Leetcode/栈队/20有效的括号.cpp.o
+
+Leetcode/栈队/20有效的括号.i: Leetcode/栈队/20有效的括号.cpp.i
+
+.PHONY : Leetcode/栈队/20有效的括号.i
+
+# target to preprocess a source file
+Leetcode/栈队/20有效的括号.cpp.i:
+	$(MAKE) -f CMakeFiles/20.dir/build.make CMakeFiles/20.dir/Leetcode/栈队/20有效的括号.cpp.i
+.PHONY : Leetcode/栈队/20有效的括号.cpp.i
+
+Leetcode/栈队/20有效的括号.s: Leetcode/栈队/20有效的括号.cpp.s
+
+.PHONY : Leetcode/栈队/20有效的括号.s
+
+# target to generate assembly for a file
+Leetcode/栈队/20有效的括号.cpp.s:
+	$(MAKE) -f CMakeFiles/20.dir/build.make CMakeFiles/20.dir/Leetcode/栈队/20有效的括号.cpp.s
+.PHONY : Leetcode/栈队/20有效的括号.cpp.s
+
 Leetcode/栈队/225用队列实现栈.o: Leetcode/栈队/225用队列实现栈.cpp.o
 
 .PHONY : Leetcode/栈队/225用队列实现栈.o
@@ -3123,7 +3163,6 @@ help:
 	@echo "... N4"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
-	@echo "... 1669"
 	@echo "... 160"
 	@echo "... 328"
 	@echo "... 445-2"
@@ -3136,6 +3175,7 @@ help:
 	@echo "... 206"
 	@echo "... 1725"
 	@echo "... 1711"
+	@echo "... 1710"
 	@echo "... 1705"
 	@echo "... offer05-2"
 	@echo "... 17.10"
@@ -3144,6 +3184,8 @@ help:
 	@echo "... 235"
 	@echo "... offer05"
 	@echo "... 5642"
+	@echo "... 1669"
+	@echo "... 20"
 	@echo "... offer48"
 	@echo "... rebuild_cache"
 	@echo "... N3"
@@ -3189,7 +3231,6 @@ help:
 	@echo "... offer04"
 	@echo "... 15"
 	@echo "... 1471"
-	@echo "... 1710"
 	@echo "... 35"
 	@echo "... 0206"
 	@echo "... 203"
@@ -3349,6 +3390,9 @@ help:
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.o"
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.i"
 	@echo "... Leetcode/数组/剑指Offer53II0～n-1中缺失的数字.s"
+	@echo "... Leetcode/栈队/20有效的括号.o"
+	@echo "... Leetcode/栈队/20有效的括号.i"
+	@echo "... Leetcode/栈队/20有效的括号.s"
 	@echo "... Leetcode/栈队/225用队列实现栈.o"
 	@echo "... Leetcode/栈队/225用队列实现栈.i"
 	@echo "... Leetcode/栈队/225用队列实现栈.s"

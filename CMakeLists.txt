@@ -48,6 +48,7 @@ add_executable(609 Leetcode/哈希表/609在系统中查找重复文件.cpp)
 
 add_executable(232 Leetcode/栈队/232用栈实现队列.cpp)
 add_executable(235 Leetcode/栈队/225用队列实现栈.cpp)
+add_executable(20 Leetcode/栈队/20有效的括号.cpp)
 
 
 add_executable(5642 Leetcode/周赛/42/5621无法吃午餐的学生数量.cpp)
