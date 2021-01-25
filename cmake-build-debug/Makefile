@@ -371,6 +371,32 @@ offer05-2/fast:
 .PHONY : 1704/fast
 
 #=============================================================================
+# Target rules for targets named offer04
+
+# Build rule for target.
+offer04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offer04
+.PHONY : offer04
+
+# fast build rule for target.
+offer04/fast:
+	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/build
+.PHONY : offer04/fast
+
+#=============================================================================
+# Target rules for targets named 207
+
+# Build rule for target.
+207: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 207
+.PHONY : 207
+
+# fast build rule for target.
+207/fast:
+	$(MAKE) -f CMakeFiles/207.dir/build.make CMakeFiles/207.dir/build
+.PHONY : 207/fast
+
+#=============================================================================
 # Target rules for targets named 151
 
 # Build rule for target.
@@ -980,19 +1006,6 @@ ACM/fast:
 209/fast:
 	$(MAKE) -f CMakeFiles/209.dir/build.make CMakeFiles/209.dir/build
 .PHONY : 209/fast
-
-#=============================================================================
-# Target rules for targets named offer04
-
-# Build rule for target.
-offer04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 offer04
-.PHONY : offer04
-
-# fast build rule for target.
-offer04/fast:
-	$(MAKE) -f CMakeFiles/offer04.dir/build.make CMakeFiles/offer04.dir/build
-.PHONY : offer04/fast
 
 #=============================================================================
 # Target rules for targets named 15
@@ -1745,6 +1758,33 @@ Leetcode/回溯/37解数独.s: Leetcode/回溯/37解数独.cpp.s
 Leetcode/回溯/37解数独.cpp.s:
 	$(MAKE) -f CMakeFiles/37.dir/build.make CMakeFiles/37.dir/Leetcode/回溯/37解数独.cpp.s
 .PHONY : Leetcode/回溯/37解数独.cpp.s
+
+Leetcode/图/207课程表.o: Leetcode/图/207课程表.cpp.o
+
+.PHONY : Leetcode/图/207课程表.o
+
+# target to build an object file
+Leetcode/图/207课程表.cpp.o:
+	$(MAKE) -f CMakeFiles/207.dir/build.make CMakeFiles/207.dir/Leetcode/图/207课程表.cpp.o
+.PHONY : Leetcode/图/207课程表.cpp.o
+
+Leetcode/图/207课程表.i: Leetcode/图/207课程表.cpp.i
+
+.PHONY : Leetcode/图/207课程表.i
+
+# target to preprocess a source file
+Leetcode/图/207课程表.cpp.i:
+	$(MAKE) -f CMakeFiles/207.dir/build.make CMakeFiles/207.dir/Leetcode/图/207课程表.cpp.i
+.PHONY : Leetcode/图/207课程表.cpp.i
+
+Leetcode/图/207课程表.s: Leetcode/图/207课程表.cpp.s
+
+.PHONY : Leetcode/图/207课程表.s
+
+# target to generate assembly for a file
+Leetcode/图/207课程表.cpp.s:
+	$(MAKE) -f CMakeFiles/207.dir/build.make CMakeFiles/207.dir/Leetcode/图/207课程表.cpp.s
+.PHONY : Leetcode/图/207课程表.cpp.s
 
 Leetcode/字符串/151翻转字符串里的单词.o: Leetcode/字符串/151翻转字符串里的单词.cpp.o
 
@@ -3180,6 +3220,8 @@ help:
 	@echo "... offer05-2"
 	@echo "... 17.10"
 	@echo "... 1704"
+	@echo "... offer04"
+	@echo "... 207"
 	@echo "... 151"
 	@echo "... 235"
 	@echo "... offer05"
@@ -3228,7 +3270,6 @@ help:
 	@echo "... ACM"
 	@echo "... 56"
 	@echo "... 209"
-	@echo "... offer04"
 	@echo "... 15"
 	@echo "... 1471"
 	@echo "... 35"
@@ -3309,6 +3350,9 @@ help:
 	@echo "... Leetcode/回溯/37解数独.o"
 	@echo "... Leetcode/回溯/37解数独.i"
 	@echo "... Leetcode/回溯/37解数独.s"
+	@echo "... Leetcode/图/207课程表.o"
+	@echo "... Leetcode/图/207课程表.i"
+	@echo "... Leetcode/图/207课程表.s"
 	@echo "... Leetcode/字符串/151翻转字符串里的单词.o"
 	@echo "... Leetcode/字符串/151翻转字符串里的单词.i"
 	@echo "... Leetcode/字符串/151翻转字符串里的单词.s"
