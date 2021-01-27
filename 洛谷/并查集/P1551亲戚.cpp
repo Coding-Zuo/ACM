@@ -10,6 +10,7 @@
 #include <sstream>
 #include <set>
 #include <iomanip>
+#include <cstdio>
 
 using namespace std;
 #define MAXN 5005
@@ -48,22 +49,31 @@ inline void merge(int i, int j) {
 
 
 int main(int argc, const char *argv[]) {
+//    int n, m, p, x, y;
+//    scanf("%d%d%d", &n, &m, &p);
+//    init(n);
+//    for (int i = 0; i < m; ++i) {
+//        scanf("%d%d", &x, &y);
+//        merge(x, y);
+//    }
+//    for (int i = 0; i < p; ++i) {
+//        scanf("%d%d", &x, &y);
+//        printf("%s\n", find(x) == find(y) ? "Yes" : "No");
+//    }
     int n, m, p, x, y;
-    scanf("%d%d%d", &n, &m, &p);
+    cin >> n >> m >> p;
     init(n);
+    for (int i = 0; i < m; ++i) {
+        cin >> x >> y;
+        merge(x, y);
+    }
     for (int i = 0; i < p; ++i) {
-        scanf("%d%d", &x, &y);
-
-    }
-    for (int i = 0; i < p; i++) {
-        scanf("%d%d", &x, &y);
-        if (find(x) == find(y)) { //找到同样的祖先那肯定是亲戚啦
-            cout << "Yes";
+        cin >> x >> y;
+        if (find(x) == find(y)) {
+            cout << "Yes" << endl;
         } else {
-            cout << "No";
+            cout << "No" << endl;
         }
-        cout << endl;
     }
-
     return 0;
 }

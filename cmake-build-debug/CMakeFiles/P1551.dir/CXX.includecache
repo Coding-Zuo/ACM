@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zuoyuhui/CLionProjects/ACM/洛谷/并查集/P1551亲戚.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+sstream
+-
+set
+-
+iomanip
+-
+cstdio
+-
+
