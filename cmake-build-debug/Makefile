@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named P1551
+
+# Build rule for target.
+P1551: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P1551
+.PHONY : P1551
+
+# fast build rule for target.
+P1551/fast:
+	$(MAKE) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/build
+.PHONY : P1551/fast
+
+#=============================================================================
 # Target rules for targets named N4
 
 # Build rule for target.
@@ -3193,6 +3206,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/模板.cpp.s
 .PHONY : 模板.cpp.s
 
+洛谷/并查集/P1551亲戚.o: 洛谷/并查集/P1551亲戚.cpp.o
+
+.PHONY : 洛谷/并查集/P1551亲戚.o
+
+# target to build an object file
+洛谷/并查集/P1551亲戚.cpp.o:
+	$(MAKE) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/洛谷/并查集/P1551亲戚.cpp.o
+.PHONY : 洛谷/并查集/P1551亲戚.cpp.o
+
+洛谷/并查集/P1551亲戚.i: 洛谷/并查集/P1551亲戚.cpp.i
+
+.PHONY : 洛谷/并查集/P1551亲戚.i
+
+# target to preprocess a source file
+洛谷/并查集/P1551亲戚.cpp.i:
+	$(MAKE) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/洛谷/并查集/P1551亲戚.cpp.i
+.PHONY : 洛谷/并查集/P1551亲戚.cpp.i
+
+洛谷/并查集/P1551亲戚.s: 洛谷/并查集/P1551亲戚.cpp.s
+
+.PHONY : 洛谷/并查集/P1551亲戚.s
+
+# target to generate assembly for a file
+洛谷/并查集/P1551亲戚.cpp.s:
+	$(MAKE) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/洛谷/并查集/P1551亲戚.cpp.s
+.PHONY : 洛谷/并查集/P1551亲戚.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3200,6 +3240,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... P1551"
 	@echo "... N4"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
@@ -3509,6 +3550,9 @@ help:
 	@echo "... 模板.o"
 	@echo "... 模板.i"
 	@echo "... 模板.s"
+	@echo "... 洛谷/并查集/P1551亲戚.o"
+	@echo "... 洛谷/并查集/P1551亲戚.i"
+	@echo "... 洛谷/并查集/P1551亲戚.s"
 .PHONY : help
 
 

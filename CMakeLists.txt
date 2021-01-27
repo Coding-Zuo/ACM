@@ -93,3 +93,6 @@ add_executable(N2 NowCoder/2直线过点.cpp)
 add_executable(N3 NowCoder/3跳跃次数.cpp)
 add_executable(N4 NowCoder/4返回两数组相加最大前k.cpp)
 
+
+add_executable(P1551 洛谷/并查集/P1551亲戚.cpp)
+
