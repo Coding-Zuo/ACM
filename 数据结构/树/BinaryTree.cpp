@@ -17,6 +17,7 @@
 using namespace std;
 
 class Node {
+public:
     int data;
     Node *left;
     Node *right;
@@ -28,7 +29,7 @@ class BinaryTree {
     Node *root;
     int size;
 public:
-    Node *add(BinaryTree *bst, int data);
+    Node *add(Node *n, int data);
 
     int getSize(BinaryTree *bst);
 
@@ -37,6 +38,18 @@ public:
     Node *newBinaryTre();
 
     void addRoot(int data);
+
+    bool isIn(int data);
+
+    bool _isIn(Node *n, int data);
+
+    int findMax();
+
+    Node *_findMax(Node *node);
+
+    int findMin();
+
+    Node *_findMin(Node *node);
 };
 
 // 新建一个二叉树
@@ -44,7 +57,7 @@ Node *BinaryTree::newBinaryTre() {
     BinaryTree *bst = new BinaryTree();
     bst->size = 0;
     bst->root = nullptr;
-    return bst;
+    return bst->root;
 }
 
 //获取二叉树大小
@@ -58,16 +71,15 @@ bool BinaryTree::isEmpty(BinaryTree *bst) {
 }
 
 //插入
-Node *BinaryTree::add(BinaryTree *bst, int data) {
-    Node *n = bst->root;
+Node *BinaryTree::add(Node *n, int data) {
     if (n == nullptr) {
-        bst->size++;
+        this->size++;
         return new Node(data);
     } else {
         if (data < n->data) {
-            n->left = bst->add(n->left, data);
+            n->left = this->add(n->left, data);
         } else if (data > n->data) {
-            n->right = bst->add(n->right, data);
+            n->right = this->add(n->right, data);
         }
         return n;
     }
@@ -80,44 +92,89 @@ void BinaryTree::addRoot(int data) {
 }
 
 
+//判断是否存在
+bool BinaryTree::isIn(int data) {
+    return this->_isIn(this->root, data);
+}
 
+bool BinaryTree::_isIn(Node *n, int data) {
+    if (n == nullptr) {
+        return false;
+    }
+    if (data == n->data) {
+        return true;
+    } else if (data < n->data) {
+        return _isIn(n->left, data);
+    } else {
+        return _isIn(n->right, data);
+    }
+}
 
+// 极大值
+int BinaryTree::findMax() {
+    if (this->size == 0) {
+        return NULL;
+    }
+    Node *node = this->_findMax(this->root);
+    return node->data;
+}
 
+Node *BinaryTree::_findMax(Node *node) {
+    if (node->right == nullptr) {
+        return node;
+    } else {
+        return _findMax(node->right);
+    }
+}
 
+// 极小值
+int BinaryTree::findMin() {
+    if (this->size == 0) {
+        return NULL;
+    }
+    Node *node = this->_findMin(this->root);
+    return node->data;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Node *BinaryTree::_findMin(Node *node) {
+    if (node->left == nullptr) {
+        return node;
+    } else {
+        return _findMin(node->left);
+    }
+}
 
 int main(int argc, const char *argv[]) {
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

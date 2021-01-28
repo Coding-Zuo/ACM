@@ -1008,6 +1008,19 @@ ACM/fast:
 .PHONY : 56/fast
 
 #=============================================================================
+# Target rules for targets named BinaryTree
+
+# Build rule for target.
+BinaryTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinaryTree
+.PHONY : BinaryTree
+
+# fast build rule for target.
+BinaryTree/fast:
+	$(MAKE) -f CMakeFiles/BinaryTree.dir/build.make CMakeFiles/BinaryTree.dir/build
+.PHONY : BinaryTree/fast
+
+#=============================================================================
 # Target rules for targets named 209
 
 # Build rule for target.
@@ -3179,6 +3192,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+数据结构/树/BinaryTree.o: 数据结构/树/BinaryTree.cpp.o
+
+.PHONY : 数据结构/树/BinaryTree.o
+
+# target to build an object file
+数据结构/树/BinaryTree.cpp.o:
+	$(MAKE) -f CMakeFiles/BinaryTree.dir/build.make CMakeFiles/BinaryTree.dir/数据结构/树/BinaryTree.cpp.o
+.PHONY : 数据结构/树/BinaryTree.cpp.o
+
+数据结构/树/BinaryTree.i: 数据结构/树/BinaryTree.cpp.i
+
+.PHONY : 数据结构/树/BinaryTree.i
+
+# target to preprocess a source file
+数据结构/树/BinaryTree.cpp.i:
+	$(MAKE) -f CMakeFiles/BinaryTree.dir/build.make CMakeFiles/BinaryTree.dir/数据结构/树/BinaryTree.cpp.i
+.PHONY : 数据结构/树/BinaryTree.cpp.i
+
+数据结构/树/BinaryTree.s: 数据结构/树/BinaryTree.cpp.s
+
+.PHONY : 数据结构/树/BinaryTree.s
+
+# target to generate assembly for a file
+数据结构/树/BinaryTree.cpp.s:
+	$(MAKE) -f CMakeFiles/BinaryTree.dir/build.make CMakeFiles/BinaryTree.dir/数据结构/树/BinaryTree.cpp.s
+.PHONY : 数据结构/树/BinaryTree.cpp.s
+
 模板.o: 模板.cpp.o
 
 .PHONY : 模板.o
@@ -3310,6 +3350,7 @@ help:
 	@echo "... 59-2"
 	@echo "... ACM"
 	@echo "... 56"
+	@echo "... BinaryTree"
 	@echo "... 209"
 	@echo "... 15"
 	@echo "... 1471"
@@ -3547,6 +3588,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... 数据结构/树/BinaryTree.o"
+	@echo "... 数据结构/树/BinaryTree.i"
+	@echo "... 数据结构/树/BinaryTree.s"
 	@echo "... 模板.o"
 	@echo "... 模板.i"
 	@echo "... 模板.s"
