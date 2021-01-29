@@ -31,7 +31,7 @@ class BinaryTree {
 public:
     Node *add(Node *n, int data);
 
-    int getSize(BinaryTree *bst);
+    int getSize();
 
     bool isEmpty(BinaryTree *bst);
 
@@ -50,6 +50,29 @@ public:
     int findMin();
 
     Node *_findMin(Node *node);
+
+    void preOrder();
+
+    void _preOrder(Node *node);
+
+    void inOrder();
+
+    void _inOrder(Node *node);
+
+    void postOrder();
+
+    void _postOrder(Node *node);
+
+    Node *getRoot() {
+        return this->root;
+    }
+
+    void *setRoot(Node *node) {
+        this->root = node;
+    }
+
+    //打印树形
+    string GenerateBSTstring(Node *node, int depth);
 };
 
 // 新建一个二叉树
@@ -61,8 +84,8 @@ Node *BinaryTree::newBinaryTre() {
 }
 
 //获取二叉树大小
-int BinaryTree::getSize(BinaryTree *bst) {
-    return bst->size;
+int BinaryTree::getSize() {
+    return this->size;
 }
 
 //判空
@@ -71,30 +94,29 @@ bool BinaryTree::isEmpty(BinaryTree *bst) {
 }
 
 //插入
-Node *BinaryTree::add(Node *n, int data) {
-    if (n == nullptr) {
+Node *BinaryTree::add(Node *n, int data1) {
+    if (n == NULL) {
         this->size++;
-        return new Node(data);
-    } else {
-        if (data < n->data) {
-            n->left = this->add(n->left, data);
-        } else if (data > n->data) {
-            n->right = this->add(n->right, data);
-        }
-        return n;
+        return new Node(data1);
     }
 
+    if (data1 < n->data) {
+        n->left = this->add(n->left, data1);
+    } else if (data1 > n->data) {
+        n->right = this->add(n->right, data1);
+    }
+    return n;
 }
 
 //根节点插入
 void BinaryTree::addRoot(int data) {
-    this->root = this->add(this->root, data);
+    this->root = add(root, data);
 }
 
 
 //判断是否存在
 bool BinaryTree::isIn(int data) {
-    return this->_isIn(this->root, data);
+    return this->_isIn(root, data);
 }
 
 bool BinaryTree::_isIn(Node *n, int data) {
@@ -136,6 +158,7 @@ int BinaryTree::findMin() {
     return node->data;
 }
 
+
 Node *BinaryTree::_findMin(Node *node) {
     if (node->left == nullptr) {
         return node;
@@ -144,7 +167,79 @@ Node *BinaryTree::_findMin(Node *node) {
     }
 }
 
+void BinaryTree::preOrder() {
+    _preOrder(this->root);
+}
+
+void BinaryTree::_preOrder(Node *node) {
+    if (node != nullptr) {
+        cout << node->data << endl;
+        _preOrder(node->left);
+        _preOrder(node->right);
+    }
+}
+
+void BinaryTree::inOrder() {
+    _inOrder(this->root);
+}
+
+void BinaryTree::_inOrder(Node *node) {
+    if (node != nullptr) {
+        _preOrder(node->left);
+        cout << node->data << endl;
+        _preOrder(node->right);
+    }
+}
+
+void BinaryTree::postOrder() {
+    _postOrder(this->root);
+}
+
+void BinaryTree::_postOrder(Node *node) {
+    if (node != nullptr) {
+        _preOrder(node->left);
+        _preOrder(node->right);
+        cout << node->data << endl;
+    }
+}
+
+//vector<string> GenerateDepthstring(int depth) {
+//    vector<string> vs;
+//    string s = "";
+//    vs.push_back(s);
+//    for (int i = 1; i < depth; i++) {
+//        s += "--";
+//        s.push_back(s);
+//    }
+//    return vs;
+//}
+//
+//string BinaryTree::GenerateBSTstring(Node *node, int depth) {
+//    vector<string> vs = GenerateDepthstring(depth);
+//    if (node == NULL) {
+//
+//    }
+//}
+
+
 int main(int argc, const char *argv[]) {
+    BinaryTree *binaryTree = new BinaryTree();
+
+    Node *node1 = new Node(1);
+    Node *node2 = new Node(2);
+    Node *node3 = new Node(5);
+    Node *node4 = new Node(6);
+    Node *node5 = new Node(7);
+    binaryTree->setRoot(node3);
+    Node *n[4] = {node2, node3, node4, node5};
+    vector<Node *> v1(n, n + sizeof(n) / sizeof(int));
+
+    for (Node *f:v1) {
+        binaryTree->add(f, f->data);
+    }
+
+
+    binaryTree->preOrder();
     return 0;
 }
 

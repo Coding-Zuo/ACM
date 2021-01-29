@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zuoyuhui/CLionProjects/ACM/数据结构/树/BinaryTree.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+sstream
+-
+set
+-
+iomanip
+-
+cstdio
+-
+
