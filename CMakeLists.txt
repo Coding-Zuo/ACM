@@ -87,6 +87,8 @@ add_executable(offer35 Leetcode/链表/剑指Offer35复杂链表的复制.cpp)
 add_executable(0204 Leetcode/链表/面试题0204分割链表.cpp)
 add_executable(1669 Leetcode/链表/1669合并两个链表.cpp)
 
+add_executable(198 Leetcode/DP/198打家劫舍.cpp)
+
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)
 add_executable(N2 NowCoder/2直线过点.cpp)
@@ -98,4 +100,5 @@ add_executable(BinaryTree 数据结构/树/BinaryTree.cpp)
 
 
 add_executable(P1551 洛谷/并查集/P1551亲戚.cpp)
+
 

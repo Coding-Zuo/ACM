@@ -319,6 +319,19 @@ offer35/fast:
 .PHONY : 1711/fast
 
 #=============================================================================
+# Target rules for targets named 198
+
+# Build rule for target.
+198: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 198
+.PHONY : 198
+
+# fast build rule for target.
+198/fast:
+	$(MAKE) -f CMakeFiles/198.dir/build.make CMakeFiles/198.dir/build
+.PHONY : 198/fast
+
+#=============================================================================
 # Target rules for targets named 1710
 
 # Build rule for target.
@@ -1136,6 +1149,33 @@ BinaryTree/fast:
 74/fast:
 	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
 .PHONY : 74/fast
+
+Leetcode/DP/198打家劫舍.o: Leetcode/DP/198打家劫舍.cpp.o
+
+.PHONY : Leetcode/DP/198打家劫舍.o
+
+# target to build an object file
+Leetcode/DP/198打家劫舍.cpp.o:
+	$(MAKE) -f CMakeFiles/198.dir/build.make CMakeFiles/198.dir/Leetcode/DP/198打家劫舍.cpp.o
+.PHONY : Leetcode/DP/198打家劫舍.cpp.o
+
+Leetcode/DP/198打家劫舍.i: Leetcode/DP/198打家劫舍.cpp.i
+
+.PHONY : Leetcode/DP/198打家劫舍.i
+
+# target to preprocess a source file
+Leetcode/DP/198打家劫舍.cpp.i:
+	$(MAKE) -f CMakeFiles/198.dir/build.make CMakeFiles/198.dir/Leetcode/DP/198打家劫舍.cpp.i
+.PHONY : Leetcode/DP/198打家劫舍.cpp.i
+
+Leetcode/DP/198打家劫舍.s: Leetcode/DP/198打家劫舍.cpp.s
+
+.PHONY : Leetcode/DP/198打家劫舍.s
+
+# target to generate assembly for a file
+Leetcode/DP/198打家劫舍.cpp.s:
+	$(MAKE) -f CMakeFiles/198.dir/build.make CMakeFiles/198.dir/Leetcode/DP/198打家劫舍.cpp.s
+.PHONY : Leetcode/DP/198打家劫舍.cpp.s
 
 Leetcode/周赛/221/1704判断字符串的两半是否相似.o: Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.o
 
@@ -3296,6 +3336,7 @@ help:
 	@echo "... 206"
 	@echo "... 1725"
 	@echo "... 1711"
+	@echo "... 198"
 	@echo "... 1710"
 	@echo "... 1705"
 	@echo "... offer05-2"
@@ -3360,6 +3401,9 @@ help:
 	@echo "... 242"
 	@echo "... 1"
 	@echo "... 74"
+	@echo "... Leetcode/DP/198打家劫舍.o"
+	@echo "... Leetcode/DP/198打家劫舍.i"
+	@echo "... Leetcode/DP/198打家劫舍.s"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.o"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.i"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.s"

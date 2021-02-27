@@ -72,7 +72,7 @@ public:
     }
 
     //打印树形
-    string GenerateBSTstring(Node *node, int depth);
+    string show(Node *node, int depth, string res);
 };
 
 // 新建一个二叉树
@@ -203,23 +203,15 @@ void BinaryTree::_postOrder(Node *node) {
     }
 }
 
-//vector<string> GenerateDepthstring(int depth) {
-//    vector<string> vs;
-//    string s = "";
-//    vs.push_back(s);
-//    for (int i = 1; i < depth; i++) {
-//        s += "--";
-//        s.push_back(s);
-//    }
-//    return vs;
-//}
-//
-//string BinaryTree::GenerateBSTstring(Node *node, int depth) {
-//    vector<string> vs = GenerateDepthstring(depth);
-//    if (node == NULL) {
-//
-//    }
-//}
+string BinaryTree::show(Node *node, int depth, string res) {
+    if (node == NULL) return "";
+    show(node->left, depth + 1, res);
+    for (int i = 0; i < depth; i++) {
+        res += "  ";
+    }
+    res += node->data;
+    show(node->right, depth + 1, res);
+}
 
 
 int main(int argc, const char *argv[]) {
@@ -231,15 +223,13 @@ int main(int argc, const char *argv[]) {
     Node *node4 = new Node(6);
     Node *node5 = new Node(7);
     binaryTree->setRoot(node3);
+    node3->right = node2;
+    node3->left = node1;
     Node *n[4] = {node2, node3, node4, node5};
     vector<Node *> v1(n, n + sizeof(n) / sizeof(int));
 
-    for (Node *f:v1) {
-        binaryTree->add(f, f->data);
-    }
-
-
-    binaryTree->preOrder();
+    string s = binaryTree->show(binaryTree->getRoot(), 2, "");
+    cout << s;
     return 0;
 }
 
