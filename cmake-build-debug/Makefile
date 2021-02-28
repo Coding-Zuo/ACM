@@ -163,6 +163,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
+# Target rules for targets named bei
+
+# Build rule for target.
+bei: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bei
+.PHONY : bei
+
+# fast build rule for target.
+bei/fast:
+	$(MAKE) -f CMakeFiles/bei.dir/build.make CMakeFiles/bei.dir/build
+.PHONY : bei/fast
+
+#=============================================================================
 # Target rules for targets named 160
 
 # Build rule for target.
@@ -826,6 +839,19 @@ offer21/fast:
 .PHONY : 322/fast
 
 #=============================================================================
+# Target rules for targets named lint669
+
+# Build rule for target.
+lint669: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lint669
+.PHONY : lint669
+
+# fast build rule for target.
+lint669/fast:
+	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/build
+.PHONY : lint669/fast
+
+#=============================================================================
 # Target rules for targets named 628
 
 # Build rule for target.
@@ -1176,6 +1202,60 @@ Leetcode/DP/198打家劫舍.s: Leetcode/DP/198打家劫舍.cpp.s
 Leetcode/DP/198打家劫舍.cpp.s:
 	$(MAKE) -f CMakeFiles/198.dir/build.make CMakeFiles/198.dir/Leetcode/DP/198打家劫舍.cpp.s
 .PHONY : Leetcode/DP/198打家劫舍.cpp.s
+
+Leetcode/DP/669换硬币.o: Leetcode/DP/669换硬币.cpp.o
+
+.PHONY : Leetcode/DP/669换硬币.o
+
+# target to build an object file
+Leetcode/DP/669换硬币.cpp.o:
+	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/Leetcode/DP/669换硬币.cpp.o
+.PHONY : Leetcode/DP/669换硬币.cpp.o
+
+Leetcode/DP/669换硬币.i: Leetcode/DP/669换硬币.cpp.i
+
+.PHONY : Leetcode/DP/669换硬币.i
+
+# target to preprocess a source file
+Leetcode/DP/669换硬币.cpp.i:
+	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/Leetcode/DP/669换硬币.cpp.i
+.PHONY : Leetcode/DP/669换硬币.cpp.i
+
+Leetcode/DP/669换硬币.s: Leetcode/DP/669换硬币.cpp.s
+
+.PHONY : Leetcode/DP/669换硬币.s
+
+# target to generate assembly for a file
+Leetcode/DP/669换硬币.cpp.s:
+	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/Leetcode/DP/669换硬币.cpp.s
+.PHONY : Leetcode/DP/669换硬币.cpp.s
+
+Leetcode/DP/背包问题.o: Leetcode/DP/背包问题.cpp.o
+
+.PHONY : Leetcode/DP/背包问题.o
+
+# target to build an object file
+Leetcode/DP/背包问题.cpp.o:
+	$(MAKE) -f CMakeFiles/bei.dir/build.make CMakeFiles/bei.dir/Leetcode/DP/背包问题.cpp.o
+.PHONY : Leetcode/DP/背包问题.cpp.o
+
+Leetcode/DP/背包问题.i: Leetcode/DP/背包问题.cpp.i
+
+.PHONY : Leetcode/DP/背包问题.i
+
+# target to preprocess a source file
+Leetcode/DP/背包问题.cpp.i:
+	$(MAKE) -f CMakeFiles/bei.dir/build.make CMakeFiles/bei.dir/Leetcode/DP/背包问题.cpp.i
+.PHONY : Leetcode/DP/背包问题.cpp.i
+
+Leetcode/DP/背包问题.s: Leetcode/DP/背包问题.cpp.s
+
+.PHONY : Leetcode/DP/背包问题.s
+
+# target to generate assembly for a file
+Leetcode/DP/背包问题.cpp.s:
+	$(MAKE) -f CMakeFiles/bei.dir/build.make CMakeFiles/bei.dir/Leetcode/DP/背包问题.cpp.s
+.PHONY : Leetcode/DP/背包问题.cpp.s
 
 Leetcode/周赛/221/1704判断字符串的两半是否相似.o: Leetcode/周赛/221/1704判断字符串的两半是否相似.cpp.o
 
@@ -3324,6 +3404,7 @@ help:
 	@echo "... N4"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
+	@echo "... bei"
 	@echo "... 160"
 	@echo "... 328"
 	@echo "... 445-2"
@@ -3376,6 +3457,7 @@ help:
 	@echo "... 202"
 	@echo "... 349"
 	@echo "... 322"
+	@echo "... lint669"
 	@echo "... 628"
 	@echo "... 970"
 	@echo "... 383"
@@ -3404,6 +3486,12 @@ help:
 	@echo "... Leetcode/DP/198打家劫舍.o"
 	@echo "... Leetcode/DP/198打家劫舍.i"
 	@echo "... Leetcode/DP/198打家劫舍.s"
+	@echo "... Leetcode/DP/669换硬币.o"
+	@echo "... Leetcode/DP/669换硬币.i"
+	@echo "... Leetcode/DP/669换硬币.s"
+	@echo "... Leetcode/DP/背包问题.o"
+	@echo "... Leetcode/DP/背包问题.i"
+	@echo "... Leetcode/DP/背包问题.s"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.o"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.i"
 	@echo "... Leetcode/周赛/221/1704判断字符串的两半是否相似.s"
