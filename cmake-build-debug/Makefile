@@ -865,6 +865,19 @@ you/fast:
 .PHONY : 349/fast
 
 #=============================================================================
+# Target rules for targets named 674
+
+# Build rule for target.
+674: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 674
+.PHONY : 674
+
+# fast build rule for target.
+674/fast:
+	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/build
+.PHONY : 674/fast
+
+#=============================================================================
 # Target rules for targets named 322
 
 # Build rule for target.
@@ -1295,6 +1308,33 @@ Leetcode/DP/669换硬币.s: Leetcode/DP/669换硬币.cpp.s
 Leetcode/DP/669换硬币.cpp.s:
 	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/Leetcode/DP/669换硬币.cpp.s
 .PHONY : Leetcode/DP/669换硬币.cpp.s
+
+Leetcode/DP/674最长联系递增序列.o: Leetcode/DP/674最长联系递增序列.cpp.o
+
+.PHONY : Leetcode/DP/674最长联系递增序列.o
+
+# target to build an object file
+Leetcode/DP/674最长联系递增序列.cpp.o:
+	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/Leetcode/DP/674最长联系递增序列.cpp.o
+.PHONY : Leetcode/DP/674最长联系递增序列.cpp.o
+
+Leetcode/DP/674最长联系递增序列.i: Leetcode/DP/674最长联系递增序列.cpp.i
+
+.PHONY : Leetcode/DP/674最长联系递增序列.i
+
+# target to preprocess a source file
+Leetcode/DP/674最长联系递增序列.cpp.i:
+	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/Leetcode/DP/674最长联系递增序列.cpp.i
+.PHONY : Leetcode/DP/674最长联系递增序列.cpp.i
+
+Leetcode/DP/674最长联系递增序列.s: Leetcode/DP/674最长联系递增序列.cpp.s
+
+.PHONY : Leetcode/DP/674最长联系递增序列.s
+
+# target to generate assembly for a file
+Leetcode/DP/674最长联系递增序列.cpp.s:
+	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/Leetcode/DP/674最长联系递增序列.cpp.s
+.PHONY : Leetcode/DP/674最长联系递增序列.cpp.s
 
 Leetcode/DP/91解码方法.o: Leetcode/DP/91解码方法.cpp.o
 
@@ -3579,6 +3619,7 @@ help:
 	@echo "... 142"
 	@echo "... 202"
 	@echo "... 349"
+	@echo "... 674"
 	@echo "... 322"
 	@echo "... lint669"
 	@echo "... 628"
@@ -3615,6 +3656,9 @@ help:
 	@echo "... Leetcode/DP/669换硬币.o"
 	@echo "... Leetcode/DP/669换硬币.i"
 	@echo "... Leetcode/DP/669换硬币.s"
+	@echo "... Leetcode/DP/674最长联系递增序列.o"
+	@echo "... Leetcode/DP/674最长联系递增序列.i"
+	@echo "... Leetcode/DP/674最长联系递增序列.s"
 	@echo "... Leetcode/DP/91解码方法.o"
 	@echo "... Leetcode/DP/91解码方法.i"
 	@echo "... Leetcode/DP/91解码方法.s"
