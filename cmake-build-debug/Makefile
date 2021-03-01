@@ -592,6 +592,19 @@ N3/fast:
 .PHONY : 1701/fast
 
 #=============================================================================
+# Target rules for targets named 91
+
+# Build rule for target.
+91: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 91
+.PHONY : 91
+
+# fast build rule for target.
+91/fast:
+	$(MAKE) -f CMakeFiles/91.dir/build.make CMakeFiles/91.dir/build
+.PHONY : 91/fast
+
+#=============================================================================
 # Target rules for targets named 648
 
 # Build rule for target.
@@ -1282,6 +1295,33 @@ Leetcode/DP/669换硬币.s: Leetcode/DP/669换硬币.cpp.s
 Leetcode/DP/669换硬币.cpp.s:
 	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/Leetcode/DP/669换硬币.cpp.s
 .PHONY : Leetcode/DP/669换硬币.cpp.s
+
+Leetcode/DP/91解码方法.o: Leetcode/DP/91解码方法.cpp.o
+
+.PHONY : Leetcode/DP/91解码方法.o
+
+# target to build an object file
+Leetcode/DP/91解码方法.cpp.o:
+	$(MAKE) -f CMakeFiles/91.dir/build.make CMakeFiles/91.dir/Leetcode/DP/91解码方法.cpp.o
+.PHONY : Leetcode/DP/91解码方法.cpp.o
+
+Leetcode/DP/91解码方法.i: Leetcode/DP/91解码方法.cpp.i
+
+.PHONY : Leetcode/DP/91解码方法.i
+
+# target to preprocess a source file
+Leetcode/DP/91解码方法.cpp.i:
+	$(MAKE) -f CMakeFiles/91.dir/build.make CMakeFiles/91.dir/Leetcode/DP/91解码方法.cpp.i
+.PHONY : Leetcode/DP/91解码方法.cpp.i
+
+Leetcode/DP/91解码方法.s: Leetcode/DP/91解码方法.cpp.s
+
+.PHONY : Leetcode/DP/91解码方法.s
+
+# target to generate assembly for a file
+Leetcode/DP/91解码方法.cpp.s:
+	$(MAKE) -f CMakeFiles/91.dir/build.make CMakeFiles/91.dir/Leetcode/DP/91解码方法.cpp.s
+.PHONY : Leetcode/DP/91解码方法.cpp.s
 
 Leetcode/DP/有障碍坐标下右走.o: Leetcode/DP/有障碍坐标下右走.cpp.o
 
@@ -3518,6 +3558,7 @@ help:
 	@echo "... 80"
 	@echo "... 438"
 	@echo "... 1701"
+	@echo "... 91"
 	@echo "... 648"
 	@echo "... 232"
 	@echo "... 16.02"
@@ -3574,6 +3615,9 @@ help:
 	@echo "... Leetcode/DP/669换硬币.o"
 	@echo "... Leetcode/DP/669换硬币.i"
 	@echo "... Leetcode/DP/669换硬币.s"
+	@echo "... Leetcode/DP/91解码方法.o"
+	@echo "... Leetcode/DP/91解码方法.i"
+	@echo "... Leetcode/DP/91解码方法.s"
 	@echo "... Leetcode/DP/有障碍坐标下右走.o"
 	@echo "... Leetcode/DP/有障碍坐标下右走.i"
 	@echo "... Leetcode/DP/有障碍坐标下右走.s"

@@ -88,6 +88,7 @@ add_executable(0204 Leetcode/链表/面试题0204分割链表.cpp)
 add_executable(1669 Leetcode/链表/1669合并两个链表.cpp)
 
 add_executable(198 Leetcode/DP/198打家劫舍.cpp)
+add_executable(91 Leetcode/DP/91解码方法.cpp)
 add_executable(256 Leetcode/DP/256粉刷房子.cpp)
 add_executable(bei Leetcode/DP/背包问题.cpp)
 add_executable(you Leetcode/DP/有障碍坐标下右走.cpp)
