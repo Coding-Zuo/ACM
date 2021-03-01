@@ -43,6 +43,7 @@ using namespace std;
  *
  * 答案是 max{f[0],f[1]...f[n-1]}
  * 时空O(n)
+ * 增加滚动数组可优化空间复杂度为O(1)
  */
 class Solution {
 public:
@@ -50,14 +51,18 @@ public:
     int result = 0;
 
     void calc(vector<int> &nums, int n) {
-        int f[n];
+//        int f[n];
+        int f[2];
+        int old, now = 0; //f[i] -> now f[i=1] - >old
         for (int i = 0; i < n; ++i) {
-            f[i] = 1;
+            old = now;
+            now = 1 - now;
+            f[now] = 1;
             if (i > 0 && nums[i - 1] < nums[i]) {
-                f[i] = f[i - 1] + 1;
+                f[now] = f[old] + 1;
             }
-            if (f[i] > result) {
-                result = f[i];
+            if (f[now] > result) {
+                result = f[now];
             }
         }
     }
