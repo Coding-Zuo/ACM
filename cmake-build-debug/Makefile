@@ -176,6 +176,19 @@ bei/fast:
 .PHONY : bei/fast
 
 #=============================================================================
+# Target rules for targets named 256
+
+# Build rule for target.
+256: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 256
+.PHONY : 256
+
+# fast build rule for target.
+256/fast:
+	$(MAKE) -f CMakeFiles/256.dir/build.make CMakeFiles/256.dir/build
+.PHONY : 256/fast
+
+#=============================================================================
 # Target rules for targets named 160
 
 # Build rule for target.
@@ -774,6 +787,19 @@ offer21/fast:
 .PHONY : 609/fast
 
 #=============================================================================
+# Target rules for targets named you
+
+# Build rule for target.
+you: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 you
+.PHONY : you
+
+# fast build rule for target.
+you/fast:
+	$(MAKE) -f CMakeFiles/you.dir/build.make CMakeFiles/you.dir/build
+.PHONY : you/fast
+
+#=============================================================================
 # Target rules for targets named 206-1
 
 # Build rule for target.
@@ -1203,6 +1229,33 @@ Leetcode/DP/198打家劫舍.cpp.s:
 	$(MAKE) -f CMakeFiles/198.dir/build.make CMakeFiles/198.dir/Leetcode/DP/198打家劫舍.cpp.s
 .PHONY : Leetcode/DP/198打家劫舍.cpp.s
 
+Leetcode/DP/256粉刷房子.o: Leetcode/DP/256粉刷房子.cpp.o
+
+.PHONY : Leetcode/DP/256粉刷房子.o
+
+# target to build an object file
+Leetcode/DP/256粉刷房子.cpp.o:
+	$(MAKE) -f CMakeFiles/256.dir/build.make CMakeFiles/256.dir/Leetcode/DP/256粉刷房子.cpp.o
+.PHONY : Leetcode/DP/256粉刷房子.cpp.o
+
+Leetcode/DP/256粉刷房子.i: Leetcode/DP/256粉刷房子.cpp.i
+
+.PHONY : Leetcode/DP/256粉刷房子.i
+
+# target to preprocess a source file
+Leetcode/DP/256粉刷房子.cpp.i:
+	$(MAKE) -f CMakeFiles/256.dir/build.make CMakeFiles/256.dir/Leetcode/DP/256粉刷房子.cpp.i
+.PHONY : Leetcode/DP/256粉刷房子.cpp.i
+
+Leetcode/DP/256粉刷房子.s: Leetcode/DP/256粉刷房子.cpp.s
+
+.PHONY : Leetcode/DP/256粉刷房子.s
+
+# target to generate assembly for a file
+Leetcode/DP/256粉刷房子.cpp.s:
+	$(MAKE) -f CMakeFiles/256.dir/build.make CMakeFiles/256.dir/Leetcode/DP/256粉刷房子.cpp.s
+.PHONY : Leetcode/DP/256粉刷房子.cpp.s
+
 Leetcode/DP/669换硬币.o: Leetcode/DP/669换硬币.cpp.o
 
 .PHONY : Leetcode/DP/669换硬币.o
@@ -1229,6 +1282,33 @@ Leetcode/DP/669换硬币.s: Leetcode/DP/669换硬币.cpp.s
 Leetcode/DP/669换硬币.cpp.s:
 	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/Leetcode/DP/669换硬币.cpp.s
 .PHONY : Leetcode/DP/669换硬币.cpp.s
+
+Leetcode/DP/有障碍坐标下右走.o: Leetcode/DP/有障碍坐标下右走.cpp.o
+
+.PHONY : Leetcode/DP/有障碍坐标下右走.o
+
+# target to build an object file
+Leetcode/DP/有障碍坐标下右走.cpp.o:
+	$(MAKE) -f CMakeFiles/you.dir/build.make CMakeFiles/you.dir/Leetcode/DP/有障碍坐标下右走.cpp.o
+.PHONY : Leetcode/DP/有障碍坐标下右走.cpp.o
+
+Leetcode/DP/有障碍坐标下右走.i: Leetcode/DP/有障碍坐标下右走.cpp.i
+
+.PHONY : Leetcode/DP/有障碍坐标下右走.i
+
+# target to preprocess a source file
+Leetcode/DP/有障碍坐标下右走.cpp.i:
+	$(MAKE) -f CMakeFiles/you.dir/build.make CMakeFiles/you.dir/Leetcode/DP/有障碍坐标下右走.cpp.i
+.PHONY : Leetcode/DP/有障碍坐标下右走.cpp.i
+
+Leetcode/DP/有障碍坐标下右走.s: Leetcode/DP/有障碍坐标下右走.cpp.s
+
+.PHONY : Leetcode/DP/有障碍坐标下右走.s
+
+# target to generate assembly for a file
+Leetcode/DP/有障碍坐标下右走.cpp.s:
+	$(MAKE) -f CMakeFiles/you.dir/build.make CMakeFiles/you.dir/Leetcode/DP/有障碍坐标下右走.cpp.s
+.PHONY : Leetcode/DP/有障碍坐标下右走.cpp.s
 
 Leetcode/DP/背包问题.o: Leetcode/DP/背包问题.cpp.o
 
@@ -3405,6 +3485,7 @@ help:
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... bei"
+	@echo "... 256"
 	@echo "... 160"
 	@echo "... 328"
 	@echo "... 445-2"
@@ -3452,6 +3533,7 @@ help:
 	@echo "... 0204"
 	@echo "... 138"
 	@echo "... 609"
+	@echo "... you"
 	@echo "... 206-1"
 	@echo "... 142"
 	@echo "... 202"
@@ -3486,9 +3568,15 @@ help:
 	@echo "... Leetcode/DP/198打家劫舍.o"
 	@echo "... Leetcode/DP/198打家劫舍.i"
 	@echo "... Leetcode/DP/198打家劫舍.s"
+	@echo "... Leetcode/DP/256粉刷房子.o"
+	@echo "... Leetcode/DP/256粉刷房子.i"
+	@echo "... Leetcode/DP/256粉刷房子.s"
 	@echo "... Leetcode/DP/669换硬币.o"
 	@echo "... Leetcode/DP/669换硬币.i"
 	@echo "... Leetcode/DP/669换硬币.s"
+	@echo "... Leetcode/DP/有障碍坐标下右走.o"
+	@echo "... Leetcode/DP/有障碍坐标下右走.i"
+	@echo "... Leetcode/DP/有障碍坐标下右走.s"
 	@echo "... Leetcode/DP/背包问题.o"
 	@echo "... Leetcode/DP/背包问题.i"
 	@echo "... Leetcode/DP/背包问题.s"
