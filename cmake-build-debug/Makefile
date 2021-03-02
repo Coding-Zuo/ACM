@@ -189,6 +189,19 @@ bei/fast:
 .PHONY : 256/fast
 
 #=============================================================================
+# Target rules for targets named 361
+
+# Build rule for target.
+361: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 361
+.PHONY : 361
+
+# fast build rule for target.
+361/fast:
+	$(MAKE) -f CMakeFiles/361.dir/build.make CMakeFiles/361.dir/build
+.PHONY : 361/fast
+
+#=============================================================================
 # Target rules for targets named 160
 
 # Build rule for target.
@@ -852,6 +865,19 @@ you/fast:
 .PHONY : 202/fast
 
 #=============================================================================
+# Target rules for targets named 64
+
+# Build rule for target.
+64: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 64
+.PHONY : 64
+
+# fast build rule for target.
+64/fast:
+	$(MAKE) -f CMakeFiles/64.dir/build.make CMakeFiles/64.dir/build
+.PHONY : 64/fast
+
+#=============================================================================
 # Target rules for targets named 349
 
 # Build rule for target.
@@ -1281,6 +1307,60 @@ Leetcode/DP/256粉刷房子.s: Leetcode/DP/256粉刷房子.cpp.s
 Leetcode/DP/256粉刷房子.cpp.s:
 	$(MAKE) -f CMakeFiles/256.dir/build.make CMakeFiles/256.dir/Leetcode/DP/256粉刷房子.cpp.s
 .PHONY : Leetcode/DP/256粉刷房子.cpp.s
+
+Leetcode/DP/361炸弹敌人.o: Leetcode/DP/361炸弹敌人.cpp.o
+
+.PHONY : Leetcode/DP/361炸弹敌人.o
+
+# target to build an object file
+Leetcode/DP/361炸弹敌人.cpp.o:
+	$(MAKE) -f CMakeFiles/361.dir/build.make CMakeFiles/361.dir/Leetcode/DP/361炸弹敌人.cpp.o
+.PHONY : Leetcode/DP/361炸弹敌人.cpp.o
+
+Leetcode/DP/361炸弹敌人.i: Leetcode/DP/361炸弹敌人.cpp.i
+
+.PHONY : Leetcode/DP/361炸弹敌人.i
+
+# target to preprocess a source file
+Leetcode/DP/361炸弹敌人.cpp.i:
+	$(MAKE) -f CMakeFiles/361.dir/build.make CMakeFiles/361.dir/Leetcode/DP/361炸弹敌人.cpp.i
+.PHONY : Leetcode/DP/361炸弹敌人.cpp.i
+
+Leetcode/DP/361炸弹敌人.s: Leetcode/DP/361炸弹敌人.cpp.s
+
+.PHONY : Leetcode/DP/361炸弹敌人.s
+
+# target to generate assembly for a file
+Leetcode/DP/361炸弹敌人.cpp.s:
+	$(MAKE) -f CMakeFiles/361.dir/build.make CMakeFiles/361.dir/Leetcode/DP/361炸弹敌人.cpp.s
+.PHONY : Leetcode/DP/361炸弹敌人.cpp.s
+
+Leetcode/DP/64最小路径和.o: Leetcode/DP/64最小路径和.cpp.o
+
+.PHONY : Leetcode/DP/64最小路径和.o
+
+# target to build an object file
+Leetcode/DP/64最小路径和.cpp.o:
+	$(MAKE) -f CMakeFiles/64.dir/build.make CMakeFiles/64.dir/Leetcode/DP/64最小路径和.cpp.o
+.PHONY : Leetcode/DP/64最小路径和.cpp.o
+
+Leetcode/DP/64最小路径和.i: Leetcode/DP/64最小路径和.cpp.i
+
+.PHONY : Leetcode/DP/64最小路径和.i
+
+# target to preprocess a source file
+Leetcode/DP/64最小路径和.cpp.i:
+	$(MAKE) -f CMakeFiles/64.dir/build.make CMakeFiles/64.dir/Leetcode/DP/64最小路径和.cpp.i
+.PHONY : Leetcode/DP/64最小路径和.cpp.i
+
+Leetcode/DP/64最小路径和.s: Leetcode/DP/64最小路径和.cpp.s
+
+.PHONY : Leetcode/DP/64最小路径和.s
+
+# target to generate assembly for a file
+Leetcode/DP/64最小路径和.cpp.s:
+	$(MAKE) -f CMakeFiles/64.dir/build.make CMakeFiles/64.dir/Leetcode/DP/64最小路径和.cpp.s
+.PHONY : Leetcode/DP/64最小路径和.cpp.s
 
 Leetcode/DP/669换硬币.o: Leetcode/DP/669换硬币.cpp.o
 
@@ -3566,6 +3646,7 @@ help:
 	@echo "... LeastRecentlyUsedCache"
 	@echo "... bei"
 	@echo "... 256"
+	@echo "... 361"
 	@echo "... 160"
 	@echo "... 328"
 	@echo "... 445-2"
@@ -3618,6 +3699,7 @@ help:
 	@echo "... 206-1"
 	@echo "... 142"
 	@echo "... 202"
+	@echo "... 64"
 	@echo "... 349"
 	@echo "... 674"
 	@echo "... 322"
@@ -3653,6 +3735,12 @@ help:
 	@echo "... Leetcode/DP/256粉刷房子.o"
 	@echo "... Leetcode/DP/256粉刷房子.i"
 	@echo "... Leetcode/DP/256粉刷房子.s"
+	@echo "... Leetcode/DP/361炸弹敌人.o"
+	@echo "... Leetcode/DP/361炸弹敌人.i"
+	@echo "... Leetcode/DP/361炸弹敌人.s"
+	@echo "... Leetcode/DP/64最小路径和.o"
+	@echo "... Leetcode/DP/64最小路径和.i"
+	@echo "... Leetcode/DP/64最小路径和.s"
 	@echo "... Leetcode/DP/669换硬币.o"
 	@echo "... Leetcode/DP/669换硬币.i"
 	@echo "... Leetcode/DP/669换硬币.s"
