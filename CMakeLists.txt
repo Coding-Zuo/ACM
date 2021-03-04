@@ -96,6 +96,8 @@ add_executable(64 Leetcode/DP/64最小路径和.cpp)
 add_executable(bei Leetcode/DP/背包问题.cpp)
 add_executable(you Leetcode/DP/有障碍坐标下右走.cpp)
 add_executable(lint669 Leetcode/DP/669换硬币.cpp)
+add_executable(509 Leetcode/DP/509斐波那契数.cpp)
+add_executable(70 Leetcode/DP/70爬楼梯.cpp)
 
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)

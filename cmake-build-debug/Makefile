@@ -163,6 +163,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
+# Target rules for targets named 509
+
+# Build rule for target.
+509: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 509
+.PHONY : 509
+
+# fast build rule for target.
+509/fast:
+	$(MAKE) -f CMakeFiles/509.dir/build.make CMakeFiles/509.dir/build
+.PHONY : 509/fast
+
+#=============================================================================
 # Target rules for targets named bei
 
 # Build rule for target.
@@ -564,6 +577,19 @@ N3: cmake_check_build_system
 N3/fast:
 	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
 .PHONY : N3/fast
+
+#=============================================================================
+# Target rules for targets named 70
+
+# Build rule for target.
+70: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 70
+.PHONY : 70
+
+# fast build rule for target.
+70/fast:
+	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/build
+.PHONY : 70/fast
 
 #=============================================================================
 # Target rules for targets named 80
@@ -1335,6 +1361,33 @@ Leetcode/DP/361炸弹敌人.cpp.s:
 	$(MAKE) -f CMakeFiles/361.dir/build.make CMakeFiles/361.dir/Leetcode/DP/361炸弹敌人.cpp.s
 .PHONY : Leetcode/DP/361炸弹敌人.cpp.s
 
+Leetcode/DP/509斐波那契数.o: Leetcode/DP/509斐波那契数.cpp.o
+
+.PHONY : Leetcode/DP/509斐波那契数.o
+
+# target to build an object file
+Leetcode/DP/509斐波那契数.cpp.o:
+	$(MAKE) -f CMakeFiles/509.dir/build.make CMakeFiles/509.dir/Leetcode/DP/509斐波那契数.cpp.o
+.PHONY : Leetcode/DP/509斐波那契数.cpp.o
+
+Leetcode/DP/509斐波那契数.i: Leetcode/DP/509斐波那契数.cpp.i
+
+.PHONY : Leetcode/DP/509斐波那契数.i
+
+# target to preprocess a source file
+Leetcode/DP/509斐波那契数.cpp.i:
+	$(MAKE) -f CMakeFiles/509.dir/build.make CMakeFiles/509.dir/Leetcode/DP/509斐波那契数.cpp.i
+.PHONY : Leetcode/DP/509斐波那契数.cpp.i
+
+Leetcode/DP/509斐波那契数.s: Leetcode/DP/509斐波那契数.cpp.s
+
+.PHONY : Leetcode/DP/509斐波那契数.s
+
+# target to generate assembly for a file
+Leetcode/DP/509斐波那契数.cpp.s:
+	$(MAKE) -f CMakeFiles/509.dir/build.make CMakeFiles/509.dir/Leetcode/DP/509斐波那契数.cpp.s
+.PHONY : Leetcode/DP/509斐波那契数.cpp.s
+
 Leetcode/DP/64最小路径和.o: Leetcode/DP/64最小路径和.cpp.o
 
 .PHONY : Leetcode/DP/64最小路径和.o
@@ -1415,6 +1468,33 @@ Leetcode/DP/674最长联系递增序列.s: Leetcode/DP/674最长联系递增序�
 Leetcode/DP/674最长联系递增序列.cpp.s:
 	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/Leetcode/DP/674最长联系递增序列.cpp.s
 .PHONY : Leetcode/DP/674最长联系递增序列.cpp.s
+
+Leetcode/DP/70爬楼梯.o: Leetcode/DP/70爬楼梯.cpp.o
+
+.PHONY : Leetcode/DP/70爬楼梯.o
+
+# target to build an object file
+Leetcode/DP/70爬楼梯.cpp.o:
+	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/Leetcode/DP/70爬楼梯.cpp.o
+.PHONY : Leetcode/DP/70爬楼梯.cpp.o
+
+Leetcode/DP/70爬楼梯.i: Leetcode/DP/70爬楼梯.cpp.i
+
+.PHONY : Leetcode/DP/70爬楼梯.i
+
+# target to preprocess a source file
+Leetcode/DP/70爬楼梯.cpp.i:
+	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/Leetcode/DP/70爬楼梯.cpp.i
+.PHONY : Leetcode/DP/70爬楼梯.cpp.i
+
+Leetcode/DP/70爬楼梯.s: Leetcode/DP/70爬楼梯.cpp.s
+
+.PHONY : Leetcode/DP/70爬楼梯.s
+
+# target to generate assembly for a file
+Leetcode/DP/70爬楼梯.cpp.s:
+	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/Leetcode/DP/70爬楼梯.cpp.s
+.PHONY : Leetcode/DP/70爬楼梯.cpp.s
 
 Leetcode/DP/91解码方法.o: Leetcode/DP/91解码方法.cpp.o
 
@@ -3644,6 +3724,7 @@ help:
 	@echo "... N4"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
+	@echo "... 509"
 	@echo "... bei"
 	@echo "... 256"
 	@echo "... 361"
@@ -3676,6 +3757,7 @@ help:
 	@echo "... offer48"
 	@echo "... rebuild_cache"
 	@echo "... N3"
+	@echo "... 70"
 	@echo "... 80"
 	@echo "... 438"
 	@echo "... 1701"
@@ -3738,6 +3820,9 @@ help:
 	@echo "... Leetcode/DP/361炸弹敌人.o"
 	@echo "... Leetcode/DP/361炸弹敌人.i"
 	@echo "... Leetcode/DP/361炸弹敌人.s"
+	@echo "... Leetcode/DP/509斐波那契数.o"
+	@echo "... Leetcode/DP/509斐波那契数.i"
+	@echo "... Leetcode/DP/509斐波那契数.s"
 	@echo "... Leetcode/DP/64最小路径和.o"
 	@echo "... Leetcode/DP/64最小路径和.i"
 	@echo "... Leetcode/DP/64最小路径和.s"
@@ -3747,6 +3832,9 @@ help:
 	@echo "... Leetcode/DP/674最长联系递增序列.o"
 	@echo "... Leetcode/DP/674最长联系递增序列.i"
 	@echo "... Leetcode/DP/674最长联系递增序列.s"
+	@echo "... Leetcode/DP/70爬楼梯.o"
+	@echo "... Leetcode/DP/70爬楼梯.i"
+	@echo "... Leetcode/DP/70爬楼梯.s"
 	@echo "... Leetcode/DP/91解码方法.o"
 	@echo "... Leetcode/DP/91解码方法.i"
 	@echo "... Leetcode/DP/91解码方法.s"
