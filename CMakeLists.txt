@@ -68,6 +68,7 @@ add_executable(offer05 Leetcode/字符串/剑指Offer05替换空格.cpp)
 add_executable(151 Leetcode/字符串/151翻转字符串里的单词.cpp)
 add_executable(offer05-2 Leetcode/字符串/剑指Offer05替换空格.cpp)
 add_executable(443 Leetcode/字符串/443压缩字符串.cpp)
+add_executable(468 Leetcode/字符串/468验证IP地址.cpp)
 
 
 add_executable(206 Leetcode/链表/206翻转链表.cpp)
@@ -98,6 +99,7 @@ add_executable(you Leetcode/DP/有障碍坐标下右走.cpp)
 add_executable(lint669 Leetcode/DP/669换硬币.cpp)
 add_executable(509 Leetcode/DP/509斐波那契数.cpp)
 add_executable(70 Leetcode/DP/70爬楼梯.cpp)
+add_executable(746 Leetcode/DP/746使用最小花费爬楼梯.cpp)
 
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)

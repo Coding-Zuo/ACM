@@ -163,6 +163,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
+# Target rules for targets named 746
+
+# Build rule for target.
+746: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 746
+.PHONY : 746
+
+# fast build rule for target.
+746/fast:
+	$(MAKE) -f CMakeFiles/746.dir/build.make CMakeFiles/746.dir/build
+.PHONY : 746/fast
+
+#=============================================================================
 # Target rules for targets named 509
 
 # Build rule for target.
@@ -720,6 +733,19 @@ N3/fast:
 355/fast:
 	$(MAKE) -f CMakeFiles/355.dir/build.make CMakeFiles/355.dir/build
 .PHONY : 355/fast
+
+#=============================================================================
+# Target rules for targets named 468
+
+# Build rule for target.
+468: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 468
+.PHONY : 468
+
+# fast build rule for target.
+468/fast:
+	$(MAKE) -f CMakeFiles/468.dir/build.make CMakeFiles/468.dir/build
+.PHONY : 468/fast
 
 #=============================================================================
 # Target rules for targets named 18-2
@@ -1495,6 +1521,33 @@ Leetcode/DP/70爬楼梯.s: Leetcode/DP/70爬楼梯.cpp.s
 Leetcode/DP/70爬楼梯.cpp.s:
 	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/Leetcode/DP/70爬楼梯.cpp.s
 .PHONY : Leetcode/DP/70爬楼梯.cpp.s
+
+Leetcode/DP/746使用最小花费爬楼梯.o: Leetcode/DP/746使用最小花费爬楼梯.cpp.o
+
+.PHONY : Leetcode/DP/746使用最小花费爬楼梯.o
+
+# target to build an object file
+Leetcode/DP/746使用最小花费爬楼梯.cpp.o:
+	$(MAKE) -f CMakeFiles/746.dir/build.make CMakeFiles/746.dir/Leetcode/DP/746使用最小花费爬楼梯.cpp.o
+.PHONY : Leetcode/DP/746使用最小花费爬楼梯.cpp.o
+
+Leetcode/DP/746使用最小花费爬楼梯.i: Leetcode/DP/746使用最小花费爬楼梯.cpp.i
+
+.PHONY : Leetcode/DP/746使用最小花费爬楼梯.i
+
+# target to preprocess a source file
+Leetcode/DP/746使用最小花费爬楼梯.cpp.i:
+	$(MAKE) -f CMakeFiles/746.dir/build.make CMakeFiles/746.dir/Leetcode/DP/746使用最小花费爬楼梯.cpp.i
+.PHONY : Leetcode/DP/746使用最小花费爬楼梯.cpp.i
+
+Leetcode/DP/746使用最小花费爬楼梯.s: Leetcode/DP/746使用最小花费爬楼梯.cpp.s
+
+.PHONY : Leetcode/DP/746使用最小花费爬楼梯.s
+
+# target to generate assembly for a file
+Leetcode/DP/746使用最小花费爬楼梯.cpp.s:
+	$(MAKE) -f CMakeFiles/746.dir/build.make CMakeFiles/746.dir/Leetcode/DP/746使用最小花费爬楼梯.cpp.s
+.PHONY : Leetcode/DP/746使用最小花费爬楼梯.cpp.s
 
 Leetcode/DP/91解码方法.o: Leetcode/DP/91解码方法.cpp.o
 
@@ -2332,6 +2385,33 @@ Leetcode/字符串/443压缩字符串.s: Leetcode/字符串/443压缩字符串.c
 Leetcode/字符串/443压缩字符串.cpp.s:
 	$(MAKE) -f CMakeFiles/443.dir/build.make CMakeFiles/443.dir/Leetcode/字符串/443压缩字符串.cpp.s
 .PHONY : Leetcode/字符串/443压缩字符串.cpp.s
+
+Leetcode/字符串/468验证IP地址.o: Leetcode/字符串/468验证IP地址.cpp.o
+
+.PHONY : Leetcode/字符串/468验证IP地址.o
+
+# target to build an object file
+Leetcode/字符串/468验证IP地址.cpp.o:
+	$(MAKE) -f CMakeFiles/468.dir/build.make CMakeFiles/468.dir/Leetcode/字符串/468验证IP地址.cpp.o
+.PHONY : Leetcode/字符串/468验证IP地址.cpp.o
+
+Leetcode/字符串/468验证IP地址.i: Leetcode/字符串/468验证IP地址.cpp.i
+
+.PHONY : Leetcode/字符串/468验证IP地址.i
+
+# target to preprocess a source file
+Leetcode/字符串/468验证IP地址.cpp.i:
+	$(MAKE) -f CMakeFiles/468.dir/build.make CMakeFiles/468.dir/Leetcode/字符串/468验证IP地址.cpp.i
+.PHONY : Leetcode/字符串/468验证IP地址.cpp.i
+
+Leetcode/字符串/468验证IP地址.s: Leetcode/字符串/468验证IP地址.cpp.s
+
+.PHONY : Leetcode/字符串/468验证IP地址.s
+
+# target to generate assembly for a file
+Leetcode/字符串/468验证IP地址.cpp.s:
+	$(MAKE) -f CMakeFiles/468.dir/build.make CMakeFiles/468.dir/Leetcode/字符串/468验证IP地址.cpp.s
+.PHONY : Leetcode/字符串/468验证IP地址.cpp.s
 
 Leetcode/字符串/541反转字符串II.o: Leetcode/字符串/541反转字符串II.cpp.o
 
@@ -3724,6 +3804,7 @@ help:
 	@echo "... N4"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
+	@echo "... 746"
 	@echo "... 509"
 	@echo "... bei"
 	@echo "... 256"
@@ -3768,6 +3849,7 @@ help:
 	@echo "... 21"
 	@echo "... 27"
 	@echo "... 355"
+	@echo "... 468"
 	@echo "... 18-2"
 	@echo "... 73"
 	@echo "... 347"
@@ -3835,6 +3917,9 @@ help:
 	@echo "... Leetcode/DP/70爬楼梯.o"
 	@echo "... Leetcode/DP/70爬楼梯.i"
 	@echo "... Leetcode/DP/70爬楼梯.s"
+	@echo "... Leetcode/DP/746使用最小花费爬楼梯.o"
+	@echo "... Leetcode/DP/746使用最小花费爬楼梯.i"
+	@echo "... Leetcode/DP/746使用最小花费爬楼梯.s"
 	@echo "... Leetcode/DP/91解码方法.o"
 	@echo "... Leetcode/DP/91解码方法.i"
 	@echo "... Leetcode/DP/91解码方法.s"
@@ -3928,6 +4013,9 @@ help:
 	@echo "... Leetcode/字符串/443压缩字符串.o"
 	@echo "... Leetcode/字符串/443压缩字符串.i"
 	@echo "... Leetcode/字符串/443压缩字符串.s"
+	@echo "... Leetcode/字符串/468验证IP地址.o"
+	@echo "... Leetcode/字符串/468验证IP地址.i"
+	@echo "... Leetcode/字符串/468验证IP地址.s"
 	@echo "... Leetcode/字符串/541反转字符串II.o"
 	@echo "... Leetcode/字符串/541反转字符串II.i"
 	@echo "... Leetcode/字符串/541反转字符串II.s"
