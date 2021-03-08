@@ -100,6 +100,7 @@ add_executable(lint669 Leetcode/DP/669换硬币.cpp)
 add_executable(509 Leetcode/DP/509斐波那契数.cpp)
 add_executable(70 Leetcode/DP/70爬楼梯.cpp)
 add_executable(746 Leetcode/DP/746使用最小花费爬楼梯.cpp)
+add_executable(62 Leetcode/DP/62不同路径.cpp)
 
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)
