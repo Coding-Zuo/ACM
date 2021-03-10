@@ -163,6 +163,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
+# Target rules for targets named 343
+
+# Build rule for target.
+343: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 343
+.PHONY : 343
+
+# fast build rule for target.
+343/fast:
+	$(MAKE) -f CMakeFiles/343.dir/build.make CMakeFiles/343.dir/build
+.PHONY : 343/fast
+
+#=============================================================================
 # Target rules for targets named 62
 
 # Build rule for target.
@@ -1385,6 +1398,33 @@ Leetcode/DP/256粉刷房子.s: Leetcode/DP/256粉刷房子.cpp.s
 Leetcode/DP/256粉刷房子.cpp.s:
 	$(MAKE) -f CMakeFiles/256.dir/build.make CMakeFiles/256.dir/Leetcode/DP/256粉刷房子.cpp.s
 .PHONY : Leetcode/DP/256粉刷房子.cpp.s
+
+Leetcode/DP/343整数拆分.o: Leetcode/DP/343整数拆分.cpp.o
+
+.PHONY : Leetcode/DP/343整数拆分.o
+
+# target to build an object file
+Leetcode/DP/343整数拆分.cpp.o:
+	$(MAKE) -f CMakeFiles/343.dir/build.make CMakeFiles/343.dir/Leetcode/DP/343整数拆分.cpp.o
+.PHONY : Leetcode/DP/343整数拆分.cpp.o
+
+Leetcode/DP/343整数拆分.i: Leetcode/DP/343整数拆分.cpp.i
+
+.PHONY : Leetcode/DP/343整数拆分.i
+
+# target to preprocess a source file
+Leetcode/DP/343整数拆分.cpp.i:
+	$(MAKE) -f CMakeFiles/343.dir/build.make CMakeFiles/343.dir/Leetcode/DP/343整数拆分.cpp.i
+.PHONY : Leetcode/DP/343整数拆分.cpp.i
+
+Leetcode/DP/343整数拆分.s: Leetcode/DP/343整数拆分.cpp.s
+
+.PHONY : Leetcode/DP/343整数拆分.s
+
+# target to generate assembly for a file
+Leetcode/DP/343整数拆分.cpp.s:
+	$(MAKE) -f CMakeFiles/343.dir/build.make CMakeFiles/343.dir/Leetcode/DP/343整数拆分.cpp.s
+.PHONY : Leetcode/DP/343整数拆分.cpp.s
 
 Leetcode/DP/361炸弹敌人.o: Leetcode/DP/361炸弹敌人.cpp.o
 
@@ -3884,6 +3924,7 @@ help:
 	@echo "... N4"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
+	@echo "... 343"
 	@echo "... 62"
 	@echo "... 746"
 	@echo "... 509"
@@ -3981,6 +4022,9 @@ help:
 	@echo "... Leetcode/DP/256粉刷房子.o"
 	@echo "... Leetcode/DP/256粉刷房子.i"
 	@echo "... Leetcode/DP/256粉刷房子.s"
+	@echo "... Leetcode/DP/343整数拆分.o"
+	@echo "... Leetcode/DP/343整数拆分.i"
+	@echo "... Leetcode/DP/343整数拆分.s"
 	@echo "... Leetcode/DP/361炸弹敌人.o"
 	@echo "... Leetcode/DP/361炸弹敌人.i"
 	@echo "... Leetcode/DP/361炸弹敌人.s"
