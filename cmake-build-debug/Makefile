@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zuoyuhui/CLionProjects/ACM/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 35
+
+# Build rule for target.
+35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 35
+.PHONY : 35
+
+# fast build rule for target.
+35/fast:
+	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
+.PHONY : 35/fast
+
+#=============================================================================
+# Target rules for targets named 1710
+
+# Build rule for target.
+1710: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1710
+.PHONY : 1710
+
+# fast build rule for target.
+1710/fast:
+	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/build
+.PHONY : 1710/fast
+
+#=============================================================================
+# Target rules for targets named ACM
+
+# Build rule for target.
+ACM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ACM
+.PHONY : ACM
+
+# fast build rule for target.
+ACM/fast:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
+.PHONY : ACM/fast
+
+#=============================================================================
 # Target rules for targets named P1551
 
 # Build rule for target.
@@ -122,6 +161,19 @@ P1551: cmake_check_build_system
 P1551/fast:
 	$(MAKE) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/build
 .PHONY : P1551/fast
+
+#=============================================================================
+# Target rules for targets named 609
+
+# Build rule for target.
+609: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 609
+.PHONY : 609
+
+# fast build rule for target.
+609/fast:
+	$(MAKE) -f CMakeFiles/609.dir/build.make CMakeFiles/609.dir/build
+.PHONY : 609/fast
 
 #=============================================================================
 # Target rules for targets named N4
@@ -163,6 +215,19 @@ LeastRecentlyUsedCache/fast:
 .PHONY : LeastRecentlyUsedCache/fast
 
 #=============================================================================
+# Target rules for targets named 96
+
+# Build rule for target.
+96: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 96
+.PHONY : 96
+
+# fast build rule for target.
+96/fast:
+	$(MAKE) -f CMakeFiles/96.dir/build.make CMakeFiles/96.dir/build
+.PHONY : 96/fast
+
+#=============================================================================
 # Target rules for targets named 343
 
 # Build rule for target.
@@ -174,6 +239,19 @@ LeastRecentlyUsedCache/fast:
 343/fast:
 	$(MAKE) -f CMakeFiles/343.dir/build.make CMakeFiles/343.dir/build
 .PHONY : 343/fast
+
+#=============================================================================
+# Target rules for targets named 63
+
+# Build rule for target.
+63: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 63
+.PHONY : 63
+
+# fast build rule for target.
+63/fast:
+	$(MAKE) -f CMakeFiles/63.dir/build.make CMakeFiles/63.dir/build
+.PHONY : 63/fast
 
 #=============================================================================
 # Target rules for targets named 62
@@ -202,6 +280,32 @@ LeastRecentlyUsedCache/fast:
 .PHONY : 746/fast
 
 #=============================================================================
+# Target rules for targets named 138
+
+# Build rule for target.
+138: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 138
+.PHONY : 138
+
+# fast build rule for target.
+138/fast:
+	$(MAKE) -f CMakeFiles/138.dir/build.make CMakeFiles/138.dir/build
+.PHONY : 138/fast
+
+#=============================================================================
+# Target rules for targets named 648
+
+# Build rule for target.
+648: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 648
+.PHONY : 648
+
+# fast build rule for target.
+648/fast:
+	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/build
+.PHONY : 648/fast
+
+#=============================================================================
 # Target rules for targets named 509
 
 # Build rule for target.
@@ -226,6 +330,32 @@ bei: cmake_check_build_system
 bei/fast:
 	$(MAKE) -f CMakeFiles/bei.dir/build.make CMakeFiles/bei.dir/build
 .PHONY : bei/fast
+
+#=============================================================================
+# Target rules for targets named 242
+
+# Build rule for target.
+242: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 242
+.PHONY : 242
+
+# fast build rule for target.
+242/fast:
+	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
+.PHONY : 242/fast
+
+#=============================================================================
+# Target rules for targets named 17.10
+
+# Build rule for target.
+17.10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 17.10
+.PHONY : 17.10
+
+# fast build rule for target.
+17.10/fast:
+	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
+.PHONY : 17.10/fast
 
 #=============================================================================
 # Target rules for targets named 256
@@ -254,6 +384,19 @@ bei/fast:
 .PHONY : 361/fast
 
 #=============================================================================
+# Target rules for targets named 64
+
+# Build rule for target.
+64: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 64
+.PHONY : 64
+
+# fast build rule for target.
+64/fast:
+	$(MAKE) -f CMakeFiles/64.dir/build.make CMakeFiles/64.dir/build
+.PHONY : 64/fast
+
+#=============================================================================
 # Target rules for targets named 160
 
 # Build rule for target.
@@ -278,6 +421,19 @@ bei/fast:
 328/fast:
 	$(MAKE) -f CMakeFiles/328.dir/build.make CMakeFiles/328.dir/build
 .PHONY : 328/fast
+
+#=============================================================================
+# Target rules for targets named 18-2
+
+# Build rule for target.
+18-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 18-2
+.PHONY : 18-2
+
+# fast build rule for target.
+18-2/fast:
+	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/build
+.PHONY : 18-2/fast
 
 #=============================================================================
 # Target rules for targets named 445-2
@@ -306,6 +462,19 @@ bei/fast:
 .PHONY : 25/fast
 
 #=============================================================================
+# Target rules for targets named 21
+
+# Build rule for target.
+21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 21
+.PHONY : 21
+
+# fast build rule for target.
+21/fast:
+	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/build
+.PHONY : 21/fast
+
+#=============================================================================
 # Target rules for targets named 61
 
 # Build rule for target.
@@ -317,6 +486,19 @@ bei/fast:
 61/fast:
 	$(MAKE) -f CMakeFiles/61.dir/build.make CMakeFiles/61.dir/build
 .PHONY : 61/fast
+
+#=============================================================================
+# Target rules for targets named 628
+
+# Build rule for target.
+628: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 628
+.PHONY : 628
+
+# fast build rule for target.
+628/fast:
+	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/build
+.PHONY : 628/fast
 
 #=============================================================================
 # Target rules for targets named 443
@@ -397,6 +579,32 @@ offer35/fast:
 .PHONY : 1725/fast
 
 #=============================================================================
+# Target rules for targets named 347
+
+# Build rule for target.
+347: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 347
+.PHONY : 347
+
+# fast build rule for target.
+347/fast:
+	$(MAKE) -f CMakeFiles/347.dir/build.make CMakeFiles/347.dir/build
+.PHONY : 347/fast
+
+#=============================================================================
+# Target rules for targets named 235
+
+# Build rule for target.
+235: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 235
+.PHONY : 235
+
+# fast build rule for target.
+235/fast:
+	$(MAKE) -f CMakeFiles/235.dir/build.make CMakeFiles/235.dir/build
+.PHONY : 235/fast
+
+#=============================================================================
 # Target rules for targets named 1711
 
 # Build rule for target.
@@ -423,19 +631,6 @@ offer35/fast:
 .PHONY : 198/fast
 
 #=============================================================================
-# Target rules for targets named 1710
-
-# Build rule for target.
-1710: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1710
-.PHONY : 1710
-
-# fast build rule for target.
-1710/fast:
-	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/build
-.PHONY : 1710/fast
-
-#=============================================================================
 # Target rules for targets named 1705
 
 # Build rule for target.
@@ -449,6 +644,19 @@ offer35/fast:
 .PHONY : 1705/fast
 
 #=============================================================================
+# Target rules for targets named lint669
+
+# Build rule for target.
+lint669: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lint669
+.PHONY : lint669
+
+# fast build rule for target.
+lint669/fast:
+	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/build
+.PHONY : lint669/fast
+
+#=============================================================================
 # Target rules for targets named offer05-2
 
 # Build rule for target.
@@ -460,19 +668,6 @@ offer05-2: cmake_check_build_system
 offer05-2/fast:
 	$(MAKE) -f CMakeFiles/offer05-2.dir/build.make CMakeFiles/offer05-2.dir/build
 .PHONY : offer05-2/fast
-
-#=============================================================================
-# Target rules for targets named 17.10
-
-# Build rule for target.
-17.10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 17.10
-.PHONY : 17.10
-
-# fast build rule for target.
-17.10/fast:
-	$(MAKE) -f CMakeFiles/17.10.dir/build.make CMakeFiles/17.10.dir/build
-.PHONY : 17.10/fast
 
 #=============================================================================
 # Target rules for targets named 1704
@@ -525,19 +720,6 @@ offer04/fast:
 151/fast:
 	$(MAKE) -f CMakeFiles/151.dir/build.make CMakeFiles/151.dir/build
 .PHONY : 151/fast
-
-#=============================================================================
-# Target rules for targets named 235
-
-# Build rule for target.
-235: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 235
-.PHONY : 235
-
-# fast build rule for target.
-235/fast:
-	$(MAKE) -f CMakeFiles/235.dir/build.make CMakeFiles/235.dir/build
-.PHONY : 235/fast
 
 #=============================================================================
 # Target rules for targets named offer05
@@ -670,6 +852,19 @@ N3/fast:
 .PHONY : 1701/fast
 
 #=============================================================================
+# Target rules for targets named 203
+
+# Build rule for target.
+203: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 203
+.PHONY : 203
+
+# fast build rule for target.
+203/fast:
+	$(MAKE) -f CMakeFiles/203.dir/build.make CMakeFiles/203.dir/build
+.PHONY : 203/fast
+
+#=============================================================================
 # Target rules for targets named 91
 
 # Build rule for target.
@@ -681,19 +876,6 @@ N3/fast:
 91/fast:
 	$(MAKE) -f CMakeFiles/91.dir/build.make CMakeFiles/91.dir/build
 .PHONY : 91/fast
-
-#=============================================================================
-# Target rules for targets named 648
-
-# Build rule for target.
-648: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 648
-.PHONY : 648
-
-# fast build rule for target.
-648/fast:
-	$(MAKE) -f CMakeFiles/648.dir/build.make CMakeFiles/648.dir/build
-.PHONY : 648/fast
 
 #=============================================================================
 # Target rules for targets named 232
@@ -720,19 +902,6 @@ N3/fast:
 16.02/fast:
 	$(MAKE) -f CMakeFiles/16.02.dir/build.make CMakeFiles/16.02.dir/build
 .PHONY : 16.02/fast
-
-#=============================================================================
-# Target rules for targets named 21
-
-# Build rule for target.
-21: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 21
-.PHONY : 21
-
-# fast build rule for target.
-21/fast:
-	$(MAKE) -f CMakeFiles/21.dir/build.make CMakeFiles/21.dir/build
-.PHONY : 21/fast
 
 #=============================================================================
 # Target rules for targets named 27
@@ -774,19 +943,6 @@ N3/fast:
 .PHONY : 468/fast
 
 #=============================================================================
-# Target rules for targets named 18-2
-
-# Build rule for target.
-18-2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 18-2
-.PHONY : 18-2
-
-# fast build rule for target.
-18-2/fast:
-	$(MAKE) -f CMakeFiles/18-2.dir/build.make CMakeFiles/18-2.dir/build
-.PHONY : 18-2/fast
-
-#=============================================================================
 # Target rules for targets named 73
 
 # Build rule for target.
@@ -798,19 +954,6 @@ N3/fast:
 73/fast:
 	$(MAKE) -f CMakeFiles/73.dir/build.make CMakeFiles/73.dir/build
 .PHONY : 73/fast
-
-#=============================================================================
-# Target rules for targets named 347
-
-# Build rule for target.
-347: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 347
-.PHONY : 347
-
-# fast build rule for target.
-347/fast:
-	$(MAKE) -f CMakeFiles/347.dir/build.make CMakeFiles/347.dir/build
-.PHONY : 347/fast
 
 #=============================================================================
 # Target rules for targets named offer21
@@ -865,32 +1008,6 @@ offer21/fast:
 .PHONY : 0204/fast
 
 #=============================================================================
-# Target rules for targets named 138
-
-# Build rule for target.
-138: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 138
-.PHONY : 138
-
-# fast build rule for target.
-138/fast:
-	$(MAKE) -f CMakeFiles/138.dir/build.make CMakeFiles/138.dir/build
-.PHONY : 138/fast
-
-#=============================================================================
-# Target rules for targets named 609
-
-# Build rule for target.
-609: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 609
-.PHONY : 609
-
-# fast build rule for target.
-609/fast:
-	$(MAKE) -f CMakeFiles/609.dir/build.make CMakeFiles/609.dir/build
-.PHONY : 609/fast
-
-#=============================================================================
 # Target rules for targets named you
 
 # Build rule for target.
@@ -943,17 +1060,17 @@ you/fast:
 .PHONY : 202/fast
 
 #=============================================================================
-# Target rules for targets named 64
+# Target rules for targets named 209
 
 # Build rule for target.
-64: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 64
-.PHONY : 64
+209: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 209
+.PHONY : 209
 
 # fast build rule for target.
-64/fast:
-	$(MAKE) -f CMakeFiles/64.dir/build.make CMakeFiles/64.dir/build
-.PHONY : 64/fast
+209/fast:
+	$(MAKE) -f CMakeFiles/209.dir/build.make CMakeFiles/209.dir/build
+.PHONY : 209/fast
 
 #=============================================================================
 # Target rules for targets named 349
@@ -995,32 +1112,6 @@ you/fast:
 .PHONY : 322/fast
 
 #=============================================================================
-# Target rules for targets named lint669
-
-# Build rule for target.
-lint669: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lint669
-.PHONY : lint669
-
-# fast build rule for target.
-lint669/fast:
-	$(MAKE) -f CMakeFiles/lint669.dir/build.make CMakeFiles/lint669.dir/build
-.PHONY : lint669/fast
-
-#=============================================================================
-# Target rules for targets named 628
-
-# Build rule for target.
-628: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 628
-.PHONY : 628
-
-# fast build rule for target.
-628/fast:
-	$(MAKE) -f CMakeFiles/628.dir/build.make CMakeFiles/628.dir/build
-.PHONY : 628/fast
-
-#=============================================================================
 # Target rules for targets named 970
 
 # Build rule for target.
@@ -1047,6 +1138,19 @@ lint669/fast:
 .PHONY : 383/fast
 
 #=============================================================================
+# Target rules for targets named 74
+
+# Build rule for target.
+74: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 74
+.PHONY : 74
+
+# fast build rule for target.
+74/fast:
+	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
+.PHONY : 74/fast
+
+#=============================================================================
 # Target rules for targets named offer53
 
 # Build rule for target.
@@ -1058,6 +1162,19 @@ offer53: cmake_check_build_system
 offer53/fast:
 	$(MAKE) -f CMakeFiles/offer53.dir/build.make CMakeFiles/offer53.dir/build
 .PHONY : offer53/fast
+
+#=============================================================================
+# Target rules for targets named 707
+
+# Build rule for target.
+707: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 707
+.PHONY : 707
+
+# fast build rule for target.
+707/fast:
+	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/build
+.PHONY : 707/fast
 
 #=============================================================================
 # Target rules for targets named 867
@@ -1112,19 +1229,6 @@ offer12/fast:
 .PHONY : 1588/fast
 
 #=============================================================================
-# Target rules for targets named 707
-
-# Build rule for target.
-707: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 707
-.PHONY : 707
-
-# fast build rule for target.
-707/fast:
-	$(MAKE) -f CMakeFiles/707.dir/build.make CMakeFiles/707.dir/build
-.PHONY : 707/fast
-
-#=============================================================================
 # Target rules for targets named 1476
 
 # Build rule for target.
@@ -1177,19 +1281,6 @@ offer12/fast:
 .PHONY : 59-2/fast
 
 #=============================================================================
-# Target rules for targets named ACM
-
-# Build rule for target.
-ACM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ACM
-.PHONY : ACM
-
-# fast build rule for target.
-ACM/fast:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
-.PHONY : ACM/fast
-
-#=============================================================================
 # Target rules for targets named 56
 
 # Build rule for target.
@@ -1214,19 +1305,6 @@ BinaryTree: cmake_check_build_system
 BinaryTree/fast:
 	$(MAKE) -f CMakeFiles/BinaryTree.dir/build.make CMakeFiles/BinaryTree.dir/build
 .PHONY : BinaryTree/fast
-
-#=============================================================================
-# Target rules for targets named 209
-
-# Build rule for target.
-209: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 209
-.PHONY : 209
-
-# fast build rule for target.
-209/fast:
-	$(MAKE) -f CMakeFiles/209.dir/build.make CMakeFiles/209.dir/build
-.PHONY : 209/fast
 
 #=============================================================================
 # Target rules for targets named 15
@@ -1255,32 +1333,6 @@ BinaryTree/fast:
 .PHONY : 1471/fast
 
 #=============================================================================
-# Target rules for targets named 35
-
-# Build rule for target.
-35: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 35
-.PHONY : 35
-
-# fast build rule for target.
-35/fast:
-	$(MAKE) -f CMakeFiles/35.dir/build.make CMakeFiles/35.dir/build
-.PHONY : 35/fast
-
-#=============================================================================
-# Target rules for targets named 63
-
-# Build rule for target.
-63: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 63
-.PHONY : 63
-
-# fast build rule for target.
-63/fast:
-	$(MAKE) -f CMakeFiles/63.dir/build.make CMakeFiles/63.dir/build
-.PHONY : 63/fast
-
-#=============================================================================
 # Target rules for targets named 0206
 
 # Build rule for target.
@@ -1294,32 +1346,6 @@ BinaryTree/fast:
 .PHONY : 0206/fast
 
 #=============================================================================
-# Target rules for targets named 203
-
-# Build rule for target.
-203: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 203
-.PHONY : 203
-
-# fast build rule for target.
-203/fast:
-	$(MAKE) -f CMakeFiles/203.dir/build.make CMakeFiles/203.dir/build
-.PHONY : 203/fast
-
-#=============================================================================
-# Target rules for targets named 242
-
-# Build rule for target.
-242: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 242
-.PHONY : 242
-
-# fast build rule for target.
-242/fast:
-	$(MAKE) -f CMakeFiles/242.dir/build.make CMakeFiles/242.dir/build
-.PHONY : 242/fast
-
-#=============================================================================
 # Target rules for targets named 1
 
 # Build rule for target.
@@ -1331,19 +1357,6 @@ BinaryTree/fast:
 1/fast:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
-
-#=============================================================================
-# Target rules for targets named 74
-
-# Build rule for target.
-74: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 74
-.PHONY : 74
-
-# fast build rule for target.
-74/fast:
-	$(MAKE) -f CMakeFiles/74.dir/build.make CMakeFiles/74.dir/build
-.PHONY : 74/fast
 
 Leetcode/DP/198打家劫舍.o: Leetcode/DP/198打家劫舍.cpp.o
 
@@ -1695,6 +1708,33 @@ Leetcode/DP/91解码方法.s: Leetcode/DP/91解码方法.cpp.s
 Leetcode/DP/91解码方法.cpp.s:
 	$(MAKE) -f CMakeFiles/91.dir/build.make CMakeFiles/91.dir/Leetcode/DP/91解码方法.cpp.s
 .PHONY : Leetcode/DP/91解码方法.cpp.s
+
+Leetcode/DP/96不同的二叉搜索树.o: Leetcode/DP/96不同的二叉搜索树.cpp.o
+
+.PHONY : Leetcode/DP/96不同的二叉搜索树.o
+
+# target to build an object file
+Leetcode/DP/96不同的二叉搜索树.cpp.o:
+	$(MAKE) -f CMakeFiles/96.dir/build.make CMakeFiles/96.dir/Leetcode/DP/96不同的二叉搜索树.cpp.o
+.PHONY : Leetcode/DP/96不同的二叉搜索树.cpp.o
+
+Leetcode/DP/96不同的二叉搜索树.i: Leetcode/DP/96不同的二叉搜索树.cpp.i
+
+.PHONY : Leetcode/DP/96不同的二叉搜索树.i
+
+# target to preprocess a source file
+Leetcode/DP/96不同的二叉搜索树.cpp.i:
+	$(MAKE) -f CMakeFiles/96.dir/build.make CMakeFiles/96.dir/Leetcode/DP/96不同的二叉搜索树.cpp.i
+.PHONY : Leetcode/DP/96不同的二叉搜索树.cpp.i
+
+Leetcode/DP/96不同的二叉搜索树.s: Leetcode/DP/96不同的二叉搜索树.cpp.s
+
+.PHONY : Leetcode/DP/96不同的二叉搜索树.s
+
+# target to generate assembly for a file
+Leetcode/DP/96不同的二叉搜索树.cpp.s:
+	$(MAKE) -f CMakeFiles/96.dir/build.make CMakeFiles/96.dir/Leetcode/DP/96不同的二叉搜索树.cpp.s
+.PHONY : Leetcode/DP/96不同的二叉搜索树.cpp.s
 
 Leetcode/DP/有障碍坐标下右走.o: Leetcode/DP/有障碍坐标下右走.cpp.o
 
@@ -3919,103 +3959,104 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... 35"
+	@echo "... 1710"
 	@echo "... edit_cache"
+	@echo "... ACM"
 	@echo "... P1551"
+	@echo "... 609"
 	@echo "... N4"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
+	@echo "... 96"
 	@echo "... 343"
+	@echo "... 63"
 	@echo "... 62"
 	@echo "... 746"
+	@echo "... 138"
+	@echo "... 648"
 	@echo "... 509"
 	@echo "... bei"
+	@echo "... 242"
+	@echo "... 17.10"
 	@echo "... 256"
 	@echo "... 361"
+	@echo "... 64"
 	@echo "... 160"
 	@echo "... 328"
+	@echo "... 18-2"
 	@echo "... 445-2"
 	@echo "... 25"
+	@echo "... 21"
 	@echo "... 61"
+	@echo "... 628"
 	@echo "... 443"
 	@echo "... 344"
 	@echo "... 541"
 	@echo "... offer35"
 	@echo "... 206"
 	@echo "... 1725"
+	@echo "... 347"
+	@echo "... 235"
 	@echo "... 1711"
 	@echo "... 198"
-	@echo "... 1710"
 	@echo "... 1705"
+	@echo "... lint669"
 	@echo "... offer05-2"
-	@echo "... 17.10"
 	@echo "... 1704"
 	@echo "... offer04"
 	@echo "... 207"
 	@echo "... 151"
-	@echo "... 235"
 	@echo "... offer05"
 	@echo "... 5642"
 	@echo "... 1669"
 	@echo "... 20"
 	@echo "... offer48"
-	@echo "... rebuild_cache"
 	@echo "... N3"
 	@echo "... 70"
 	@echo "... 80"
 	@echo "... 438"
 	@echo "... 1701"
+	@echo "... 203"
 	@echo "... 91"
-	@echo "... 648"
 	@echo "... 232"
 	@echo "... 16.02"
-	@echo "... 21"
 	@echo "... 27"
 	@echo "... 355"
 	@echo "... 468"
-	@echo "... 18-2"
 	@echo "... 73"
-	@echo "... 347"
 	@echo "... offer21"
 	@echo "... 1702"
 	@echo "... 204"
 	@echo "... 0204"
-	@echo "... 138"
-	@echo "... 609"
 	@echo "... you"
 	@echo "... 206-1"
 	@echo "... 142"
 	@echo "... 202"
-	@echo "... 64"
+	@echo "... 209"
 	@echo "... 349"
 	@echo "... 674"
 	@echo "... 322"
-	@echo "... lint669"
-	@echo "... 628"
 	@echo "... 970"
 	@echo "... 383"
+	@echo "... 74"
 	@echo "... offer53"
+	@echo "... 707"
 	@echo "... 867"
 	@echo "... offer22"
 	@echo "... offer12"
 	@echo "... 1588"
-	@echo "... 707"
 	@echo "... 1476"
 	@echo "... 18"
 	@echo "... 37"
 	@echo "... 59-2"
-	@echo "... ACM"
 	@echo "... 56"
 	@echo "... BinaryTree"
-	@echo "... 209"
 	@echo "... 15"
 	@echo "... 1471"
-	@echo "... 35"
-	@echo "... 63"
 	@echo "... 0206"
-	@echo "... 203"
-	@echo "... 242"
 	@echo "... 1"
-	@echo "... 74"
 	@echo "... Leetcode/DP/198打家劫舍.o"
 	@echo "... Leetcode/DP/198打家劫舍.i"
 	@echo "... Leetcode/DP/198打家劫舍.s"
@@ -4055,6 +4096,9 @@ help:
 	@echo "... Leetcode/DP/91解码方法.o"
 	@echo "... Leetcode/DP/91解码方法.i"
 	@echo "... Leetcode/DP/91解码方法.s"
+	@echo "... Leetcode/DP/96不同的二叉搜索树.o"
+	@echo "... Leetcode/DP/96不同的二叉搜索树.i"
+	@echo "... Leetcode/DP/96不同的二叉搜索树.s"
 	@echo "... Leetcode/DP/有障碍坐标下右走.o"
 	@echo "... Leetcode/DP/有障碍坐标下右走.i"
 	@echo "... Leetcode/DP/有障碍坐标下右走.s"
