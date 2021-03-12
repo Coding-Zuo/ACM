@@ -52,8 +52,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/35.dir/DependInfo.cmake"
-  "CMakeFiles/1710.dir/DependInfo.cmake"
   "CMakeFiles/ACM.dir/DependInfo.cmake"
   "CMakeFiles/P1551.dir/DependInfo.cmake"
   "CMakeFiles/609.dir/DependInfo.cmake"
@@ -68,6 +66,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/138.dir/DependInfo.cmake"
   "CMakeFiles/648.dir/DependInfo.cmake"
   "CMakeFiles/509.dir/DependInfo.cmake"
+  "CMakeFiles/beibao.dir/DependInfo.cmake"
   "CMakeFiles/bei.dir/DependInfo.cmake"
   "CMakeFiles/242.dir/DependInfo.cmake"
   "CMakeFiles/17.10.dir/DependInfo.cmake"
@@ -92,6 +91,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/235.dir/DependInfo.cmake"
   "CMakeFiles/1711.dir/DependInfo.cmake"
   "CMakeFiles/198.dir/DependInfo.cmake"
+  "CMakeFiles/35.dir/DependInfo.cmake"
+  "CMakeFiles/1710.dir/DependInfo.cmake"
   "CMakeFiles/1705.dir/DependInfo.cmake"
   "CMakeFiles/lint669.dir/DependInfo.cmake"
   "CMakeFiles/offer05-2.dir/DependInfo.cmake"
