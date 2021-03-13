@@ -52,8 +52,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ACM.dir/DependInfo.cmake"
-  "CMakeFiles/P1551.dir/DependInfo.cmake"
   "CMakeFiles/609.dir/DependInfo.cmake"
   "CMakeFiles/N4.dir/DependInfo.cmake"
   "CMakeFiles/N2.dir/DependInfo.cmake"
@@ -118,6 +116,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/355.dir/DependInfo.cmake"
   "CMakeFiles/468.dir/DependInfo.cmake"
   "CMakeFiles/73.dir/DependInfo.cmake"
+  "CMakeFiles/xuanze.dir/DependInfo.cmake"
   "CMakeFiles/offer21.dir/DependInfo.cmake"
   "CMakeFiles/1702.dir/DependInfo.cmake"
   "CMakeFiles/204.dir/DependInfo.cmake"
@@ -143,6 +142,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/18.dir/DependInfo.cmake"
   "CMakeFiles/37.dir/DependInfo.cmake"
   "CMakeFiles/59-2.dir/DependInfo.cmake"
+  "CMakeFiles/P1551.dir/DependInfo.cmake"
+  "CMakeFiles/ACM.dir/DependInfo.cmake"
   "CMakeFiles/56.dir/DependInfo.cmake"
   "CMakeFiles/BinaryTree.dir/DependInfo.cmake"
   "CMakeFiles/15.dir/DependInfo.cmake"

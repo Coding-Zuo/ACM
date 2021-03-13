@@ -106,11 +106,15 @@ add_executable(343 Leetcode/DP/343整数拆分.cpp)
 add_executable(96 Leetcode/DP/96不同的二叉搜索树.cpp)
 add_executable(beibao Leetcode/DP/01背包.cpp)
 
+add_executable(xuanze Leetcode/马士兵/选择排序.cpp)
+
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)
 add_executable(N2 NowCoder/2直线过点.cpp)
 add_executable(N3 NowCoder/3跳跃次数.cpp)
 add_executable(N4 NowCoder/4返回两数组相加最大前k.cpp)
+
+
 
 
 add_executable(BinaryTree 数据结构/树/BinaryTree.cpp)

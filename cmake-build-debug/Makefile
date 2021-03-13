@@ -111,32 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ACM
-
-# Build rule for target.
-ACM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ACM
-.PHONY : ACM
-
-# fast build rule for target.
-ACM/fast:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
-.PHONY : ACM/fast
-
-#=============================================================================
-# Target rules for targets named P1551
-
-# Build rule for target.
-P1551: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 P1551
-.PHONY : P1551
-
-# fast build rule for target.
-P1551/fast:
-	$(MAKE) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/build
-.PHONY : P1551/fast
-
-#=============================================================================
 # Target rules for targets named 609
 
 # Build rule for target.
@@ -969,6 +943,19 @@ N3/fast:
 .PHONY : 73/fast
 
 #=============================================================================
+# Target rules for targets named xuanze
+
+# Build rule for target.
+xuanze: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xuanze
+.PHONY : xuanze
+
+# fast build rule for target.
+xuanze/fast:
+	$(MAKE) -f CMakeFiles/xuanze.dir/build.make CMakeFiles/xuanze.dir/build
+.PHONY : xuanze/fast
+
+#=============================================================================
 # Target rules for targets named offer21
 
 # Build rule for target.
@@ -1292,6 +1279,32 @@ offer12/fast:
 59-2/fast:
 	$(MAKE) -f CMakeFiles/59-2.dir/build.make CMakeFiles/59-2.dir/build
 .PHONY : 59-2/fast
+
+#=============================================================================
+# Target rules for targets named P1551
+
+# Build rule for target.
+P1551: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P1551
+.PHONY : P1551
+
+# fast build rule for target.
+P1551/fast:
+	$(MAKE) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/build
+.PHONY : P1551/fast
+
+#=============================================================================
+# Target rules for targets named ACM
+
+# Build rule for target.
+ACM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ACM
+.PHONY : ACM
+
+# fast build rule for target.
+ACM/fast:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
+.PHONY : ACM/fast
 
 #=============================================================================
 # Target rules for targets named 56
@@ -3777,6 +3790,33 @@ Leetcode/链表/面试题0204分割链表.cpp.s:
 	$(MAKE) -f CMakeFiles/0204.dir/build.make CMakeFiles/0204.dir/Leetcode/链表/面试题0204分割链表.cpp.s
 .PHONY : Leetcode/链表/面试题0204分割链表.cpp.s
 
+Leetcode/马士兵/选择排序.o: Leetcode/马士兵/选择排序.cpp.o
+
+.PHONY : Leetcode/马士兵/选择排序.o
+
+# target to build an object file
+Leetcode/马士兵/选择排序.cpp.o:
+	$(MAKE) -f CMakeFiles/xuanze.dir/build.make CMakeFiles/xuanze.dir/Leetcode/马士兵/选择排序.cpp.o
+.PHONY : Leetcode/马士兵/选择排序.cpp.o
+
+Leetcode/马士兵/选择排序.i: Leetcode/马士兵/选择排序.cpp.i
+
+.PHONY : Leetcode/马士兵/选择排序.i
+
+# target to preprocess a source file
+Leetcode/马士兵/选择排序.cpp.i:
+	$(MAKE) -f CMakeFiles/xuanze.dir/build.make CMakeFiles/xuanze.dir/Leetcode/马士兵/选择排序.cpp.i
+.PHONY : Leetcode/马士兵/选择排序.cpp.i
+
+Leetcode/马士兵/选择排序.s: Leetcode/马士兵/选择排序.cpp.s
+
+.PHONY : Leetcode/马士兵/选择排序.s
+
+# target to generate assembly for a file
+Leetcode/马士兵/选择排序.cpp.s:
+	$(MAKE) -f CMakeFiles/xuanze.dir/build.make CMakeFiles/xuanze.dir/Leetcode/马士兵/选择排序.cpp.s
+.PHONY : Leetcode/马士兵/选择排序.cpp.s
+
 NowCoder/1Lru/LeastRecentlyUsedCache.o: NowCoder/1Lru/LeastRecentlyUsedCache.cpp.o
 
 .PHONY : NowCoder/1Lru/LeastRecentlyUsedCache.o
@@ -4000,8 +4040,6 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... ACM"
-	@echo "... P1551"
 	@echo "... 609"
 	@echo "... N4"
 	@echo "... N2"
@@ -4067,6 +4105,7 @@ help:
 	@echo "... 355"
 	@echo "... 468"
 	@echo "... 73"
+	@echo "... xuanze"
 	@echo "... offer21"
 	@echo "... 1702"
 	@echo "... 204"
@@ -4092,6 +4131,8 @@ help:
 	@echo "... 18"
 	@echo "... 37"
 	@echo "... 59-2"
+	@echo "... P1551"
+	@echo "... ACM"
 	@echo "... 56"
 	@echo "... BinaryTree"
 	@echo "... 15"
@@ -4365,6 +4406,9 @@ help:
 	@echo "... Leetcode/链表/面试题0204分割链表.o"
 	@echo "... Leetcode/链表/面试题0204分割链表.i"
 	@echo "... Leetcode/链表/面试题0204分割链表.s"
+	@echo "... Leetcode/马士兵/选择排序.o"
+	@echo "... Leetcode/马士兵/选择排序.i"
+	@echo "... Leetcode/马士兵/选择排序.s"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.o"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.i"
 	@echo "... NowCoder/1Lru/LeastRecentlyUsedCache.s"

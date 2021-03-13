@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zuoyuhui/CLionProjects/ACM/Leetcode/马士兵/选择排序.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+sstream
+-
+set
+-
+iomanip
+-
+
