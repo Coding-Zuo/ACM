@@ -107,6 +107,9 @@ add_executable(96 Leetcode/DP/96不同的二叉搜索树.cpp)
 add_executable(beibao Leetcode/DP/01背包.cpp)
 
 add_executable(xuanze Leetcode/马士兵/选择排序.cpp)
+add_executable(bingchaji Leetcode/马士兵/并查集.cpp)
+add_executable(947 Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp)
+add_executable(1584 Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp)
 
 
 add_executable(LeastRecentlyUsedCache NowCoder/1Lru/LeastRecentlyUsedCache.cpp)

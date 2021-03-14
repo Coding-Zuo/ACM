@@ -111,30 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 609
+# Target rules for targets named BinaryTree
 
 # Build rule for target.
-609: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 609
-.PHONY : 609
+BinaryTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinaryTree
+.PHONY : BinaryTree
 
 # fast build rule for target.
-609/fast:
-	$(MAKE) -f CMakeFiles/609.dir/build.make CMakeFiles/609.dir/build
-.PHONY : 609/fast
+BinaryTree/fast:
+	$(MAKE) -f CMakeFiles/BinaryTree.dir/build.make CMakeFiles/BinaryTree.dir/build
+.PHONY : BinaryTree/fast
 
 #=============================================================================
-# Target rules for targets named N4
+# Target rules for targets named N3
 
 # Build rule for target.
-N4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 N4
-.PHONY : N4
+N3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N3
+.PHONY : N3
 
 # fast build rule for target.
-N4/fast:
-	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
-.PHONY : N4/fast
+N3/fast:
+	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
+.PHONY : N3/fast
 
 #=============================================================================
 # Target rules for targets named N2
@@ -161,6 +161,32 @@ LeastRecentlyUsedCache: cmake_check_build_system
 LeastRecentlyUsedCache/fast:
 	$(MAKE) -f CMakeFiles/LeastRecentlyUsedCache.dir/build.make CMakeFiles/LeastRecentlyUsedCache.dir/build
 .PHONY : LeastRecentlyUsedCache/fast
+
+#=============================================================================
+# Target rules for targets named 947
+
+# Build rule for target.
+947: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 947
+.PHONY : 947
+
+# fast build rule for target.
+947/fast:
+	$(MAKE) -f CMakeFiles/947.dir/build.make CMakeFiles/947.dir/build
+.PHONY : 947/fast
+
+#=============================================================================
+# Target rules for targets named bingchaji
+
+# Build rule for target.
+bingchaji: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bingchaji
+.PHONY : bingchaji
+
+# fast build rule for target.
+bingchaji/fast:
+	$(MAKE) -f CMakeFiles/bingchaji.dir/build.make CMakeFiles/bingchaji.dir/build
+.PHONY : bingchaji/fast
 
 #=============================================================================
 # Target rules for targets named 96
@@ -475,6 +501,19 @@ bei/fast:
 .PHONY : 443/fast
 
 #=============================================================================
+# Target rules for targets named 1584
+
+# Build rule for target.
+1584: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1584
+.PHONY : 1584
+
+# fast build rule for target.
+1584/fast:
+	$(MAKE) -f CMakeFiles/1584.dir/build.make CMakeFiles/1584.dir/build
+.PHONY : 1584/fast
+
+#=============================================================================
 # Target rules for targets named 344
 
 # Build rule for target.
@@ -774,19 +813,6 @@ offer48/fast:
 .PHONY : offer48/fast
 
 #=============================================================================
-# Target rules for targets named N3
-
-# Build rule for target.
-N3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 N3
-.PHONY : N3
-
-# fast build rule for target.
-N3/fast:
-	$(MAKE) -f CMakeFiles/N3.dir/build.make CMakeFiles/N3.dir/build
-.PHONY : N3/fast
-
-#=============================================================================
 # Target rules for targets named 70
 
 # Build rule for target.
@@ -1006,6 +1032,32 @@ offer21/fast:
 0204/fast:
 	$(MAKE) -f CMakeFiles/0204.dir/build.make CMakeFiles/0204.dir/build
 .PHONY : 0204/fast
+
+#=============================================================================
+# Target rules for targets named N4
+
+# Build rule for target.
+N4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 N4
+.PHONY : N4
+
+# fast build rule for target.
+N4/fast:
+	$(MAKE) -f CMakeFiles/N4.dir/build.make CMakeFiles/N4.dir/build
+.PHONY : N4/fast
+
+#=============================================================================
+# Target rules for targets named 609
+
+# Build rule for target.
+609: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 609
+.PHONY : 609
+
+# fast build rule for target.
+609/fast:
+	$(MAKE) -f CMakeFiles/609.dir/build.make CMakeFiles/609.dir/build
+.PHONY : 609/fast
 
 #=============================================================================
 # Target rules for targets named you
@@ -1318,19 +1370,6 @@ ACM/fast:
 56/fast:
 	$(MAKE) -f CMakeFiles/56.dir/build.make CMakeFiles/56.dir/build
 .PHONY : 56/fast
-
-#=============================================================================
-# Target rules for targets named BinaryTree
-
-# Build rule for target.
-BinaryTree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BinaryTree
-.PHONY : BinaryTree
-
-# fast build rule for target.
-BinaryTree/fast:
-	$(MAKE) -f CMakeFiles/BinaryTree.dir/build.make CMakeFiles/BinaryTree.dir/build
-.PHONY : BinaryTree/fast
 
 #=============================================================================
 # Target rules for targets named 15
@@ -3790,6 +3829,87 @@ Leetcode/链表/面试题0204分割链表.cpp.s:
 	$(MAKE) -f CMakeFiles/0204.dir/build.make CMakeFiles/0204.dir/Leetcode/链表/面试题0204分割链表.cpp.s
 .PHONY : Leetcode/链表/面试题0204分割链表.cpp.s
 
+Leetcode/马士兵/并查集.o: Leetcode/马士兵/并查集.cpp.o
+
+.PHONY : Leetcode/马士兵/并查集.o
+
+# target to build an object file
+Leetcode/马士兵/并查集.cpp.o:
+	$(MAKE) -f CMakeFiles/bingchaji.dir/build.make CMakeFiles/bingchaji.dir/Leetcode/马士兵/并查集.cpp.o
+.PHONY : Leetcode/马士兵/并查集.cpp.o
+
+Leetcode/马士兵/并查集.i: Leetcode/马士兵/并查集.cpp.i
+
+.PHONY : Leetcode/马士兵/并查集.i
+
+# target to preprocess a source file
+Leetcode/马士兵/并查集.cpp.i:
+	$(MAKE) -f CMakeFiles/bingchaji.dir/build.make CMakeFiles/bingchaji.dir/Leetcode/马士兵/并查集.cpp.i
+.PHONY : Leetcode/马士兵/并查集.cpp.i
+
+Leetcode/马士兵/并查集.s: Leetcode/马士兵/并查集.cpp.s
+
+.PHONY : Leetcode/马士兵/并查集.s
+
+# target to generate assembly for a file
+Leetcode/马士兵/并查集.cpp.s:
+	$(MAKE) -f CMakeFiles/bingchaji.dir/build.make CMakeFiles/bingchaji.dir/Leetcode/马士兵/并查集.cpp.s
+.PHONY : Leetcode/马士兵/并查集.cpp.s
+
+Leetcode/马士兵/并查集1584连接所有点的最小费用.o: Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.o
+
+.PHONY : Leetcode/马士兵/并查集1584连接所有点的最小费用.o
+
+# target to build an object file
+Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.o:
+	$(MAKE) -f CMakeFiles/1584.dir/build.make CMakeFiles/1584.dir/Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.o
+.PHONY : Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.o
+
+Leetcode/马士兵/并查集1584连接所有点的最小费用.i: Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.i
+
+.PHONY : Leetcode/马士兵/并查集1584连接所有点的最小费用.i
+
+# target to preprocess a source file
+Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.i:
+	$(MAKE) -f CMakeFiles/1584.dir/build.make CMakeFiles/1584.dir/Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.i
+.PHONY : Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.i
+
+Leetcode/马士兵/并查集1584连接所有点的最小费用.s: Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.s
+
+.PHONY : Leetcode/马士兵/并查集1584连接所有点的最小费用.s
+
+# target to generate assembly for a file
+Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.s:
+	$(MAKE) -f CMakeFiles/1584.dir/build.make CMakeFiles/1584.dir/Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.s
+.PHONY : Leetcode/马士兵/并查集1584连接所有点的最小费用.cpp.s
+
+Leetcode/马士兵/并查集947移除最多的同行或同列石头.o: Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.o
+
+.PHONY : Leetcode/马士兵/并查集947移除最多的同行或同列石头.o
+
+# target to build an object file
+Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.o:
+	$(MAKE) -f CMakeFiles/947.dir/build.make CMakeFiles/947.dir/Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.o
+.PHONY : Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.o
+
+Leetcode/马士兵/并查集947移除最多的同行或同列石头.i: Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.i
+
+.PHONY : Leetcode/马士兵/并查集947移除最多的同行或同列石头.i
+
+# target to preprocess a source file
+Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.i:
+	$(MAKE) -f CMakeFiles/947.dir/build.make CMakeFiles/947.dir/Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.i
+.PHONY : Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.i
+
+Leetcode/马士兵/并查集947移除最多的同行或同列石头.s: Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.s
+
+.PHONY : Leetcode/马士兵/并查集947移除最多的同行或同列石头.s
+
+# target to generate assembly for a file
+Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.s:
+	$(MAKE) -f CMakeFiles/947.dir/build.make CMakeFiles/947.dir/Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.s
+.PHONY : Leetcode/马士兵/并查集947移除最多的同行或同列石头.cpp.s
+
 Leetcode/马士兵/选择排序.o: Leetcode/马士兵/选择排序.cpp.o
 
 .PHONY : Leetcode/马士兵/选择排序.o
@@ -4040,10 +4160,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... 609"
-	@echo "... N4"
+	@echo "... BinaryTree"
+	@echo "... N3"
 	@echo "... N2"
 	@echo "... LeastRecentlyUsedCache"
+	@echo "... 947"
+	@echo "... bingchaji"
 	@echo "... 96"
 	@echo "... 343"
 	@echo "... 63"
@@ -4068,6 +4190,7 @@ help:
 	@echo "... 61"
 	@echo "... 628"
 	@echo "... 443"
+	@echo "... 1584"
 	@echo "... 344"
 	@echo "... 541"
 	@echo "... offer35"
@@ -4092,7 +4215,6 @@ help:
 	@echo "... 1669"
 	@echo "... 20"
 	@echo "... offer48"
-	@echo "... N3"
 	@echo "... 70"
 	@echo "... 80"
 	@echo "... 438"
@@ -4110,6 +4232,8 @@ help:
 	@echo "... 1702"
 	@echo "... 204"
 	@echo "... 0204"
+	@echo "... N4"
+	@echo "... 609"
 	@echo "... you"
 	@echo "... 206-1"
 	@echo "... 142"
@@ -4134,7 +4258,6 @@ help:
 	@echo "... P1551"
 	@echo "... ACM"
 	@echo "... 56"
-	@echo "... BinaryTree"
 	@echo "... 15"
 	@echo "... 1471"
 	@echo "... 0206"
@@ -4406,6 +4529,15 @@ help:
 	@echo "... Leetcode/链表/面试题0204分割链表.o"
 	@echo "... Leetcode/链表/面试题0204分割链表.i"
 	@echo "... Leetcode/链表/面试题0204分割链表.s"
+	@echo "... Leetcode/马士兵/并查集.o"
+	@echo "... Leetcode/马士兵/并查集.i"
+	@echo "... Leetcode/马士兵/并查集.s"
+	@echo "... Leetcode/马士兵/并查集1584连接所有点的最小费用.o"
+	@echo "... Leetcode/马士兵/并查集1584连接所有点的最小费用.i"
+	@echo "... Leetcode/马士兵/并查集1584连接所有点的最小费用.s"
+	@echo "... Leetcode/马士兵/并查集947移除最多的同行或同列石头.o"
+	@echo "... Leetcode/马士兵/并查集947移除最多的同行或同列石头.i"
+	@echo "... Leetcode/马士兵/并查集947移除最多的同行或同列石头.s"
 	@echo "... Leetcode/马士兵/选择排序.o"
 	@echo "... Leetcode/马士兵/选择排序.i"
 	@echo "... Leetcode/马士兵/选择排序.s"
