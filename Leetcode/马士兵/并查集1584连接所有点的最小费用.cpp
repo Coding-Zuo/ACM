@@ -1,5 +1,5 @@
 //
-//https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column/
+// https://leetcode-cn.com/problems/min-cost-to-connect-all-points/
 // Created by 左玉晖 on 2020/11/21.
 #include <iostream>
 #include<algorithm>
@@ -14,11 +14,21 @@ using namespace std;
 
 #define INT_MAX 0x7fffffff
 
+struct Edge {
+    int start; //顶点1
+    int end; //顶点2
+    int len; //长度
+};
+
 class Djset {
 public:
-    vector<int> parent; //记录节点的根
-    vector<int> rank; //记录根节点的深度用于优化
-    Djset(int n) : parent(vector<int>(n)), rank(vector<int>(n)) {
+    vector<int> parent; //记录根节点
+    vector<int> rank; //记录根节点的深度 用于优化
+    vector<int> size; //记录每个连通分量的节点个数
+    vector<int> len; //记录每个连通分量里的所有边长度
+    int num;  //记录节点个数
+
+    Djset(int n) : parent(n), rank(n), len(n, 0), size(n, 1), num(n) {
         for (int i = 0; i < n; i++) {
             parent[i] = i;
         }
@@ -32,74 +42,67 @@ public:
         return parent[x];
     }
 
-    void merge(int x, int y) {
+    int merge(int x, int y, int length) {
         int rootx = find(x);
         int rooty = find(y);
         if (rootx != rooty) {
-            //按智合并
             if (rank[rootx] < rank[rooty]) {
                 swap(rootx, rooty);
             }
             parent[rooty] = rootx;
             if (rank[rootx] == rank[rooty]) rank[rootx] += 1;
+            // rooty的父节点设置为rootx，同时将rooty的节点数和边长度累加到rootx
+            size[rootx] += size[rooty];
+            len[rootx] += len[rooty] + length;
+            // 如果某个连通分量的节点数包含了所有节点，直接返回边长度
+            if (size[rootx] == num) return len[rootx];
+        }
+        return -1;
+    }
+
+
+    void init(int n) {
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
         }
     }
+
 };
 
-class UF {
+class Solution {
 public:
-    UF(int n);
+    int distence(vector<int> x, vector<int> y) {
+        return abs(x[0] - y[0]) + abs(x[1] - y[1]);
+    }
 
-    bool connected(int w, int v); // 判断是否连通
-    void Union(int w, int v); // 合并两个集合,大写首字母为了区别关键字
-    int find(int p);  //找到p所在集合的根
+    int minCostConnectPoints(vector<vector<int>> &points) {
+        int n = points.size();
+        int res = 0;
+        vector<Edge> edges;
 
-private:
-    vector<int> *m_parent = nullptr; // parent[i] = parent of i
-    vector<int> *m_rank = nullptr; //rank[i] = rank of subtree at i
-    int m_count = 0; // number of components
-    void validate(int p);
+        Djset ds(n);
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                Edge edge = {i, j, distence(points[i], points[j])};
+                edges.emplace_back(edge);
+            }
+        }
+
+        // 按边长度排序
+        sort(edges.begin(), edges.end(), [](const auto &a, const auto &b) {
+            return a.len < b.len;
+        });
+
+        //连通分量合并
+        for (auto &e:edges) {
+            res = ds.merge(e.start, e.end, e.len);
+            if (res != -1) return res;
+        }
+        return 0;
+
+    }
 };
-
-UF::UF(int n) {
-    m_parent = new vector<int>(n);
-    m_rank = new vector<int>(n, 0);
-
-    for (int i = 0; i < n; i++) {
-        m_parent->at(i) = i;
-    }
-}
-
-bool UF::connected(int w, int v) {
-    return find(w) == find(v);
-}
-
-void UF::Union(int w, int v) {
-    int rootW = find(w);
-    int rootV = find(v);
-    if (rootV == rootW) return; //同一集合不用合并
-
-    //把rank理解为合并次数，次数越多，集合越大，并让小的衣服大的
-    if (m_rank->at(rootW) < m_rank->at(rootV)) {
-        m_parent->at(rootW) = rootV;
-    } else if (m_rank->at(rootW) > m_rank->at(rootV)) {
-        m_parent->at(rootV) = rootW;
-    } else {
-        m_parent->at(rootV) = rootW;
-        m_rank->at(rootW)++;
-    }
-    m_count--;
-}
-
-int UF::find(int p) {
-    while (p != m_parent->(p)) {
-        // 路径折半压缩
-        m_parent->at(p) = (*m_parent)[m_parent->at(p)];
-        p = m_parent->at(p);
-    }
-    return p;
-}
-
 
 int main(int argc, const char *argv[]) {
     Solution sl;
